@@ -10,6 +10,7 @@
       <sprites name="Seika">
         <sprite>sprites\spr_seika_idle</sprite>
         <sprite>sprites\spr_seika_walk</sprite>
+        <sprite>sprites\spr_seika_jump_released</sprite>
         <sprite>sprites\spr_seika_jump</sprite>
       </sprites>
       <sprite>sprites\spr_player_mask</sprite>
@@ -24,6 +25,7 @@
     <scripts name="HelperScripts">
       <script>scripts\get_player_input.gml</script>
       <script>scripts\move.gml</script>
+      <script>scripts\apply_friction.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="State">
@@ -31,6 +33,9 @@
         <script>scripts\player_move_state.gml</script>
       </scripts>
       <script>scripts\player_init.gml</script>
+      <scripts name="Seika">
+        <script>scripts\seika_init.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>

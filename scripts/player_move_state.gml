@@ -1,18 +1,64 @@
 ///player_move_state
 
-get_player_input();
-
-if(left) {
-    sprite_index = spr_seika_walk
-    image_xscale = -1;
-    x -= spd;
-    image_speed = .3;
-} else if(right) {
-    sprite_index = spr_seika_walk
-    x += spd;
-    image_xscale = 1;
-    image_speed = .3;
+if(!place_meeting(x, y + 1, Solid)){
+    vspd += grav;
+    
+    //Player is in the air
+    
+    //Sets direction of sprite
+    image_index = (vspd > 0);
+    
+    //Determine sprite based on whether rising or falling in jump
+    if(vspd > 0) {
+        sprite_index = jump_sprite;
+        image_speed = jump_sprite_speed;
+    } else {
+        sprite_index = jump_sprite_released;
+        image_speed = jump_sprite_speed;
+    }
+    
+    //Control the jump height
+    if(up_release && (vspd < -6)) {
+        vspd = -6;
+    }
 } else {
-    image_index = spr_seika_idle;
-    state = player_idle_state;
+    vspd = 0;
+    
+    //Jumping code
+    if(up) {
+        vspd = jump_height;
+    }
+    
+    //Player is on the ground
+    if(hspd == 0) {
+        sprite_index = idle_sprite;
+        image_speed = idle_sprite_speed;
+    } else {
+        sprite_index = walk_animation_sprite;
+        image_speed = walk_animation_speed;
+    }
 }
+
+if(right || left) {
+    //add 1 or -1 depending on which direction is pressed
+    hspd += (right-left) * acc;
+    
+    if(hspd > spd) {
+        hspd = spd;
+    }
+    
+    if(hspd < -spd) {
+        hspd = -spd;
+    } 
+    
+} else {
+        apply_friction(acc);
+}
+
+//Change sprite direction based on direction
+if(hspd != 0) {
+    image_xscale = sign(hspd);
+}
+
+//Move
+move(Solid);

@@ -4,4 +4,4 @@
 - Initial Commit
 - Added female character named "Seika"
 - She only has basic movement from left to right.
-- Still need to implment collision
+- Can now detect walls as Solid object.  Can also jump on platforms.

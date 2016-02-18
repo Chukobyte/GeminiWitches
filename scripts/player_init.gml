@@ -12,5 +12,17 @@ state = player_move_state;
 //Get the input
 get_player_input();
 
+/*
+*Sprite Properties
+*All default to player mask in parent object
+*/
+idle_sprite = spr_player_mask;
+idle_sprite_speed = 0;
+walk_animation_sprite = spr_player_mask;
+walk_animation_speed = .3;
+jump_sprite = spr_player_mask;
+jump_sprite_released = spr_player_mask;
+jump_sprite_speed = 0;
+
 //Create the audio emitter
 //audio_em = audio_emitter_create();
