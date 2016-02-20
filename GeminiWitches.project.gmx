@@ -33,10 +33,14 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <scripts name="GUIController">
+      <script>scripts\gui_controller_draw.gml</script>
+    </scripts>
     <scripts name="HelperScripts">
       <script>scripts\get_player_input.gml</script>
       <script>scripts\move.gml</script>
       <script>scripts\apply_friction.gml</script>
+      <script>scripts\draw_text_outline_color.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="State">
@@ -59,11 +63,10 @@
     <scripts name="Rooms">
       <script>scripts\rm_main_init.gml</script>
     </scripts>
-    <script>scripts\gui_controller_draw.gml</script>
-    <scripts name="GUIController">
-      <script>scripts\script13.gml</script>
-    </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_choose_character</font>
+  </fonts>
   <objects name="objects">
     <objects name="Player">
       <object>objects\Player</object>
