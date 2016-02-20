@@ -59,7 +59,10 @@
     <scripts name="Rooms">
       <script>scripts\rm_main_init.gml</script>
     </scripts>
-    <script>scripts\gui_controller_init.gml</script>
+    <script>scripts\gui_controller_draw.gml</script>
+    <scripts name="GUIController">
+      <script>scripts\script13.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Player">
@@ -73,8 +76,9 @@
       <object>objects\Solid</object>
       <object>objects\BlackBlock</object>
     </objects>
-    <objects name="GameController">
+    <objects name="Controllers">
       <object>objects\GameController</object>
+      <object>objects\GUIController</object>
     </objects>
   </objects>
   <rooms name="rooms">
