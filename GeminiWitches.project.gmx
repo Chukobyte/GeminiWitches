@@ -14,6 +14,13 @@
         <sprite>sprites\spr_seika_jump</sprite>
         <sprite>sprites\spr_seika_portrait</sprite>
       </sprites>
+      <sprites name="Amaya">
+        <sprite>sprites\spr_amaya_portrait</sprite>
+        <sprite>sprites\spr_amaya_idle</sprite>
+        <sprite>sprites\spr_amaya_walk</sprite>
+        <sprite>sprites\spr_amaya_jump</sprite>
+        <sprite>sprites\spr_amaya_jump_released</sprite>
+      </sprites>
       <sprite>sprites\spr_player_mask</sprite>
     </sprites>
     <sprites name="Level">
@@ -35,11 +42,15 @@
         <script>scripts\player_idle_state.gml</script>
         <script>scripts\player_move_state.gml</script>
       </scripts>
-      <script>scripts\player_init.gml</script>
       <scripts name="Seika">
         <script>scripts\seika_init.gml</script>
         <script>scripts\seika_portait_step.gml</script>
       </scripts>
+      <scripts name="Amaya">
+        <script>scripts\amaya_portait_step.gml</script>
+        <script>scripts\amaya_init.gml</script>
+      </scripts>
+      <script>scripts\player_init.gml</script>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
@@ -54,6 +65,8 @@
       <object>objects\Player</object>
       <object>objects\Seika</object>
       <object>objects\SeikaPortrait</object>
+      <object>objects\Amaya</object>
+      <object>objects\AmayaPortrait</object>
     </objects>
     <objects name="Level">
       <object>objects\Solid</object>
