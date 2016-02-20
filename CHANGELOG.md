@@ -3,7 +3,7 @@
 
 - Added menu for selecting between two witches.
 - Added character portraits for both characters.
-- Possible fix for horizontal collision bug when falling.
+- Possible fix for horizontal collision bug when falling. (used generic player mask for character objects)
 
 #[0.0.1] - Feb 17, 2016
 ------

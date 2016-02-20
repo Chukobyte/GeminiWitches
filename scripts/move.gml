@@ -7,7 +7,7 @@ var collision_object = argument0;
 * gave y position 1 pixel higher for to account
 * for that for now.
 */
-if(place_meeting(x + hspd, y - 1, collision_object)) {
+if(place_meeting(x + hspd, y, collision_object)) {
     while(!place_meeting(x+sign(hspd), y, collision_object)) {
         x += sign(hspd);
     }

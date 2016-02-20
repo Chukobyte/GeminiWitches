@@ -6,7 +6,7 @@ acc = 2;
 hspd = 0;
 vspd = 0;
 grav = 1.5;
-jump_height = -16
+jump_height = -18;
 state = player_move_state;
 
 //Get the input
