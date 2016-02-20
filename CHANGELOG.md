@@ -1,3 +1,10 @@
+#[0.0.2] - Feb 20, 2016
+------
+
+- Added menu for selecting between two witches.
+- Added character portraits for both characters.
+- Possible fix for horizontal collision bug when falling.
+
 #[0.0.1] - Feb 17, 2016
 ------
 

@@ -12,6 +12,7 @@
         <sprite>sprites\spr_seika_walk</sprite>
         <sprite>sprites\spr_seika_jump_released</sprite>
         <sprite>sprites\spr_seika_jump</sprite>
+        <sprite>sprites\spr_seika_portrait</sprite>
       </sprites>
       <sprite>sprites\spr_player_mask</sprite>
     </sprites>
@@ -19,7 +20,9 @@
       <sprite>sprites\spr_black_block</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_choose_character</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="HelperScripts">
@@ -35,16 +38,22 @@
       <script>scripts\player_init.gml</script>
       <scripts name="Seika">
         <script>scripts\seika_init.gml</script>
+        <script>scripts\seika_portait_step.gml</script>
       </scripts>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
     </scripts>
+    <scripts name="Rooms">
+      <script>scripts\rm_main_init.gml</script>
+    </scripts>
+    <script>scripts\gui_controller_init.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Player">
       <object>objects\Player</object>
       <object>objects\Seika</object>
+      <object>objects\SeikaPortrait</object>
     </objects>
     <objects name="Level">
       <object>objects\Solid</object>
@@ -55,6 +64,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
   </rooms>
   <help>
