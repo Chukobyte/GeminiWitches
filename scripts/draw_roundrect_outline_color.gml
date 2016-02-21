@@ -19,7 +19,7 @@ var fill_color = !argument8;
 //draw_roundrect_color(128 + 2, 192 - 16 + 2, 224 - 2, 288 - 2, seikaCol, c_dkgray, false);
 
 var outline_loop_count = 0;
-for(i=outline_loop_count; i <= outline_size; i++) {
+for(i=outline_loop_count; i < outline_size; i++) {
     draw_roundrect_color(x1 + i, y1 + i, x2 - i, y2 - i, outline_color, outline_color, true);
     outline_loop_count++;
 }

@@ -28,10 +28,10 @@ switch(room) {
         //(72,195,80) for Green Amaya
         
         var seika_color = make_color_rgb(113,96,246);
-        draw_roundrect_outline_color(128, 192 - 16, 224, 288, seika_color, c_dkgray, c_yellow, 2, true);
+        draw_roundrect_outline_color(128, 192 - 16, 224, 288, seika_color, c_dkgray, c_yellow, 3, true);
         
         var amaya_color = make_color_rgb(72,195,80);
-        draw_roundrect_outline_color(384, 192 - 16, 480, 288, amaya_color, c_dkgray, c_yellow, 2, true);
+        draw_roundrect_outline_color(384, 192 - 16, 480, 288, amaya_color, c_dkgray, c_yellow, 3, true);
         
         //Draw character stats
         draw_set_halign(fa_left);

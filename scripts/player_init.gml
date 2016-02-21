@@ -9,6 +9,9 @@ grav = 1.5;
 jump_height = -18;
 state = player_move_state;
 
+//Need to create a player stats object
+action_cooldown = 1;
+alarm[0] = action_cooldown
 //Get the input
 get_player_input();
 

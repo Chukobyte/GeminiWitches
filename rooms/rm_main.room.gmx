@@ -3,8 +3,8 @@
   <caption></caption>
   <width>640</width>
   <height>360</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>2</vsnap>
+  <hsnap>2</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -112,6 +112,8 @@
     <instance objName="BlackBlock" x="224" y="224" name="inst_33EDB4D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="256" y="224" name="inst_E2A44A12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="288" y="224" name="inst_9B284913" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Bee" x="464" y="144" name="inst_F87DEFD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Bug" x="368" y="306" name="inst_B65B798A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
