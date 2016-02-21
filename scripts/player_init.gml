@@ -15,8 +15,9 @@ magic_attack_cooldown = 1 * room_speed;
 magic_attack_timer = magic_attack_cooldown; 
 
 //For determining if the player is attacking or not.
-is_attacking = false;
-attack_cooldown = 0.25 * room_speed;
+attacking = false;
+//attack_cooldown = 0.25 * room_speed;
+attack_cooldown = 0.50 * room_speed;
 //Timers incremented during step event
 attack_timer = attack_cooldown;
 
@@ -30,12 +31,19 @@ get_player_input();
 idle_sprite = spr_player_mask;
 idle_sprite_speed = 0;
 walk_animation_sprite = spr_player_mask;
-walk_animation_speed = .3;
+walk_animation_speed = 0.3;
 jump_sprite = spr_player_mask;
 jump_sprite_released = spr_player_mask;
 jump_sprite_speed = 0;
 
 attack_sprite = spr_player_mask;
+//attacking is set to false when animation ends
+attack_sprite_speed = 0.1;
+jump_sprite_attack = spr_player_mask;
+jump_sprite_attack_speed = 0.1;
+
+walk_animation_attack_sprite = spr_player_mask;
+walk_animation_attack_speed = 0.2;
 
 //Create the audio emitter
 //audio_em = audio_emitter_create();

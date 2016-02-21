@@ -1,6 +1,7 @@
 ///player_enemy_collision()
 var above_enemy = y < other.y + vspd;
 var falling = vspd > 0
+var is_next_to_enemy = place_meeting(x + (sign(hspd) * 2), y, Enemy);
 
 if(above_enemy && falling ) {
     if(!place_meeting(x, yprevious, Solid)) {
@@ -21,4 +22,8 @@ if(above_enemy && falling ) {
     
     //Play the sound
     //audio_play_sound(snd_step, 6, false);
+} else if(attacking && is_next_to_enemy) {
+    with(other) {
+        instance_destroy();
+    }
 }

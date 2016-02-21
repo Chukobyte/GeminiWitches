@@ -6,15 +6,20 @@ if(!place_meeting(x, y + 1, Solid)){
     //Player is in the air
     
     //Sets direction of sprite
-    image_index = (vspd > 0);
+    //image_index = (vspd > 0);
     
     //Determine sprite based on whether rising or falling in jump
-    if(vspd > 0) {
-        sprite_index = jump_sprite;
-        image_speed = jump_sprite_speed;
+    if(attacking) {
+        sprite_index = jump_sprite_attack;
+        image_speed = jump_sprite_attack_speed;
     } else {
-        sprite_index = jump_sprite_released;
-        image_speed = jump_sprite_speed;
+        if(vspd > 0) {
+            sprite_index = jump_sprite;
+            image_speed = jump_sprite_speed;
+        } else {
+            sprite_index = jump_sprite_released;
+            image_speed = jump_sprite_speed;
+        }
     }
     
     //Control the jump height
@@ -30,12 +35,22 @@ if(!place_meeting(x, y + 1, Solid)){
     }
     
     //Player is on the ground
-    if(hspd == 0) {
-        sprite_index = idle_sprite;
-        image_speed = idle_sprite_speed;
+    if(attacking == false) {        
+        if(hspd == 0) {
+            sprite_index = idle_sprite;
+            image_speed = idle_sprite_speed;
+        } else {
+            sprite_index = walk_animation_sprite;
+            image_speed = walk_animation_speed;
+            }
     } else {
-        sprite_index = walk_animation_sprite;
-        image_speed = walk_animation_speed;
+        if(hspd == 0) {
+            sprite_index = attack_sprite;
+            image_speed = attack_sprite_speed;
+        } else {
+            sprite_index = walk_animation_attack_sprite;
+            image_speed = walk_animation_attack_speed;
+        }
     }
 }
 
@@ -55,7 +70,7 @@ if(right || left) {
         apply_friction(acc);
 }
 
-if(attack_button) {
+if(attack_button && attacking == false) {
     a_button_attack();
 }
 

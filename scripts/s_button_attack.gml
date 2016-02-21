@@ -10,4 +10,3 @@ if(magic_attack_timer <= 0) {
     //Sets cooldown on magic attack
     magic_attack_timer = magic_attack_cooldown;
 }
-
