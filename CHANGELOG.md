@@ -3,7 +3,7 @@
 
 - Added attack and magic attack.  Can do basic attack with 'A'  Can shoot magic pellets by pressing 'S'.
 
--Can destroy enemies by jumping on their heads or shooting them with magic.
+- Can destroy enemies by jumping on their heads or shooting them with magic.
 
 #[0.0.2] - Feb 20, 2016
 ------
