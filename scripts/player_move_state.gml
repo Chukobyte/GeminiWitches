@@ -55,9 +55,13 @@ if(right || left) {
         apply_friction(acc);
 }
 
-//a_button attack
 if(attack_button) {
     a_button_attack();
+}
+
+//s_button attack
+if(magic_attack_button) {
+    s_button_attack();
 }
 
 //Change sprite direction based on direction

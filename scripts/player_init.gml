@@ -10,8 +10,16 @@ jump_height = -18;
 state = player_move_state;
 
 //Need to create a player stats object
-action_cooldown = 1;
-alarm[0] = action_cooldown
+magic_attack_cooldown = 1 * room_speed;
+//Timers incremented during step event
+magic_attack_timer = magic_attack_cooldown; 
+
+//For determining if the player is attacking or not.
+is_attacking = false;
+attack_cooldown = 0.25 * room_speed;
+//Timers incremented during step event
+attack_timer = attack_cooldown;
+
 //Get the input
 get_player_input();
 
@@ -26,6 +34,8 @@ walk_animation_speed = .3;
 jump_sprite = spr_player_mask;
 jump_sprite_released = spr_player_mask;
 jump_sprite_speed = 0;
+
+attack_sprite = spr_player_mask;
 
 //Create the audio emitter
 //audio_em = audio_emitter_create();

@@ -13,6 +13,7 @@
         <sprite>sprites\spr_seika_jump_released</sprite>
         <sprite>sprites\spr_seika_jump</sprite>
         <sprite>sprites\spr_seika_portrait</sprite>
+        <sprite>sprites\spr_seika_stand_attack</sprite>
       </sprites>
       <sprites name="Amaya">
         <sprite>sprites\spr_amaya_portrait</sprite>
@@ -20,6 +21,7 @@
         <sprite>sprites\spr_amaya_walk</sprite>
         <sprite>sprites\spr_amaya_jump</sprite>
         <sprite>sprites\spr_amaya_jump_released</sprite>
+        <sprite>sprites\spr_amaya_stand_attack</sprite>
       </sprites>
       <sprite>sprites\spr_player_mask</sprite>
     </sprites>
@@ -69,7 +71,11 @@
         <script>scripts\amaya_init.gml</script>
       </scripts>
       <script>scripts\player_init.gml</script>
+      <script>scripts\s_button_attack.gml</script>
       <script>scripts\a_button_attack.gml</script>
+      <scripts name="Collisions">
+        <script>scripts\player_enemy_collision.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
@@ -91,6 +97,7 @@
     </scripts>
     <scripts name="Effects">
       <script>scripts\special_attacks_init.gml</script>
+      <script>scripts\special_attacks_enemy_collision.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
