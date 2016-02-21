@@ -49,14 +49,8 @@ player_init();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Executes state and increment timers
-get_player_input();
-attack_timer--;
-magic_attack_timer--;
-if(attack_timer &lt;= 0) {
-    attacking = false;
-}
-script_execute(state);
+            <string>///Executes player_step()
+player_step();
 </string>
           </argument>
         </arguments>

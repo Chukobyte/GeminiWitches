@@ -1,0 +1,21 @@
+*************************************************
+*A quick description about object responsibility*
+*************************************************
+
+Player
+- Intializes player properties, states, and controls character sprite.
+
+Enemies
+- Initializes enemy properties and states.
+
+GameController
+- Set up global vars
+- manipulate room and globlal game state.
+
+GUIController
+- handles gui
+
+Effects
+- handles special attacks, effects, and particles.
+
+

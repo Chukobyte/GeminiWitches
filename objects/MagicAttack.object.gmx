@@ -25,9 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
-spd = 3;
-image_speed = 0.4;
+            <string>///Executes magic_attack_init()
+magic_attack_init();
 </string>
           </argument>
         </arguments>
@@ -50,8 +49,9 @@ image_speed = 0.4;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///magic_attack_step()
-x += spd * sign(image_xscale);
+            <string>///Executes magic_attack_step()
+magic_attack_step();
+
 </string>
           </argument>
         </arguments>
