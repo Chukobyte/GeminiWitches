@@ -3,7 +3,7 @@
   <spriteName>spr_amaya_idle</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-6</depth>
+  <depth>-10</depth>
   <persistent>0</persistent>
   <parentName>Player</parentName>
   <maskName>spr_player_mask</maskName>

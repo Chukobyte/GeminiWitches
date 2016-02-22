@@ -1,3 +1,7 @@
+#[0.0.4] - Feb 22, 2016
+------
+- Added slight delay to Player basic attack.
+
 #[0.0.3] - Feb 21, 2016
 ------
 

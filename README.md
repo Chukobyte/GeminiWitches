@@ -1,6 +1,6 @@
 ##Gemini Witches
 
-Version 0.0.3
+Version 0.0.4
 
 A Platformer RPG about two sisters.
 Made with Game Maker Studio.

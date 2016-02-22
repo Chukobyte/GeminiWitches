@@ -70,7 +70,8 @@ if(right || left) {
         apply_friction(acc);
 }
 
-if(attack_button && attacking == false) {
+//adds 6 to attack timer for slight delay
+if(attack_button && (attack_timer + 6) <= 0) {
     a_button_attack();
 }
 
