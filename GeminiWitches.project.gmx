@@ -95,6 +95,8 @@
       <scripts name="Bee">
         <script>scripts\bee_chase_state.gml</script>
         <script>scripts\bee_init.gml</script>
+        <script>scripts\bee_swoop_state.gml</script>
+        <script>scripts\bee_prepare_swoop_state.gml</script>
       </scripts>
       <scripts name="Bug">
         <script>scripts\bug_init.gml</script>
