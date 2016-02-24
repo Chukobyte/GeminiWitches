@@ -1,10 +1,14 @@
 ///gui_controller_draw()
 
+//Sets gui size based on view
+display_set_gui_size(view_wview[0], view_hview[0]);
+
 switch(room) {
+    //default will be the level rooms for now
     default:
         break;
     case rm_choose_character:
-        
+    
         //Draw text
         draw_set_font(fnt_choose_character);
         var chooseText = "CHOOSE YOUR CHARACTER!!!";
