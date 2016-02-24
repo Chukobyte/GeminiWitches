@@ -59,11 +59,11 @@ if(right || left) {
     hspd += (right-left) * acc;
     
     if(hspd > spd) {
-        hspd = spd;
+        hspd = spd + PlayerStats.spd;
     }
     
     if(hspd < -spd) {
-        hspd = -spd;
+        hspd = -spd - PlayerStats.spd;
     } 
     
 } else {

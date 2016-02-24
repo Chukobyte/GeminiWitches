@@ -4,8 +4,14 @@
 display_set_gui_size(view_wview[0], view_hview[0]);
 
 switch(room) {
-    //default will be the level rooms for now
+    /* default will be the level rooms for now
+    * will display health, magic, lives, etc
+    */
     default:
+        var hpAmount = (PlayerStats.hp / PlayerStats.maxhp) * 100;
+        var mpAmount = (PlayerStats.mp / PlayerStats.maxmp) * 100;
+        draw_healthbar(10, 10, 20, 40, hpAmount, c_black, c_red, c_lime, 3, true, true)
+        draw_healthbar(21, 10, 31, 40, mpAmount, c_black, c_navy, c_navy, 3, true, true)
         break;
     case rm_choose_character:
     

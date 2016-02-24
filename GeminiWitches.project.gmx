@@ -90,6 +90,9 @@
       </scripts>
       <script>scripts\player_step.gml</script>
       <script>scripts\player_init.gml</script>
+      <scripts name="PlayerStats">
+        <script>scripts\player_stats_init.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
@@ -133,6 +136,7 @@
       <object>objects\SeikaPortrait</object>
       <object>objects\Amaya</object>
       <object>objects\AmayaPortrait</object>
+      <object>objects\PlayerStats</object>
     </objects>
     <objects name="Level">
       <object>objects\Solid</object>
