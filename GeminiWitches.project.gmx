@@ -32,6 +32,7 @@
     <sprites name="Level">
       <sprite>sprites\spr_solid</sprite>
       <sprite>sprites\spr_black_block</sprite>
+      <sprite>sprites\spr_door</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bee">
@@ -66,6 +67,8 @@
       <scripts name="State">
         <script>scripts\player_idle_state.gml</script>
         <script>scripts\player_move_state.gml</script>
+        <script>scripts\player_exit_state.gml</script>
+        <script>scripts\player_hurt_state.gml</script>
       </scripts>
       <scripts name="Seika">
         <script>scripts\seika_init.gml</script>
@@ -75,15 +78,16 @@
         <script>scripts\amaya_portait_step.gml</script>
         <script>scripts\amaya_init.gml</script>
       </scripts>
-      <script>scripts\player_init.gml</script>
       <scripts name="Collisions">
         <script>scripts\player_enemy_collision.gml</script>
+        <script>scripts\player_door_collision.gml</script>
       </scripts>
       <scripts name="AttackLogic">
         <script>scripts\a_button_attack.gml</script>
         <script>scripts\s_button_attack.gml</script>
       </scripts>
       <script>scripts\player_step.gml</script>
+      <script>scripts\player_init.gml</script>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
@@ -129,6 +133,7 @@
     <objects name="Level">
       <object>objects\Solid</object>
       <object>objects\BlackBlock</object>
+      <object>objects\Door</object>
     </objects>
     <objects name="Controllers">
       <object>objects\GameController</object>
@@ -148,6 +153,8 @@
   <rooms name="rooms">
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_two</room>
+    <room>rooms\rm_three</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
