@@ -10,4 +10,5 @@ swoop_count_max = 50;
 swoop_count = swoop_count_max;
 
 player_dir = 0;
+hurt_sprite = spr_bee_damaged;
 

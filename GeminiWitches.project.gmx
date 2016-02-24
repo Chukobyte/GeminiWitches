@@ -37,10 +37,12 @@
     <sprites name="Enemies">
       <sprites name="Bee">
         <sprite>sprites\spr_bee_fly</sprite>
+        <sprite>sprites\spr_bee_damaged</sprite>
       </sprites>
       <sprites name="Bug">
         <sprite>sprites\spr_bug_idle</sprite>
         <sprite>sprites\spr_bug_move</sprite>
+        <sprite>sprites\spr_bug_damaged</sprite>
       </sprites>
     </sprites>
     <sprites name="Effects">
@@ -96,7 +98,9 @@
       <script>scripts\rm_main_init.gml</script>
     </scripts>
     <scripts name="Enemies">
+      <script>scripts\enemy_step.gml</script>
       <script>scripts\enemy_destroy.gml</script>
+      <script>scripts\enemy_hurt_state.gml</script>
       <script>scripts\enemy_init.gml</script>
       <scripts name="Bee">
         <script>scripts\bee_chase_state.gml</script>

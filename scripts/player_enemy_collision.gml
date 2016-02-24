@@ -13,9 +13,9 @@ if(above_enemy && falling ) {
     }
     
     //Kill the enemy
-    with(other) {
-        instance_destroy();
-    }
+    //with(other) {
+    //    instance_destroy();
+    //}
     
     //Bounce off the enemy
     vspd = (jump_height / 1.5);
@@ -24,6 +24,11 @@ if(above_enemy && falling ) {
     //audio_play_sound(snd_step, 6, false);
 } else if(attacking && is_next_to_enemy) {
     with(other) {
-        instance_destroy();
+        if(state != hurt_state) {
+            hp -= 1;
+            previous_state = state;
+            state = hurt_state;
+            enemy_damage_timer = enemy_damage_timer_max;   
+        }
     }
 }

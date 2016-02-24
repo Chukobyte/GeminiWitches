@@ -1,3 +1,7 @@
+#[0.0.6] - Feb 24, 2016
+------
+- Enemies now flash red and displays hurt sprite when damaged but not killed.
+
 #[0.0.5] - Feb 23, 2016
 ------
 - Enemies poof in a smoke when they are destroyed.

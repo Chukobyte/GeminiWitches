@@ -73,8 +73,8 @@ enemy_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Executes current state
-script_execute(state);
+            <string>///Executes enemy_step()
+enemy_step();
 </string>
           </argument>
         </arguments>
