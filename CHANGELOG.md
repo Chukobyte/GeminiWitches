@@ -1,3 +1,7 @@
+#[0.0.5] - Feb 23, 2016
+------
+- Enemies poof in a smoke when they are destroyed.
+
 #[0.0.4] - Feb 22, 2016
 ------
 - Added slight delay to Player basic attack.

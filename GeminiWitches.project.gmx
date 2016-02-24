@@ -44,6 +44,7 @@
     </sprites>
     <sprites name="Effects">
       <sprite>sprites\spr_magic_attack</sprite>
+      <sprite>sprites\spr_smoke_anim</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -91,6 +92,7 @@
       <script>scripts\rm_main_init.gml</script>
     </scripts>
     <scripts name="Enemies">
+      <script>scripts\enemy_destroy.gml</script>
       <script>scripts\enemy_init.gml</script>
       <scripts name="Bee">
         <script>scripts\bee_chase_state.gml</script>
@@ -140,6 +142,7 @@
     <objects name="Effects">
       <object>objects\MagicAttack</object>
       <object>objects\SpecialAttacks</object>
+      <object>objects\Smoke</object>
     </objects>
   </objects>
   <rooms name="rooms">
