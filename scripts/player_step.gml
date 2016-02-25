@@ -20,4 +20,8 @@ if(invincibility_timer >= 0) {
     }
 }
 
+if(PlayerStats.mp < PlayerStats.maxmp) {
+    PlayerStats.mp += 0.001
+}
+
 script_execute(state);

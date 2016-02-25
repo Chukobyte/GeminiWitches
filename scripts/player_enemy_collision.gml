@@ -1,7 +1,12 @@
 ///player_enemy_collision()
 var above_enemy = y < other.y + vspd;
 var falling = vspd > 0
-var is_next_to_enemy = place_meeting(x + (sign(hspd) * 2), y, Enemy);
+
+//TODO: make is_next_to_enemy check more accurate
+var is_next_to_enemy1 = position_meeting(x + (sign(image_xscale) * 10), y, Enemy);
+var is_next_to_enemy2 = position_meeting(x + (sign(image_xscale) * 10), y + 1, Enemy);
+var is_next_to_enemy3 = position_meeting(x + (sign(image_xscale) * 10), y - 1, Enemy);
+var is_next_to_enemy = is_next_to_enemy1 || is_next_to_enemy2 || is_next_to_enemy3;
 
 if(above_enemy && falling ) {
     if(!place_meeting(x, yprevious, Solid)) {
@@ -11,19 +16,11 @@ if(above_enemy && falling ) {
     while(!place_meeting(x, y + 1, other)) {
         y++;
     }
-    
-    //Kill the enemy
-    //with(other) {
-    //    instance_destroy();
-    //}
-    
+        
     //Bounce off the enemy
     vspd = (jump_height / 1.5);
     
-    //Play the sound
-    //audio_play_sound(snd_step, 6, false);
 } else if(attacking && is_next_to_enemy) {
-    //TODO: only damage enemy if facing him
     with(other) {
         if(state != hurt_state) {
             hp -= 1;
@@ -31,6 +28,7 @@ if(above_enemy && falling ) {
             state = hurt_state;
             enemy_damage_timer = enemy_damage_timer_max;  
             
+            //Pushes the enemy back
             var dir = point_direction(x, y, Player.x, Player.y);
             hspd = -(lengthdir_x(15, dir));
             //vspd = lengthdir_y(20, dir);
@@ -45,6 +43,7 @@ if(above_enemy && falling ) {
         PlayerStats.hp -= 1;
         state = player_hurt_state;
         hurt_state_timer = hurt_state_timer_max;
+        attacking = false;
         //x += sign(hspd) * 15;
     }
 }

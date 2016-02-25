@@ -1,3 +1,7 @@
+#[0.0.7] - Feb 25, 2016
+------
+- Working on attack collision detection
+
 #[0.0.6] - Feb 24, 2016
 ------
 - Enemies now flash red and displays hurt sprite when damaged but not killed.
