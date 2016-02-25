@@ -2,11 +2,16 @@
 var above_enemy = y < other.y + vspd;
 var falling = vspd > 0
 
-//TODO: make is_next_to_enemy check more accurate
-var is_next_to_enemy1 = position_meeting(x + (sign(image_xscale) * 10), y, Enemy);
-var is_next_to_enemy2 = position_meeting(x + (sign(image_xscale) * 10), y + 1, Enemy);
-var is_next_to_enemy3 = position_meeting(x + (sign(image_xscale) * 10), y - 1, Enemy);
-var is_next_to_enemy = is_next_to_enemy1 || is_next_to_enemy2 || is_next_to_enemy3;
+/*
+* Checks if next to the enemy and loops through
+* y cordinates to check if enemy is above or below player.
+*/
+var is_next_to_enemy = false;
+for(i = -10; i <= 10; i++) {
+    if(position_meeting(x + (sign(image_xscale) * 10), y + i, Enemy)) {
+        is_next_to_enemy = true;
+    }
+}
 
 if(above_enemy && falling ) {
     if(!place_meeting(x, yprevious, Solid)) {
@@ -34,8 +39,6 @@ if(above_enemy && falling ) {
             //vspd = lengthdir_y(20, dir);
             
             x += hspd;
-            //y += vspd;
-             
         }
     }
 } else {
