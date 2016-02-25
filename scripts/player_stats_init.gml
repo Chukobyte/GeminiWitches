@@ -1,5 +1,5 @@
 ///player_stats_init()
-maxhp = 3;
+maxhp = 5;
 hp = maxhp;
 
 maxmp = 5;

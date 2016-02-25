@@ -16,6 +16,7 @@
         <sprite>sprites\spr_seika_stand_attack</sprite>
         <sprite>sprites\spr_seika_jump_attack</sprite>
         <sprite>sprites\spr_seika_walk_attack</sprite>
+        <sprite>sprites\spr_seika_hurt</sprite>
       </sprites>
       <sprites name="Amaya">
         <sprite>sprites\spr_amaya_portrait</sprite>
@@ -26,6 +27,7 @@
         <sprite>sprites\spr_amaya_stand_attack</sprite>
         <sprite>sprites\spr_amaya_jump_attack</sprite>
         <sprite>sprites\spr_amaya_walk_attack</sprite>
+        <sprite>sprites\spr_amaya_hurt</sprite>
       </sprites>
       <sprite>sprites\spr_player_mask</sprite>
     </sprites>

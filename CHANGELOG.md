@@ -3,6 +3,7 @@
 - Enemies now flash red and displays hurt sprite when damaged but not killed.
 - Added health and magic bar.
 - Added PlayerStats Object to keep track of player attributes.
+- Player now is invincible for a small frame when hit.
 
 #[0.0.5] - Feb 23, 2016
 ------
