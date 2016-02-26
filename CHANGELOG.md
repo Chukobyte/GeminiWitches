@@ -2,6 +2,8 @@
 ------
 - Added death state.  Player can now die! Also added death sprites.
 - Fixed bug where Bug enemy would get stuck in the walls.  (lol at Bug bug)
+- Added play_again room.
+- tweaked death state.
 
 #[0.0.7] - Feb 25, 2016
 ------
