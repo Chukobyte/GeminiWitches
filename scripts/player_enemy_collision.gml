@@ -13,7 +13,7 @@ for(i = -10; i <= 10; i++) {
     }
 }
 
-if(above_enemy && falling ) {
+if(above_enemy && falling && state != player_death_state) {
     if(!place_meeting(x, yprevious, Solid)) {
         y = yprevious;
     }
@@ -38,12 +38,16 @@ if(above_enemy && falling ) {
             hspd = -(lengthdir_x(15, dir));
             //vspd = lengthdir_y(20, dir);
             
-            x += hspd;
+            if(!can_go_through_walls) {
+                move(Solid);
+            } else {
+                x += hspd;
+            }
         }
     }
 } else {
-    if(state != player_hurt_state && invincibility_timer <= 0 ) {
-        PlayerStats.hp -= 1;
+    if(state != player_hurt_state && state != player_death_state && invincibility_timer <= 0) {
+        PlayerStats.hp -= other.enemy_attack;
         state = player_hurt_state;
         hurt_state_timer = hurt_state_timer_max;
         attacking = false;

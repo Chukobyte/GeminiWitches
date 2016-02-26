@@ -30,6 +30,9 @@ magic_attack_timer = magic_attack_cooldown;
 hurt_state_timer_max = 10;
 hurt_state_timer = hurt_state_timer_max;
 
+death_state_timer_max = 30;
+death_state_timer = death_state_timer_max;
+
 invincibility_timer_max = 30;
 invincibility_timer = -1;
 invincibility_toggle = 0;
@@ -60,3 +63,6 @@ walk_animation_attack_sprite = spr_player_mask;
 walk_animation_attack_speed = 0.2;
 
 hurt_state_sprite = spr_player_mask;
+
+death_state_sprite = spr_player_mask;
+death_state_sprite_speed = 0.3;

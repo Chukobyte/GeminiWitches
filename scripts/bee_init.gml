@@ -9,6 +9,8 @@ prepare_swoop_count = prepare_swoop_count_max;
 swoop_count_max = 50;
 swoop_count = swoop_count_max;
 
+can_go_through_walls = true;
+
 player_dir = 0;
 hurt_sprite = spr_bee_damaged;
 

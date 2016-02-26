@@ -20,8 +20,12 @@ if(invincibility_timer >= 0) {
     }
 }
 
+if(PlayerStats.hp < PlayerStats.maxhp) {
+    PlayerStats.hp += PlayerStats.hp_regen
+}
+
 if(PlayerStats.mp < PlayerStats.maxmp) {
-    PlayerStats.mp += 0.001
+    PlayerStats.mp += PlayerStats.mp_regen;
 }
 
 script_execute(state);

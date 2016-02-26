@@ -17,6 +17,7 @@
         <sprite>sprites\spr_seika_jump_attack</sprite>
         <sprite>sprites\spr_seika_walk_attack</sprite>
         <sprite>sprites\spr_seika_hurt</sprite>
+        <sprite>sprites\spr_seika_death</sprite>
       </sprites>
       <sprites name="Amaya">
         <sprite>sprites\spr_amaya_portrait</sprite>
@@ -28,6 +29,7 @@
         <sprite>sprites\spr_amaya_jump_attack</sprite>
         <sprite>sprites\spr_amaya_walk_attack</sprite>
         <sprite>sprites\spr_amaya_hurt</sprite>
+        <sprite>sprites\spr_amaya_death</sprite>
       </sprites>
       <sprite>sprites\spr_player_mask</sprite>
     </sprites>
@@ -73,6 +75,7 @@
         <script>scripts\player_move_state.gml</script>
         <script>scripts\player_exit_state.gml</script>
         <script>scripts\player_hurt_state.gml</script>
+        <script>scripts\player_death_state.gml</script>
       </scripts>
       <scripts name="Seika">
         <script>scripts\seika_init.gml</script>
@@ -95,6 +98,7 @@
       <scripts name="PlayerStats">
         <script>scripts\player_stats_init.gml</script>
       </scripts>
+      <script>scripts\player_animation_end.gml</script>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
@@ -134,11 +138,11 @@
   <objects name="objects">
     <objects name="Player">
       <object>objects\Player</object>
+      <object>objects\PlayerStats</object>
       <object>objects\Seika</object>
       <object>objects\SeikaPortrait</object>
       <object>objects\Amaya</object>
       <object>objects\AmayaPortrait</object>
-      <object>objects\PlayerStats</object>
     </objects>
     <objects name="Level">
       <object>objects\Solid</object>

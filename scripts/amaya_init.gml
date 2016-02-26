@@ -9,3 +9,4 @@ attack_sprite = spr_amaya_stand_attack;
 jump_sprite_attack = spr_amaya_jump_attack;
 walk_animation_attack_sprite = spr_amaya_walk_attack;
 hurt_state_sprite = spr_amaya_hurt;
+death_state_sprite = spr_amaya_death;

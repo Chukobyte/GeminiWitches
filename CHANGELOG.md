@@ -1,6 +1,11 @@
+#[0.0.8] - Feb 26, 2016
+------
+- Added death state.  Player can now die! Also added death sprites.
+- Fixed bug where Bug enemy would get stuck in the walls.  (lol at Bug bug)
+
 #[0.0.7] - Feb 25, 2016
 ------
-- Working on attack collision detection
+- tweaked attack collision detection
 
 #[0.0.6] - Feb 24, 2016
 ------

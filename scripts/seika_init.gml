@@ -9,3 +9,4 @@ attack_sprite = spr_seika_stand_attack;
 jump_sprite_attack = spr_seika_jump_attack;
 walk_animation_attack_sprite = spr_seika_walk_attack;
 hurt_state_sprite = spr_seika_hurt;
+death_state_sprite = spr_seika_death;
