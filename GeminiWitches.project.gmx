@@ -104,6 +104,7 @@
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
+      <script>scripts\game_controller_step.gml</script>
     </scripts>
     <scripts name="Rooms">
       <script>scripts\rm_main_init.gml</script>
@@ -169,8 +170,10 @@
   <rooms name="rooms">
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
+    <room>rooms\rm_play_again</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

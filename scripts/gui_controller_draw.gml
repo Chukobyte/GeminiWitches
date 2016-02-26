@@ -50,5 +50,18 @@ switch(room) {
         draw_text(384 + 4, 192 - 16 + 4, "Attack: 3#Speed: 2");
                 
         break;
+        
+        case rm_play_again:
+            
+            //temp play again room
+            draw_set_font(fnt_choose_character);
+            draw_text_outline_color(192, 32, 2, "PLAY AGAIN!?", c_dkgray, c_yellow);
+            
+            draw_rectangle_colour(128 - 4, 128, 192 - 4, 160 + 4, c_yellow, c_yellow, c_yellow, c_yellow, true);
+            draw_text_outline_color(128, 128, 2, "YES", c_dkgray, c_yellow);
+            
+            draw_rectangle_colour(416 - 2, 128, 480 - 10, 160 + 4, c_yellow, c_yellow, c_yellow, c_yellow, true);
+            draw_text_outline_color(416, 128, 2, "NO", c_dkgray, c_yellow);
+            break;
 }
 
