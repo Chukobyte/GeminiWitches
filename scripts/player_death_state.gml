@@ -6,7 +6,11 @@ if(death_state_timer > 0) {
     //makes sure character fall when dead
     if(!place_meeting(x, y + 1, Solid)){
         vspd += grav;
+    } else {
+        //TODO: Add slight bounce code here.
     }
+    
+    apply_friction(.4);
     
     move(Solid);
 } else {

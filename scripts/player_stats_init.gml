@@ -1,5 +1,5 @@
 ///player_stats_init()
-maxhp = 6;
+maxhp = 1;
 hp = maxhp;
 hp_regen = 0;
 
