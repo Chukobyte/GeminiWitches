@@ -5,7 +5,7 @@ hp_regen = 0;
 
 maxmp = 6;
 mp = maxmp;
-mp_regen = 0.015;
+mp_regen = 0.005;
 
 //Adds or subtracts to Player's base speed.
 spd = 0;
