@@ -34,6 +34,10 @@ if(!place_meeting(x, y + 1, Solid)){
     //Jumping code
     if(up) {
         vspd = jump_height;
+        var audio_em = audio_emitter_create();
+        audio_emitter_gain(audio_em, .07);
+        audio_emitter_pitch(audio_em, .5);
+        audio_play_sound_on(audio_em, snd_jump, false, 5);
     }
     
     //Player is on the ground
@@ -77,11 +81,19 @@ if(right || left) {
 //adds 6 to attack timer for slight delay
 if(attack_button && (attack_timer + 6) <= 0) {
     a_button_attack();
+    var audio_em = audio_emitter_create();
+    audio_emitter_gain(audio_em, .25);
+    audio_play_sound_on(audio_em, snd_punch, false, 6);
+    
 }
 
 //s_button attack
-if(magic_attack_button) {
+if(magic_attack_button && magic_attack_timer <= 0 && PlayerStats.mp > 0) {
     s_button_attack();
+    var audio_em = audio_emitter_create();
+    audio_emitter_gain(audio_em, .3);
+    //audio_emitter_pitch(audio_em, .5);
+    audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
 }
 
 //Change sprite direction based on direction

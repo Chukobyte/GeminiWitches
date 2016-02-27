@@ -2,6 +2,8 @@
 ------
 - Added grass and dirt sprites and updated rooms with them.  The way it's implemented is temporary.
 - Fixed stuck in wall bug (note to self, be careful of modifying masks!!!)
+- Added background music 
+- Added sounds for player attacking, jumping, and exiting door.
 
 #[0.0.8] - Feb 26, 2016
 ------
