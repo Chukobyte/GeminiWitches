@@ -1,6 +1,7 @@
 #[0.0.9] - Feb 27, 2016
 ------
 - Added grass and dirt sprites and updated rooms with them.  The way it's implemented is temporary.
+- Fixed stuck in wall bug (note to self, be careful of modifying masks!!!)
 
 #[0.0.8] - Feb 26, 2016
 ------
