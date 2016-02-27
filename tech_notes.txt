@@ -18,4 +18,47 @@ GUIController
 Effects
 - handles special attacks, effects, and particles.
 
+*************************************
+*Ingredients are the basis of spells*
+*************************************
 
+-There are permanent spells a witch can learn by combining magic power, ingredient/s, and soul gems.
+
+-The magic power limitation is somewhat of a level cap on the spells you can learn.  Since an mp boosting is required for more 
+powerful spells.
+
+-Permanent spells form a neutral and character specific skill tree.
+
+-The level up mechanism needs to be fleshed out.
+
+***********
+*SOUL GEMS*
+***********
+
+-Gems can be obtained naturally by leveling up, or by finding them in special spots (sometimes hidden).
+
+-Gems also affect passives as well.  For instance fire gems can lead to more fire based passives unlocking!
+
+- Each gem corresponds to a certain element.  There will also be neutral gems which can feed any element.  More on elements in the
+the next section.
+
+**********
+*Elements*
+**********
+Five for now.  Passives help boost spell abilities.
+
+*Fire
+- Most abilities will focus on laying down flames, some projectiles.  Which last on the field after awhile and can damage enemies.  Passives can
+also help reduce the damage of fire in the environment to the player.
+
+*Water
+- Abilities include affecting clouds, water pools, shooting water bullets.  Boost water power when near water.  Also can help with swimming maybe?
+
+*Wind
+- Deals with flying and blowing enemies away.  If they hit terrain they sustain damage.
+
+*Earth
+-Can deal damage to multiple enemies at once with the right conditions.  Cause rock slides.  Have special powers near trees?
+
+*Soul
+-Character specific powers.  The other elements are shared between all characters, but the soul element is character specific.

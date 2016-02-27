@@ -38,6 +38,13 @@
       <sprite>sprites\spr_solid</sprite>
       <sprite>sprites\spr_black_block</sprite>
       <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_grass</sprite>
+      <sprite>sprites\spr_grass_edge_left</sprite>
+      <sprite>sprites\spr_grass_edge_right</sprite>
+      <sprite>sprites\spr_dirt_wall</sprite>
+      <sprite>sprites\spr_dirt_wall_right</sprite>
+      <sprite>sprites\spr_dirt_wall_left</sprite>
+      <sprite>sprites\spr_dirt_bottom</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bee">
@@ -151,6 +158,15 @@
       <object>objects\Solid</object>
       <object>objects\BlackBlock</object>
       <object>objects\Door</object>
+      <objects name="TempTiles">
+        <object>objects\GrassEdgeRight</object>
+        <object>objects\GrassEdgeLeft</object>
+        <object>objects\GrassLand</object>
+        <object>objects\DirtWall</object>
+        <object>objects\DirtWallRight</object>
+        <object>objects\DirtWallLeft</object>
+        <object>objects\DirtBottom</object>
+      </objects>
     </objects>
     <objects name="Controllers">
       <object>objects\GameController</object>

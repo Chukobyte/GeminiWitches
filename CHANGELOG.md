@@ -1,3 +1,7 @@
+#[0.0.9] - Feb 27, 2016
+------
+- Added grass and dirt sprites and updated rooms with them.  The way it's implemented is temporary.
+
 #[0.0.8] - Feb 26, 2016
 ------
 - Added death state.  Player can now die! Also added death sprites.
