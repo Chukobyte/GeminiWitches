@@ -7,8 +7,9 @@ var falling = vspd > 0
 * y cordinates to check if enemy is above or below player.
 */
 var is_next_to_enemy = false;
-for(i = -10; i <= 10; i++) {
-    if(position_meeting(x + (sign(image_xscale) * 10), y + i, Enemy)) {
+var player_reach = 10;
+for(i = -20; i <= 20; i++) {
+    if(position_meeting(x + (sign(image_xscale) * player_reach), y + i, Enemy)) {
         is_next_to_enemy = true;
     }
 }

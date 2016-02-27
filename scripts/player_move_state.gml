@@ -12,10 +12,10 @@ if(!place_meeting(x, y + 1, Solid)){
     if(attacking) {
         sprite_index = jump_sprite_attack;
         image_speed = jump_sprite_attack_speed;
-        mask_index = spr_player_attack_mask;
+        //mask_index = spr_player_attack_mask;
     } else {
         image_speed = jump_sprite_speed;
-        mask_index = spr_player_mask;
+        //mask_index = spr_player_mask;
         
         if(vspd > 0) {
             sprite_index = jump_sprite;
@@ -38,7 +38,7 @@ if(!place_meeting(x, y + 1, Solid)){
     
     //Player is on the ground
     if(attacking == false) {  
-        mask_index = spr_player_mask;      
+        //mask_index = spr_player_mask;      
         if(hspd == 0) {
             sprite_index = idle_sprite;
             image_speed = idle_sprite_speed;
@@ -47,7 +47,7 @@ if(!place_meeting(x, y + 1, Solid)){
             image_speed = walk_animation_speed;
             }
     } else {
-        mask_index = spr_player_attack_mask;
+        //mask_index = spr_player_attack_mask;
         if(hspd == 0) {
             sprite_index = attack_sprite;
             image_speed = attack_sprite_speed;
