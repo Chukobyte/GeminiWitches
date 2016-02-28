@@ -53,6 +53,7 @@
       <sprite>sprites\spr_dirt_wall_right</sprite>
       <sprite>sprites\spr_dirt_wall_left</sprite>
       <sprite>sprites\spr_dirt_bottom</sprite>
+      <sprite>sprites\spr_flower</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bee">
@@ -72,10 +73,16 @@
     <sprites name="Collectables">
       <sprite>sprites\spr_silver_coin</sprite>
       <sprite>sprites\spr_gold_coin</sprite>
+      <sprite>sprites\spr_soul_gem_fire</sprite>
+      <sprite>sprites\spr_soul_gem_wind</sprite>
+      <sprite>sprites\spr_soul_gem_flash</sprite>
+      <sprite>sprites\spr_soul_gem_earth</sprite>
+      <sprite>sprites\spr_soul_gem_water</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_choose_character</background>
+    <background>background\bg_main</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -156,6 +163,10 @@
     </scripts>
     <scripts name="Collectables">
       <script>scripts\coin_init.gml</script>
+      <scripts name="SoulGem">
+        <script>scripts\soul_gem_init.gml</script>
+        <script>scripts\soul_gem_step.gml</script>
+      </scripts>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -183,6 +194,7 @@
         <object>objects\DirtWallLeft</object>
         <object>objects\DirtBottom</object>
       </objects>
+      <object>objects\Flower</object>
     </objects>
     <objects name="Controllers">
       <object>objects\GameController</object>
@@ -202,6 +214,13 @@
       <object>objects\GoldCoin</object>
       <object>objects\SilverCoin</object>
       <object>objects\Coin</object>
+      <objects name="SoulGems">
+        <object>objects\SoulGem</object>
+        <object>objects\SoulGemFire</object>
+        <object>objects\SoulGemWater</object>
+        <object>objects\SoulGemEarth</object>
+        <object>objects\SoulGemWind</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
