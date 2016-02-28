@@ -21,7 +21,7 @@
 'A' attacks with a punch
 'S' shoots magic
 
--XBOX 360 conroller controls
+-XBOX 360 controller controls
 ----------------------------
 *Left Analog
 <- = Left
