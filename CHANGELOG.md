@@ -2,6 +2,7 @@
 ------
 - Added gold and silver coins.  Also added coin pickup sounds.
 - Added soul gems and flowers.
+- Added Piecing Water Crystal, Flower of Life, Fly, Fire Boost (fire temp power) powers!
 
 #[0.0.9] - Feb 27, 2016
 ------

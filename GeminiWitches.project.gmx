@@ -124,6 +124,7 @@
         <script>scripts\player_enemy_collision.gml</script>
         <script>scripts\player_door_collision.gml</script>
         <script>scripts\player_coin_collision.gml</script>
+        <script>scripts\player_gem_collision.gml</script>
       </scripts>
       <script>scripts\player_step.gml</script>
       <script>scripts\player_init.gml</script>

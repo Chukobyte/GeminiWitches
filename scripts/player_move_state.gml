@@ -33,7 +33,7 @@ if(!place_meeting(x, y + 1, Solid)){
     
     //Jumping code
     if(up) {
-        vspd = jump_height;
+        vspd = jump_height + PlayerStats.jump_height;
         var audio_em = audio_emitter_create();
         audio_emitter_gain(audio_em, .07);
         audio_emitter_pitch(audio_em, .5);
@@ -95,11 +95,11 @@ if(magic_attack_timer <= 0 && PlayerStats.mp > 0) {
         audio_emitter_gain(audio_em, .3);
         //audio_emitter_pitch(audio_em, .5);
         audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
-    } else if(water_magic_attack_button){
+    } else if(water_magic_attack_button && PlayerStats.water_unlocked){
         x_button_attack();;
-    } else if(earth_magic_attack_button) {
+    } else if(earth_magic_attack_button && PlayerStats.earth_unlocked) {
         z_button_attack();
-    } else if(wind_magic_attack_button && fly_delay <= 0) {
+    } else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_unlocked) {
         state = player_fly_state;
         fly_delay = 10;
     }
