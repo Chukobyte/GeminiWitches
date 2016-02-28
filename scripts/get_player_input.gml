@@ -10,6 +10,7 @@
     magic_attack_button = keyboard_check(ord('S'));
     water_magic_attack_button = keyboard_check(ord('X'));
     earth_magic_attack_button = keyboard_check(ord('Z'));
+    wind_magic_attack_button = keyboard_check(ord('W'));
 
     // Override the controls for a gamepad
     var gp_id = 0;

@@ -59,6 +59,10 @@ attack_sprite_speed = 0.1;
 jump_sprite_attack = spr_player_mask;
 jump_sprite_attack_speed = 0.1;
 
+fly_sprite = spr_player_mask;
+fly_sprite_speed = 0;
+fly_delay = 10;
+
 walk_animation_attack_sprite = spr_player_mask;
 walk_animation_attack_speed = 0.2;
 

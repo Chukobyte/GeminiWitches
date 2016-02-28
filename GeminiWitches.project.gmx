@@ -27,6 +27,7 @@
         <sprite>sprites\spr_seika_walk_attack</sprite>
         <sprite>sprites\spr_seika_hurt</sprite>
         <sprite>sprites\spr_seika_death</sprite>
+        <sprite>sprites\spr_seika_fly</sprite>
       </sprites>
       <sprites name="Amaya">
         <sprite>sprites\spr_amaya_portrait</sprite>
@@ -39,6 +40,7 @@
         <sprite>sprites\spr_amaya_walk_attack</sprite>
         <sprite>sprites\spr_amaya_hurt</sprite>
         <sprite>sprites\spr_amaya_death</sprite>
+        <sprite>sprites\spr_amaya_fly</sprite>
       </sprites>
       <sprite>sprites\spr_player_mask</sprite>
     </sprites>
@@ -105,6 +107,7 @@
       <scripts name="State">
         <script>scripts\player_idle_state.gml</script>
         <script>scripts\player_move_state.gml</script>
+        <script>scripts\player_fly_state.gml</script>
         <script>scripts\player_exit_state.gml</script>
         <script>scripts\player_hurt_state.gml</script>
         <script>scripts\player_death_state.gml</script>

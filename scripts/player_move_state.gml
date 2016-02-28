@@ -99,6 +99,9 @@ if(magic_attack_timer <= 0 && PlayerStats.mp > 0) {
         x_button_attack();;
     } else if(earth_magic_attack_button) {
         z_button_attack();
+    } else if(wind_magic_attack_button && fly_delay <= 0) {
+        state = player_fly_state;
+        fly_delay = 10;
     }
     
     
