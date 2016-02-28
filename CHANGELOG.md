@@ -1,6 +1,7 @@
 #[0.1.0] - Feb 28, 2016
 ------
 - Added gold and silver coins.  Also added coin pickup sounds.
+- Added soul gems and flowers.
 
 #[0.0.9] - Feb 27, 2016
 ------

@@ -1,0 +1,32 @@
+	***********************************
+	* GEMINI WITICHES (Version 0.1.0) *
+	***********************************
+
+** Link to source code - https://github.com/Chukobyte/GeminiWitches
+
+** Click character portrait to select **
+
+** Score = Coins collected for now. **
+
+** Coming Soon - Gems will add more powers!!! **
+
+** Controls **
+
+-KeyBoard controls
+------------------
+<- = Left
+-> = Right
+^ =  Jump / Enter Door
+
+'A' attacks with a punch
+'S' shoots magic
+
+-XBOX 360 conroller controls
+----------------------------
+*Left Analog
+<- = Left
+-> = Right
+'A' = Jump / Enter Door
+
+'X' attacks with a punch
+'B' shoots magic
