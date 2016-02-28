@@ -1,2 +1,2 @@
-///magic_attack_step()
+///special_attacks_step()
 x += hspd * sign(image_xscale);

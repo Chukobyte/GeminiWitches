@@ -8,6 +8,8 @@
     down = keyboard_check(vk_down);
     attack_button = keyboard_check(ord('A'));
     magic_attack_button = keyboard_check(ord('S'));
+    water_magic_attack_button = keyboard_check(ord('X'));
+    earth_magic_attack_button = keyboard_check(ord('Z'));
 
     // Override the controls for a gamepad
     var gp_id = 0;

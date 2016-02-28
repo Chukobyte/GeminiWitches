@@ -26,7 +26,7 @@ Effects
 *Ingredients are the basis of spells*
 *************************************
 
--There are permanent spells a witch can learn by combining magic power, ingredient/s, and soul gems.
+-There are permanent (passive) spells a witch can learn by combining magic power, ingredient/s, and soul gems.
 
 -The magic power limitation is somewhat of a level cap on the spells you can learn.  Since an mp boosting is required for more 
 powerful spells.
@@ -49,20 +49,46 @@ the next section.
 **********
 *Elements*
 **********
-Five for now.  Passives help boost spell abilities.
+Five for now.  Passives help boost spell abilities.  (Will eventually choose a specialty in the beginning)
 
-*Fire
+**Fire
 - Most abilities will focus on laying down flames, some projectiles.  Which last on the field after awhile and can damage enemies.  Passives can
 also help reduce the damage of fire in the environment to the player.
 
-*Water
+*Flame Burst
+- Flames burst from the player and will last for 3 seconds (at first).
+
+**Water
 - Abilities include affecting clouds, water pools, shooting water bullets.  Boost water power when near water.  Also can help with swimming maybe?
 
-*Wind
+*Piecing Water Crystal
+- Able to go through walls (and is strong than normal shot?)
+
+**Wind
 - Deals with flying and blowing enemies away.  If they hit terrain they sustain damage.
 
-*Earth
--Can deal damage to multiple enemies at once with the right conditions.  Cause rock slides.  Have special powers near trees?
+*Fly
+- Able to fly
 
-*Soul
+**Earth
+-Can deal damage to multiple enemies at once with the right conditions.  Cause rock slides.  Have special powers near trees?  
+
+*Flower of Life
+- A seed of life falls down and sprang into a plant that restores hp.
+- Hp restoration based on earth abilities.
+
+
+**Soul
 -Character specific powers.  The other elements are shared between all characters, but the soul element is character specific.
+
+***************
+*Witch Contest*
+***************
+
+- Witch duels.  Idea for future time.  Would like to develop a time system.
+
+*******
+*Coins*
+*******
+
+- Can buy equipment, spell books, and ingredients.

@@ -88,12 +88,20 @@ if(attack_button && (attack_timer + 6) <= 0) {
 }
 
 //s_button attack
-if(magic_attack_button && magic_attack_timer <= 0 && PlayerStats.mp > 0) {
-    s_button_attack();
-    var audio_em = audio_emitter_create();
-    audio_emitter_gain(audio_em, .3);
-    //audio_emitter_pitch(audio_em, .5);
-    audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
+if(magic_attack_timer <= 0 && PlayerStats.mp > 0) {
+    if(magic_attack_button){
+        s_button_attack();
+        var audio_em = audio_emitter_create();
+        audio_emitter_gain(audio_em, .3);
+        //audio_emitter_pitch(audio_em, .5);
+        audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
+    } else if(water_magic_attack_button){
+        x_button_attack();;
+    } else if(earth_magic_attack_button) {
+        z_button_attack();
+    }
+    
+    
 }
 
 //Change sprite direction based on direction

@@ -1,4 +1,6 @@
 ///magic_attack_init()
 event_inherited();
-spd = 3.5;
+damage = 1;
+cost = 1;
+hspd = 3.5;
 image_speed = 0.2;

@@ -69,6 +69,10 @@
     <sprites name="Effects">
       <sprite>sprites\spr_magic_attack</sprite>
       <sprite>sprites\spr_smoke_anim</sprite>
+      <sprites name="Powers">
+        <sprite>sprites\spr_piecing_water_crystal</sprite>
+        <sprite>sprites\spr_flower_of_life</sprite>
+      </sprites>
     </sprites>
     <sprites name="Collectables">
       <sprite>sprites\spr_silver_coin</sprite>
@@ -118,10 +122,6 @@
         <script>scripts\player_door_collision.gml</script>
         <script>scripts\player_coin_collision.gml</script>
       </scripts>
-      <scripts name="AttackLogic">
-        <script>scripts\a_button_attack.gml</script>
-        <script>scripts\s_button_attack.gml</script>
-      </scripts>
       <script>scripts\player_step.gml</script>
       <script>scripts\player_init.gml</script>
       <scripts name="PlayerStats">
@@ -153,19 +153,29 @@
         <script>scripts\bug_move_left_state.gml</script>
       </scripts>
     </scripts>
-    <scripts name="Effects">
-      <script>scripts\special_attacks_init.gml</script>
-      <script>scripts\special_attacks_enemy_collision.gml</script>
-      <scripts name="MagicAttack">
-        <script>scripts\magic_attack_init.gml</script>
-        <script>scripts\magic_attack_step.gml</script>
-      </scripts>
-    </scripts>
     <scripts name="Collectables">
       <script>scripts\coin_init.gml</script>
       <scripts name="SoulGem">
         <script>scripts\soul_gem_init.gml</script>
         <script>scripts\soul_gem_step.gml</script>
+      </scripts>
+    </scripts>
+    <scripts name="Powers">
+      <script>scripts\a_button_attack.gml</script>
+      <script>scripts\s_button_attack.gml</script>
+      <script>scripts\x_button_attack.gml</script>
+      <script>scripts\z_button_attack.gml</script>
+      <scripts name="SpecialAttacks">
+        <script>scripts\special_attacks_init.gml</script>
+        <script>scripts\special_attacks_enemy_collision.gml</script>
+        <script>scripts\special_attacks_player_collision.gml</script>
+        <script>scripts\magic_attack_init.gml</script>
+        <script>scripts\magic_attack_step.gml</script>
+        <script>scripts\piecing_water_crystal_step.gml</script>
+        <script>scripts\piecing_water_crystal_init.gml</script>
+        <script>scripts\special_attacks_step.gml</script>
+        <script>scripts\flower_of_life_init.gml</script>
+        <script>scripts\flower_of_life_step.gml</script>
       </scripts>
     </scripts>
   </scripts>
@@ -206,8 +216,6 @@
       <object>objects\Bug</object>
     </objects>
     <objects name="Effects">
-      <object>objects\MagicAttack</object>
-      <object>objects\SpecialAttacks</object>
       <object>objects\Smoke</object>
     </objects>
     <objects name="Collectables">
@@ -221,6 +229,12 @@
         <object>objects\SoulGemEarth</object>
         <object>objects\SoulGemWind</object>
       </objects>
+    </objects>
+    <objects name="Powers">
+      <object>objects\PiecingWaterCrystal</object>
+      <object>objects\SpecialAttacks</object>
+      <object>objects\MagicAttack</object>
+      <object>objects\FlowerOfLife</object>
     </objects>
   </objects>
   <rooms name="rooms">
