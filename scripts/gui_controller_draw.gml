@@ -62,6 +62,9 @@ switch(room) {
             
             draw_rectangle_colour(416 - 2, 128, 480 - 10, 160 + 4, c_yellow, c_yellow, c_yellow, c_yellow, true);
             draw_text_outline_color(416, 128, 2, "NO", c_dkgray, c_yellow);
+            
+            var coin_text = "Coins: " + string(PlayerStats.money) + "#Score: " +  string(PlayerStats.money);
+            draw_text((room_width / 2) - 80, room_height / 2, coin_text);
             break;
 }
 

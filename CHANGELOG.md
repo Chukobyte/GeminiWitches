@@ -1,3 +1,7 @@
+#[0.1.0] - Feb 28, 2016
+------
+- Added gold and silver coins.  Also added coin pickup sounds.
+
 #[0.0.9] - Feb 27, 2016
 ------
 - Added grass and dirt sprites and updated rooms with them.  The way it's implemented is temporary.

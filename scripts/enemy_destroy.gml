@@ -11,11 +11,7 @@ repeat(5) {
     instance_create(x + rand_num, y + rand_num, Smoke);
     instance_create(x - rand_num, y + rand_num, Smoke);
     instance_create(x + rand_num, y - rand_num, Smoke);
-    
-    /*
-    instance_create(x - 5, y - 5, Smoke);
-    instance_create(x + 5, y + 5, Smoke);
-    instance_create(x - 5, y + 5, Smoke);
-    instance_create(x + 5, y - 5, Smoke);
-    */
 }
+
+//Drops a coin
+instance_create(x, y, SilverCoin)

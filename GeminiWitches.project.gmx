@@ -12,6 +12,7 @@
     <sound>sound\snd_punch</sound>
     <sound>sound\snd_magic_shot</sound>
     <sound>sound\snd_explosion</sound>
+    <sound>sound\snd_coin_pickup</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">
