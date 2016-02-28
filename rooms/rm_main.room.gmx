@@ -113,6 +113,8 @@
     <instance objName="DirtWallLeft" x="608" y="256" name="inst_27E7D5F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWallLeft" x="608" y="288" name="inst_0C30A6B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWallLeft" x="608" y="320" name="inst_243C528A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GoldCoin" x="528" y="304" name="inst_B5BB6860" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SilverCoin" x="240" y="304" name="inst_FDBC5463" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

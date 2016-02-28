@@ -68,6 +68,10 @@
       <sprite>sprites\spr_magic_attack</sprite>
       <sprite>sprites\spr_smoke_anim</sprite>
     </sprites>
+    <sprites name="Collectables">
+      <sprite>sprites\spr_silver_coin</sprite>
+      <sprite>sprites\spr_gold_coin</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_choose_character</background>
@@ -104,6 +108,7 @@
       <scripts name="Collisions">
         <script>scripts\player_enemy_collision.gml</script>
         <script>scripts\player_door_collision.gml</script>
+        <script>scripts\player_coin_collision.gml</script>
       </scripts>
       <scripts name="AttackLogic">
         <script>scripts\a_button_attack.gml</script>
@@ -148,6 +153,9 @@
         <script>scripts\magic_attack_step.gml</script>
       </scripts>
     </scripts>
+    <scripts name="Collectables">
+      <script>scripts\coin_init.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_choose_character</font>
@@ -188,6 +196,11 @@
       <object>objects\MagicAttack</object>
       <object>objects\SpecialAttacks</object>
       <object>objects\Smoke</object>
+    </objects>
+    <objects name="Collectables">
+      <object>objects\GoldCoin</object>
+      <object>objects\SilverCoin</object>
+      <object>objects\Coin</object>
     </objects>
   </objects>
   <rooms name="rooms">
