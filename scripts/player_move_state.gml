@@ -101,6 +101,7 @@ if(magic_attack_timer <= 0 && PlayerStats.mp > 0) {
         z_button_attack();
     } else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_unlocked) {
         state = player_fly_state;
+        vspd = 0;
         fly_delay = 10;
     }
     

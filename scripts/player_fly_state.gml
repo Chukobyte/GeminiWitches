@@ -6,8 +6,10 @@ PlayerStats.mp -= 0.02;
 sprite_index = fly_sprite;
 image_speed = fly_sprite_speed;
 
-if(up || down) {
-    vspd += (down - up)
+
+if(hold_up || down) {
+    var up_or_down = down - hold_up;
+    vspd += up_or_down;
     
     if(vspd > spd) {
         vspd = spd + PlayerStats.spd;
@@ -16,7 +18,18 @@ if(up || down) {
     if(vspd < -spd) {
         vspd = -spd - PlayerStats.spd;
     }
+} 
+
+
+/*
+if(hold_up) {
+    y -= 5;
 }
+
+if(down) {
+    y += 5;
+}
+*/
 
 if(right || left) {
     //add 1 or -1 depending on which direction is pressed
@@ -30,6 +43,8 @@ if(right || left) {
         hspd = -spd - PlayerStats.spd;
     } 
     
+} else {
+    apply_friction(.1);
 }
 
 if((wind_magic_attack_button && fly_delay <= 0) || PlayerStats.mp <= 0){
