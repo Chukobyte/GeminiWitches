@@ -8,6 +8,10 @@
 
 ** Score = Coins collected for now. **
 
+** Green Bar = Health **
+
+** Blue Bar = Magic (can't use magic when it reached 0) **
+
 ** GEM POWERS**
 You can only choose one for now!
 
