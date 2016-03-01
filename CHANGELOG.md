@@ -1,3 +1,8 @@
+#[0.1.1] - Feb 29, 2016
+------
+- Added Devil Enemy.
+- Added Devil Shot power for Devil Enemy.
+
 #[0.1.0] - Feb 28, 2016
 ------
 - Added gold and silver coins.  Also added coin pickup sounds.
@@ -12,7 +17,7 @@
 - Added sounds for player attacking, jumping, and exiting door.
 - Added sound for when enemy is destroyed.
 
-#[0.0.8] - Feb 26, 2016
+#[0.0.8] - Feb 26, 2016n
 ------
 - Added death state.  Player can now die! Also added death sprites.
 - Fixed bug where Bug enemy would get stuck in the walls.  (lol at Bug bug)
