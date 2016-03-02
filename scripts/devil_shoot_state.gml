@@ -1,6 +1,5 @@
-///devil_idle_state()
+///devil_shoot_state()
 sprite_index = spr_devil_idle;
-devil_shot_timer--;
 
 if(instance_exists(Player)) {
     //In the air
@@ -30,6 +29,12 @@ if(instance_exists(Player)) {
         }
     }
     
-    move(Solid);
+    face_right_direction();
+    //Jump if hits a wall
+    if(!place_meeting(x + sign(image_xscale), y, Solid)) {
+        move(Solid);
+    } else {
+        state = devil_move_state;
+    }
     
 }

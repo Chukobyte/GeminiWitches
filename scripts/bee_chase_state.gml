@@ -16,12 +16,9 @@ if(instance_exists(Player)) {
     sprite_index = spr_bee_fly;
     image_speed = 0.3;
     
-    //Face the right direction
-    if(hspd != 0) {
-        image_xscale = sign(hspd);
-    }
     
     //Move
+    face_right_direction();
     x += hspd;
     y += vspd;
 //    move(Solid);

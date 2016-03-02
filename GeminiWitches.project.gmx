@@ -108,6 +108,7 @@
       <script>scripts\draw_text_outline_color.gml</script>
       <script>scripts\draw_roundrect_outline_color.gml</script>
       <script>scripts\direction_move_bounce.gml</script>
+      <script>scripts\face_right_direction.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="State">
@@ -165,7 +166,9 @@
       </scripts>
       <scripts name="Devil">
         <script>scripts\devil_init.gml</script>
-        <script>scripts\devil_idle_state.gml</script>
+        <script>scripts\devil_move_state.gml</script>
+        <script>scripts\devil_step.gml</script>
+        <script>scripts\devil_shoot_state.gml</script>
       </scripts>
     </scripts>
     <scripts name="Collectables">
@@ -262,6 +265,7 @@
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
+    <room>rooms\rm_four</room>
     <room>rooms\rm_play_again</room>
   </rooms>
   <help>

@@ -5,10 +5,12 @@ with(other) {
     switch(element) {
     case "earth":
         PlayerStats.earth_unlocked = true;
+        PlayerStats.soul_gems += 1;
         instance_destroy();
         break;
     case "wind":
         PlayerStats.wind_unlocked = true;
+        PlayerStats.soul_gems += 1;
         instance_destroy();
         break;
     case "fire":
@@ -20,10 +22,13 @@ with(other) {
         PlayerStats.mp = PlayerStats.maxmp;
         PlayerStats.spd += 1;
         PlayerStats.jump_height += -2;
+        
+        PlayerStats.soul_gems += 1;
         instance_destroy();
         break;
     case "water":
         PlayerStats.water_unlocked = true;
+        PlayerStats.soul_gems += 1;
         instance_destroy();
         break;
     default:
