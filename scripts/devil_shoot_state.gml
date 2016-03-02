@@ -1,5 +1,4 @@
 ///devil_shoot_state()
-sprite_index = spr_devil_idle;
 
 if(instance_exists(Player)) {
     //In the air
@@ -10,12 +9,15 @@ if(instance_exists(Player)) {
     var dis = point_distance(x, y, Player.x, Player.y);
     var dir = point_direction(x, y, Player.x, Player.y);
     if(dis <= sight_range) {
-        //state = devil_move_state;   
+        sprite_index = spr_devil_move;   
+        image_speed = 0.2;
         image_blend = c_red;
         //run away from player
-        hspd -= lengthdir_x(spd, dir);
+        hspd -= sign(lengthdir_x(spd, dir)) * 2;
     } else {
         hspd = 0;
+        sprite_index = spr_devil_idle;
+        image_speed = 0;
         image_blend = c_white;
         //more sight for shooting
         if(dis <= sight_range + 60 && devil_shot_timer <= 0) {
