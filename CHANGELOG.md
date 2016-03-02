@@ -1,3 +1,9 @@
+#[0.1.2] - Mar 01, 2016
+------
+- Improved Devil Enemy movement.
+- Devil Enemy is the boss for now.
+- Can now choose two gems before entering
+
 #[0.1.1] - Feb 29, 2016
 ------
 - Added Devil Enemy.

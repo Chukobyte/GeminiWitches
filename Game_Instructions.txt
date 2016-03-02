@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.1.0) *
+	* GEMINI WITICHES (Version 0.1.2) *
 	***********************************
 
 ** Link to source code - https://github.com/Chukobyte/GeminiWitches
@@ -13,7 +13,7 @@
 ** Blue Bar = Magic (can't use magic when it reached 0) **
 
 ** GEM POWERS**
-You can only choose one for now!
+You can only choose two!
 
 *Earth (orange gem)
 -Flower of life - Restores health.

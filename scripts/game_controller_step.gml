@@ -8,7 +8,8 @@ switch(room) {
             audio_play_sound_on(audio_em, snd_main, true, 10);
         }
         
-        if(PlayerStats.soul_gems < 2) {
+        //Won't show exit door if in first or last room
+        if(PlayerStats.soul_gems < 2 || instance_exists(Devil)) {
             show_exit_door = false;
         } else {
             //Destroy other gems
@@ -17,6 +18,7 @@ switch(room) {
             }
             show_exit_door = true;
         }
+        
         break;
     case rm_choose_character:
     case rm_play_again:
