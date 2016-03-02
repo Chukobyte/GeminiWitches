@@ -5,9 +5,6 @@ if(!place_meeting(x, y + 1, Solid)){
     
     //Player is in the air
     
-    //Sets direction of sprite
-    //image_index = (vspd > 0);
-    
     //Determine sprite based on whether rising or falling in jump
     if(attacking) {
         sprite_index = jump_sprite_attack;
@@ -109,9 +106,7 @@ if(magic_attack_timer <= 0 && PlayerStats.mp > 0) {
 }
 
 //Change sprite direction based on direction
-if(hspd != 0) {
-    image_xscale = sign(hspd);
-}
+correct_sprite_direction();
 
 //Move
 move(Solid);

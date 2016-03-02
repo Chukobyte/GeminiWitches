@@ -18,7 +18,7 @@ if(instance_exists(Player)) {
     
     
     //Move
-    face_right_direction();
+    correct_sprite_direction();
     x += hspd;
     y += vspd;
 //    move(Solid);

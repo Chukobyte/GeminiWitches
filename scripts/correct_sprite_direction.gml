@@ -1,4 +1,4 @@
-///face_right_direction()
+///correct_sprite_direction()
 if(hspd != 0) {
     image_xscale = sign(hspd);
 }

@@ -18,9 +18,9 @@ if(instance_exists(Player)) {
     } else {
         sprite_index = spr_hedgehog_idle;
         image_speed = 0;
-        hspd = 0;
+        apply_friction(2);
     }
 }
 
-face_right_direction();
+correct_sprite_direction();
 move(Solid);

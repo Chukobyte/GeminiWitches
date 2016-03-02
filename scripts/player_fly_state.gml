@@ -20,17 +20,6 @@ if(hold_up || down) {
     }
 } 
 
-
-/*
-if(hold_up) {
-    y -= 5;
-}
-
-if(down) {
-    y += 5;
-}
-*/
-
 if(right || left) {
     //add 1 or -1 depending on which direction is pressed
     hspd += (right-left) * acc;
@@ -53,9 +42,7 @@ if((wind_magic_attack_button && fly_delay <= 0) || PlayerStats.mp <= 0){
 }
 
 //Change sprite direction based on direction
-if(hspd != 0) {
-    image_xscale = sign(hspd);
-}
+correct_sprite_direction();
 
 //Move
 move(Solid);

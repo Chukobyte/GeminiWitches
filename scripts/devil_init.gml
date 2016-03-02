@@ -3,7 +3,7 @@
 event_inherited();
 enemy_attack = 2;
 spd = 3;
-hp = 3;
+hp = 4;
 sight_range = 80;
 hurt_sprite = spr_devil_hurt;
 state = devil_shoot_state;

@@ -31,7 +31,7 @@ if(instance_exists(Player)) {
         }
     }
     
-    face_right_direction();
+    correct_sprite_direction();
     //Jump if hits a wall
     if(!place_meeting(x + sign(image_xscale), y, Solid)) {
         move(Solid);
