@@ -3,8 +3,8 @@
 
 image_blend = c_yellow;
 
-hspd -= image_xscale * 120;
-vspd -= 120;
+hspd -= image_xscale * 150;
+vspd -= 150;
 
 correct_sprite_direction();
 move(Solid);

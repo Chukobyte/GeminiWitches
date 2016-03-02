@@ -2,6 +2,7 @@
 ------
 - Added hedgehog enemy
 - now the door is only opened when all enemies are defeated
+- enemy depths set to -5
 
 #[0.1.2] - Mar 01, 2016
 ------
