@@ -53,7 +53,7 @@
   <instances>
     <instance objName="Bee" x="464" y="144" name="inst_F87DEFD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Bug" x="368" y="306" name="inst_B65B798A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Door" x="532" y="288" name="inst_3CE26B86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Door" x="400" y="128" name="inst_3CE26B86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="64" y="320" name="inst_7AF409DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="96" y="320" name="inst_3DD2D64F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="352" y="320" name="inst_FDE75708" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

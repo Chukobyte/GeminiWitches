@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="Bee" x="464" y="144" name="inst_F87DEFD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Door" x="532" y="288" name="inst_3CE26B86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Door" x="240" y="192" name="inst_3CE26B86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="64" y="320" name="inst_7AF409DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="96" y="320" name="inst_3DD2D64F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="352" y="320" name="inst_FDE75708" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -96,8 +96,6 @@
     <instance objName="GrassEdgeRight" x="416" y="160" name="inst_1D99B0CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Bee" x="192" y="64" name="inst_5506E4D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Bug" x="384" y="146" name="inst_18C76889" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="GrassEdgeLeft" x="416" y="288" name="inst_FED583E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="GrassEdgeRight" x="448" y="288" name="inst_A2087FC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Bee" x="576" y="96" name="inst_91F2C2B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtBottom" x="576" y="0" name="inst_89B21DD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtBottom" x="32" y="0" name="inst_28FF05C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -145,10 +143,9 @@
     <instance objName="DirtWall" x="448" y="352" name="inst_7550B4FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="480" y="352" name="inst_8EA563DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="512" y="352" name="inst_E659A161" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="992" y="352" name="inst_77CFFD11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="544" y="352" name="inst_818B146A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Flower" x="300" y="276" name="inst_B5B4011A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Flower" x="444" y="276" name="inst_D0641900" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Hedgehog" x="428" y="305" name="inst_B5EF7EBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -72,6 +72,11 @@
         <sprite>sprites\spr_devil_idle</sprite>
         <sprite>sprites\spr_devil_hurt</sprite>
       </sprites>
+      <sprites name="Hedgehog">
+        <sprite>sprites\spr_hedgehog_idle</sprite>
+        <sprite>sprites\spr_hedgehog_hurt</sprite>
+        <sprite>sprites\spr_hedgehog_walk</sprite>
+      </sprites>
     </sprites>
     <sprites name="Effects">
       <sprite>sprites\spr_magic_attack</sprite>
@@ -170,6 +175,10 @@
         <script>scripts\devil_step.gml</script>
         <script>scripts\devil_shoot_state.gml</script>
       </scripts>
+      <scripts name="Hedgehog">
+        <script>scripts\hedgehog_attack_state.gml</script>
+        <script>scripts\hedgehog_init.gml</script>
+      </scripts>
     </scripts>
     <scripts name="Collectables">
       <script>scripts\coin_init.gml</script>
@@ -235,6 +244,7 @@
       <object>objects\Bee</object>
       <object>objects\Bug</object>
       <object>objects\Devil</object>
+      <object>objects\Hedgehog</object>
     </objects>
     <objects name="Effects">
       <object>objects\Smoke</object>
@@ -262,10 +272,10 @@
   <rooms name="rooms">
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
-    <room>rooms\rm_four</room>
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
+    <room>rooms\rm_four</room>
     <room>rooms\rm_play_again</room>
   </rooms>
   <help>

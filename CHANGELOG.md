@@ -1,3 +1,8 @@
+#[0.1.3] - Mar 02, 2016
+------
+- Added hedgehog enemy
+- now the door is only opened when all enemies are defeated
+
 #[0.1.2] - Mar 01, 2016
 ------
 - Improved Devil Enemy movement.

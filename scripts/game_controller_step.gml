@@ -8,8 +8,8 @@ switch(room) {
             audio_play_sound_on(audio_em, snd_main, true, 10);
         }
         
-        //Won't show exit door if in first or last room
-        if(PlayerStats.soul_gems < 2 || instance_exists(Devil)) {
+        //Won't show exit door unless objective is complete
+        if(PlayerStats.soul_gems < 2 || instance_exists(Enemy)) {
             show_exit_door = false;
         } else {
             //Destroy other gems

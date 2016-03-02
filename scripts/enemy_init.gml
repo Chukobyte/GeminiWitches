@@ -16,7 +16,7 @@ state = "";
 hurt_state = enemy_hurt_state;
 previous_state = "";
 hp = 1;
-sight = 180;
+sight_range = 180;
 //may be temp, determines whether enemy flies into a wall or through it
 can_go_through_walls = false;
 
