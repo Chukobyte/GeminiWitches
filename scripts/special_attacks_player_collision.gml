@@ -1,5 +1,8 @@
 ///special_attacks_player_collision()
 if(affects_player) {
-    PlayerStats.hp -= damage;
+    var damage_taken = damage;
+    with(other) {
+            player_take_damage(damage_taken, true);
+    }
     instance_destroy();
 }

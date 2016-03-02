@@ -14,7 +14,9 @@ jump_height = 0;
 //Items related stats
 money = 0;
 
-//temp power variables
+//Soul Gems Attributes
+soul_gems = 0;
+
 earth_unlocked = false;
 wind_unlocked = false;
 fire_unlocked = false;

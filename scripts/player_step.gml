@@ -9,15 +9,12 @@ if(attack_timer <= 0) {
     attacking = false;
 }
 
-//Toggles back and forth betwee being visible while invincible.
-//Since it will run the last if statement at 0
+//Toggles back and forth between being visible while invincible.
 if(invincibility_timer >= 0) {
-    if(invincibility_toggle == 0) {
-        image_alpha = invincibility_toggle;
-        invincibility_toggle = 1;
-    } else if(invincibility_toggle == 1) {
-        image_alpha = invincibility_toggle
-        invincibility_toggle = 0
+    if(invincibility_timer mod 2 == 0) {
+        image_alpha = 1;
+    } else {
+        image_alpha = 0;
     }
 }
 

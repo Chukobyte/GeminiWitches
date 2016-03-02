@@ -35,7 +35,7 @@ death_state_timer = death_state_timer_max;
 
 invincibility_timer_max = 30;
 invincibility_timer = -1;
-invincibility_toggle = 0;
+//invincibility_toggle = 0;
 
 
 /*

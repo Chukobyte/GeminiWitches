@@ -48,30 +48,6 @@ if(above_enemy && falling && state != player_death_state) {
     }
 } else {
     if(state != player_hurt_state && state != player_death_state && invincibility_timer <= 0) {
-        PlayerStats.hp -= other.enemy_attack;
-        attacking = false;
-        
-        //If play dies
-        if(PlayerStats.hp > 0) {
-            hurt_state_timer = hurt_state_timer_max;
-            state = player_hurt_state;
-        } else {
-            //Sprite image_speed is set to 0 when animation ends
-            sprite_index = death_state_sprite;
-            image_speed = death_state_sprite_speed;
-            image_blend = c_white;
-            death_state_timer = death_state_timer_max;
-            state = player_death_state;
-        }
-        
-        //adds knock back to opposite direction
-        var temp_hspd = hspd;
-        var temp_vspd = vspd;
-        hspd -= sign(image_xscale) * 15;
-        vspd = 0;
-        move(Solid);
-        hspd = temp_hspd;
-        vspd = temp_vspd;
-        
+        player_take_damage(other.enemy_attack, true); 
     }
 }

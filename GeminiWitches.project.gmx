@@ -67,6 +67,11 @@
         <sprite>sprites\spr_bug_move</sprite>
         <sprite>sprites\spr_bug_damaged</sprite>
       </sprites>
+      <sprites name="Devil">
+        <sprite>sprites\spr_devil_move</sprite>
+        <sprite>sprites\spr_devil_idle</sprite>
+        <sprite>sprites\spr_devil_hurt</sprite>
+      </sprites>
     </sprites>
     <sprites name="Effects">
       <sprite>sprites\spr_magic_attack</sprite>
@@ -75,6 +80,7 @@
         <sprite>sprites\spr_piecing_water_crystal</sprite>
         <sprite>sprites\spr_flower_of_life</sprite>
       </sprites>
+      <sprite>sprites\spr_devil_shot</sprite>
     </sprites>
     <sprites name="Collectables">
       <sprite>sprites\spr_silver_coin</sprite>
@@ -102,6 +108,7 @@
       <script>scripts\draw_text_outline_color.gml</script>
       <script>scripts\draw_roundrect_outline_color.gml</script>
       <script>scripts\direction_move_bounce.gml</script>
+      <script>scripts\face_right_direction.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="State">
@@ -132,6 +139,7 @@
         <script>scripts\player_stats_init.gml</script>
       </scripts>
       <script>scripts\player_animation_end.gml</script>
+      <script>scripts\player_take_damage.gml</script>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
@@ -155,6 +163,12 @@
         <script>scripts\bug_init.gml</script>
         <script>scripts\bug_move_right_state.gml</script>
         <script>scripts\bug_move_left_state.gml</script>
+      </scripts>
+      <scripts name="Devil">
+        <script>scripts\devil_init.gml</script>
+        <script>scripts\devil_move_state.gml</script>
+        <script>scripts\devil_step.gml</script>
+        <script>scripts\devil_shoot_state.gml</script>
       </scripts>
     </scripts>
     <scripts name="Collectables">
@@ -180,6 +194,8 @@
         <script>scripts\special_attacks_step.gml</script>
         <script>scripts\flower_of_life_init.gml</script>
         <script>scripts\flower_of_life_step.gml</script>
+        <script>scripts\devil_shot_init.gml</script>
+        <script>scripts\devil_shot_step.gml</script>
       </scripts>
     </scripts>
   </scripts>
@@ -218,6 +234,7 @@
       <object>objects\Enemy</object>
       <object>objects\Bee</object>
       <object>objects\Bug</object>
+      <object>objects\Devil</object>
     </objects>
     <objects name="Effects">
       <object>objects\Smoke</object>
@@ -239,6 +256,7 @@
       <object>objects\SpecialAttacks</object>
       <object>objects\MagicAttack</object>
       <object>objects\FlowerOfLife</object>
+      <object>objects\DevilShot</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -247,6 +265,7 @@
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
+    <room>rooms\rm_four</room>
     <room>rooms\rm_play_again</room>
   </rooms>
   <help>

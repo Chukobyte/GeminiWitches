@@ -97,7 +97,7 @@ special_attacks_enemy_collision();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(destroyed_by_solid_contact == true) {
+            <string>if(destroyed_by_solid_contact) {
     instance_destroy();
 }
 </string>
