@@ -1,6 +1,15 @@
 ///game_controller_step()
 switch(room) {
     default:
+    
+        if(global.time > 0) {
+            if(global.second_counter == room_speed) {
+                global.time--;
+                global.second_counter = 0;
+            } else {
+                global.second_counter++;
+            }
+        }
         if(!audio_is_playing(snd_main)) {
             ///Play the background music
             audio_em = audio_emitter_create();

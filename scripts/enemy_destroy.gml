@@ -14,4 +14,4 @@ repeat(5) {
 }
 
 //Drops a coin
-instance_create(x, y, SilverCoin)
+instance_create(x, y, coin_type_dropped);

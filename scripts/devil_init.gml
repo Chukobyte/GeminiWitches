@@ -7,5 +7,11 @@ hp = 4;
 sight_range = 150;
 hurt_sprite = spr_devil_hurt;
 state = devil_shoot_state;
+
 devil_shot_timer_max = room_speed * 2;
 devil_shot_timer = devil_shot_timer_max;
+
+spd_incr = 0;
+spd_max = 120;
+
+coin_type_dropped = GoldCoin;

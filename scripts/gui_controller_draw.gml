@@ -12,6 +12,13 @@ switch(room) {
         var mpAmount = (PlayerStats.mp / PlayerStats.maxmp) * 100;
         draw_healthbar(10, 10, 20, 40, hpAmount, c_black, c_red, c_lime, 3, true, true)
         draw_healthbar(21, 10, 31, 40, mpAmount, c_black, c_navy, c_navy, 3, true, true)
+        
+        draw_text_colour(200, 5, "Time", c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
+        draw_text_colour(207, 20, global.time, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
+        
+        draw_sprite(spr_gold_coin, 0, 408, 22);
+        draw_text_colour(416, 14, "x" + string(PlayerStats.money), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
+        
         break;
     case rm_choose_character:
     

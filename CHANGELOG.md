@@ -1,3 +1,7 @@
+#[0.1.4] - Mar 03, 2016
+------
+- Added Coin Counter and Timer.
+
 #[0.1.3] - Mar 02, 2016
 ------
 - Added hedgehog enemy
