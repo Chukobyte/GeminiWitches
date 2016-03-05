@@ -14,7 +14,9 @@ if(instance_exists(Player)) {
         image_speed = .5;
         
         //Move towards the player
-        hspd += sign(lengthdir_x(spd, dir)) * 2;
+        if(abs(hspd) < spd) {
+            hspd += sign(lengthdir_x(spd, dir)) * spd;
+        }
     } else {
         sprite_index = spr_hedgehog_idle;
         image_speed = 0;

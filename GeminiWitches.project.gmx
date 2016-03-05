@@ -171,9 +171,9 @@
       </scripts>
       <scripts name="Devil">
         <script>scripts\devil_init.gml</script>
-        <script>scripts\devil_move_state.gml</script>
         <script>scripts\devil_step.gml</script>
         <script>scripts\devil_shoot_state.gml</script>
+        <script>scripts\devil_wall_bounce.gml</script>
       </scripts>
       <scripts name="Hedgehog">
         <script>scripts\hedgehog_attack_state.gml</script>

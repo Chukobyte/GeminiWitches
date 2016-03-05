@@ -3,6 +3,7 @@
 //These are for movement
 hspd = 0;
 vspd = 0;
+acc = 1;
 spd = 2;
 grav = 1.5;
 

@@ -13,7 +13,7 @@ if(instance_exists(Player)) {
         image_speed = 0.2;
         image_blend = c_red;
         //run away from player
-        hspd -= sign(lengthdir_x(spd, dir)) * 2;
+        hspd -= sign(lengthdir_x(spd, dir)) * spd;
     } else {
         hspd = 0;
         sprite_index = spr_devil_idle;
@@ -36,7 +36,7 @@ if(instance_exists(Player)) {
     if(!place_meeting(x + sign(image_xscale), y, Solid)) {
         move(Solid);
     } else {
-        state = devil_move_state;
+        devil_wall_bounce();
     }
     
 }
