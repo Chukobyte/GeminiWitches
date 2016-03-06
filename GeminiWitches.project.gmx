@@ -86,6 +86,7 @@
         <sprite>sprites\spr_flower_of_life</sprite>
       </sprites>
       <sprite>sprites\spr_devil_shot</sprite>
+      <sprite>sprites\spr_fire</sprite>
     </sprites>
     <sprites name="Collectables">
       <sprite>sprites\spr_silver_coin</sprite>
@@ -191,6 +192,7 @@
       <script>scripts\a_button_attack.gml</script>
       <script>scripts\s_button_attack.gml</script>
       <script>scripts\x_button_attack.gml</script>
+      <script>scripts\q_button_attack.gml</script>
       <script>scripts\z_button_attack.gml</script>
       <scripts name="SpecialAttacks">
         <script>scripts\special_attacks_init.gml</script>
@@ -205,6 +207,8 @@
         <script>scripts\flower_of_life_step.gml</script>
         <script>scripts\devil_shot_init.gml</script>
         <script>scripts\devil_shot_step.gml</script>
+        <script>scripts\fire_burst_step.gml</script>
+        <script>scripts\fire_burst_init.gml</script>
       </scripts>
     </scripts>
   </scripts>
@@ -267,6 +271,7 @@
       <object>objects\MagicAttack</object>
       <object>objects\FlowerOfLife</object>
       <object>objects\DevilShot</object>
+      <object>objects\FireBurst</object>
     </objects>
   </objects>
   <rooms name="rooms">

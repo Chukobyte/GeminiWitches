@@ -11,6 +11,7 @@ if(instance_exists(Player)) {
     var dir = point_direction(x, y, Player.x, Player.y);
     if(dis <= sight_range) {
         sprite_index = spr_hedgehog_walk;
+        image_blend = c_fuchsia;
         image_speed = .5;
         
         //Move towards the player
@@ -18,6 +19,7 @@ if(instance_exists(Player)) {
             hspd += sign(lengthdir_x(spd, dir)) * spd;
         }
     } else {
+        image_blend = c_white;
         sprite_index = spr_hedgehog_idle;
         image_speed = 0;
         apply_friction(2);

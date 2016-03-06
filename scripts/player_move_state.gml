@@ -96,13 +96,13 @@ if(magic_attack_timer <= 0 && PlayerStats.mp > 0) {
         x_button_attack();;
     } else if(earth_magic_attack_button && PlayerStats.earth_unlocked) {
         z_button_attack();
+    } else if(fire_magic_attack_button && PlayerStats.fire_unlocked) {
+        q_button_attack();
     } else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_unlocked) {
         state = player_fly_state;
         vspd = 0;
         fly_delay = 10;
-    }
-    
-    
+    }    
 }
 
 //Change sprite direction based on direction

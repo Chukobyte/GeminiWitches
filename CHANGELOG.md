@@ -1,3 +1,11 @@
+#[0.1.6] - Mar 05, 2016
+------
+- Added FireBurst power.  Obtains when player collects fire gem.
+
+#[0.1.5] - Mar 05, 2016
+------
+- Tweaked Devil and Hedgehog enemies.
+
 #[0.1.4] - Mar 03, 2016
 ------
 - Added Coin Counter and Timer.

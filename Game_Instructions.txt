@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.1.4) *
+	* GEMINI WITICHES (Version 0.1.6) *
 	***********************************
 
 ** Link to source code - https://github.com/Chukobyte/GeminiWitches
@@ -22,7 +22,7 @@ You can only choose two!
 -Fly - Self explanory ;-)
 
 *Fire (red gem)
--Fire Boost - Boosts speed, jump, and max health and magic.
+-Fire Burst - Fire attack that surrouds the player on both side.  Lasts for 3 seconds.
 
 *Water (blue gem)
 -Piercing Water Crystal - Pierces through walls to attack enemies!

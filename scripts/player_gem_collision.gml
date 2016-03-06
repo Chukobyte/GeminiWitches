@@ -15,14 +15,15 @@ with(other) {
         break;
     case "fire":
         //temp for fire gem
-        PlayerStats.fire_unlocked = true;
+        /*
         PlayerStats.maxhp += 2;
         PlayerStats.hp = PlayerStats.maxhp;
         PlayerStats.maxmp += 2;
         PlayerStats.mp = PlayerStats.maxmp;
         PlayerStats.spd += 1;
         PlayerStats.jump_height += -2;
-        
+        */
+        PlayerStats.fire_unlocked = true;
         PlayerStats.soul_gems += 1;
         instance_destroy();
         break;
