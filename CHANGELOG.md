@@ -1,4 +1,4 @@
-#[0.1.6] - Mar 05, 2016
+#[0.1.6] - Mar 06, 2016
 ------
 - Added FireBurst power.  Obtains when player collects fire gem.
 
