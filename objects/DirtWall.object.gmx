@@ -37,12 +37,12 @@ if(!up){
     draw_sprite_ext(spr_dirt_tb_edge, 0, x + 16, y + 16, 1, 1, 0, c_white, 1);
 }
 
-if(!right){
+if(!right || place_meeting(x + 1, y, GrassLand)){
     draw_sprite_ext(spr_dirt_lr_edge, 0, x + 16, y + 16, 1, 1, 0, c_white, 1);
 }
 
 
-if(!left){
+if(!left || place_meeting(x - 1, y, GrassLand)){
     draw_sprite_ext(spr_dirt_lr_edge, 0, x + 16, y + 16, 1, 1, 180, c_white, 1);
 }
 

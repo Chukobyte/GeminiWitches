@@ -49,16 +49,10 @@
       <sprite>sprites\spr_black_block</sprite>
       <sprite>sprites\spr_door</sprite>
       <sprite>sprites\spr_grass</sprite>
-      <sprite>sprites\spr_grass_edge_left</sprite>
-      <sprite>sprites\spr_grass_edge_right</sprite>
       <sprite>sprites\spr_grass_shade_edge</sprite>
       <sprite>sprites\spr_dirt_wall</sprite>
-      <sprite>sprites\spr_dirt_wall_copy</sprite>
-      <sprite>sprites\spr_dirt_wall_right</sprite>
       <sprite>sprites\spr_dirt_lr_edge</sprite>
       <sprite>sprites\spr_dirt_tb_edge</sprite>
-      <sprite>sprites\spr_dirt_wall_left</sprite>
-      <sprite>sprites\spr_dirt_bottom</sprite>
       <sprite>sprites\spr_flower</sprite>
     </sprites>
     <sprites name="Enemies">
@@ -233,13 +227,8 @@
       <object>objects\BlackBlock</object>
       <object>objects\Door</object>
       <objects name="TempTiles">
-        <object>objects\GrassEdgeRight</object>
-        <object>objects\GrassEdgeLeft</object>
         <object>objects\GrassLand</object>
         <object>objects\DirtWall</object>
-        <object>objects\DirtWallRight</object>
-        <object>objects\DirtWallLeft</object>
-        <object>objects\DirtBottom</object>
       </objects>
       <object>objects\Flower</object>
     </objects>
@@ -281,7 +270,6 @@
   <rooms name="rooms">
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
-    <room>rooms\rm_test</room>
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
