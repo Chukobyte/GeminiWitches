@@ -1,6 +1,13 @@
+#[0.1.7] - Mar 07, 2016
+------
+- Slightly tweaked bee and hedgehog's sight range.
+- Added a bigger level for rm_three.
+- Added closed door.
+
 #[0.1.6] - Mar 06, 2016
 ------
 - Added FireBurst power.  Obtains when player collects fire gem.
+- Updated level drawing code.
 
 #[0.1.5] - Mar 05, 2016
 ------

@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.1.6) *
+	* GEMINI WITICHES (Version 0.1.7) *
 	***********************************
 
 ** Link to source code - https://github.com/Chukobyte/GeminiWitches
@@ -41,6 +41,7 @@ You can only choose two!
 'Z' Flower of life
 'W' Fly
 'X' Piercing Water Crystal
+'Q' Fire Burst
 
 -XBOX 360 controller controls
 ----------------------------
