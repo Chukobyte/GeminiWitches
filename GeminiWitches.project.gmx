@@ -48,6 +48,7 @@
       <sprite>sprites\spr_solid</sprite>
       <sprite>sprites\spr_black_block</sprite>
       <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_door_closed</sprite>
       <sprite>sprites\spr_grass</sprite>
       <sprite>sprites\spr_grass_shade_edge</sprite>
       <sprite>sprites\spr_dirt_wall</sprite>
@@ -225,12 +226,11 @@
     <objects name="Level">
       <object>objects\Solid</object>
       <object>objects\BlackBlock</object>
+      <object>objects\DoorClosed</object>
       <object>objects\Door</object>
-      <objects name="TempTiles">
-        <object>objects\GrassLand</object>
-        <object>objects\DirtWall</object>
-      </objects>
       <object>objects\Flower</object>
+      <object>objects\GrassLand</object>
+      <object>objects\DirtWall</object>
     </objects>
     <objects name="Controllers">
       <object>objects\GameController</object>
