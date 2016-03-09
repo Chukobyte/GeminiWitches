@@ -1,4 +1,8 @@
-#[0.1.8] - Mar 09, 2016
+#[0.1.9] - Mar 09, 2016
+------
+- Flower of life now doesn't boost hp beyond maxhp.
+
+#[0.1.8] - Mar 08, 2016
 ------
 - Tweaked coin creation from enemy death.  Now check 25 pixels horizontally for space without Solid.
 - Money now resets to 0 when player dies.

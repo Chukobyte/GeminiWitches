@@ -1,9 +1,22 @@
 ///player_take_damage(damage, add_knock_back)
 var damage = argument0;
 var add_knock_back = argument1;
-
 PlayerStats.hp -= damage;
-attacking = false;
+
+//healing 
+if(sign(damage) == -1) {
+    //check to see if healing is above max health
+    if(PlayerStats.hp > PlayerStats.maxhp) {
+        PlayerStats.hp = PlayerStats.maxhp;
+    }
+} else if(sign(damage) == 1) {
+    //damaging attack
+    PlayerStats.hp -= damage;
+    attacking = false;
+}
+
+
+
   
 //If player dies
 if(damage > 0) {
