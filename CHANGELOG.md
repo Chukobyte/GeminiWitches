@@ -1,3 +1,8 @@
+#[0.1.8] - Mar 07, 2016
+------
+- Tweaked coin creation from enemy death.  Now check 25 pixels horizontally for space without Solid.
+- Money now resets to 0 when player dies.
+
 #[0.1.7] - Mar 07, 2016
 ------
 - Slightly tweaked bee and hedgehog's sight range.

@@ -16,6 +16,7 @@ if(death_state_timer > 0) {
 } else {
     PlayerStats.hp = PlayerStats.maxhp;
     PlayerStats.mp = PlayerStats.maxmp;
+    PlayerStats.money = 0;
     state = player_move_state;
     room_restart();
 }
