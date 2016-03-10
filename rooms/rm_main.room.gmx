@@ -73,46 +73,17 @@
     <instance objName="SoulGemEarth" x="168" y="300" name="inst_C438EA11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SoulGemWind" x="284" y="300" name="inst_9C356D42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SoulGemWater" x="508" y="300" name="inst_B2899F92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="320" name="inst_539EAFF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="288" name="inst_EA3B48BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="256" name="inst_3ADF3911" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="224" name="inst_F089AA9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="192" name="inst_CA732920" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="160" name="inst_14FA94F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="128" name="inst_A8F1A83F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="96" name="inst_3095CEDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="64" name="inst_8D5EDEBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="32" name="inst_CB69B22C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="0" y="0" name="inst_309A7093" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="32" y="0" name="inst_43D0D265" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="64" y="0" name="inst_0AAC08A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="96" y="0" name="inst_DD30190D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="128" y="0" name="inst_6AB7AE81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="160" y="0" name="inst_F802E83D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="192" y="0" name="inst_CC5B1DC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="224" y="0" name="inst_9F34CEAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="256" y="0" name="inst_089963DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="288" y="0" name="inst_76D9CBA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="320" y="0" name="inst_B7AEEA29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="352" y="0" name="inst_B8B8134F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="384" y="0" name="inst_8DD1F80E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="416" y="0" name="inst_2018A515" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="448" y="0" name="inst_BEBC95BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="480" y="0" name="inst_ED57C418" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="512" y="0" name="inst_0D51A7F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="544" y="0" name="inst_A4504037" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="576" y="0" name="inst_8F28E401" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="0" name="inst_EC8496B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="32" name="inst_22409414" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="64" name="inst_36328CF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="96" name="inst_3B099ADC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="128" name="inst_CDCD3301" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="160" name="inst_823A006C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="192" name="inst_2B5F1510" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="224" name="inst_D97A84BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="256" name="inst_FA4E859D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="288" name="inst_CEAA2F7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DirtWall" x="608" y="320" name="inst_67FF6560" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="288" name="inst_EA3B48BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="256" name="inst_3ADF3911" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="224" name="inst_F089AA9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="192" name="inst_CA732920" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="160" name="inst_14FA94F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="128" name="inst_A8F1A83F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="96" name="inst_3095CEDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="64" name="inst_8D5EDEBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="32" name="inst_CB69B22C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="0" name="inst_309A7093" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="-32" name="inst_43D0D265" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="608" y="352" name="inst_6B7C0B8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="0" y="352" name="inst_9C35C91D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="32" y="352" name="inst_A5250CAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -135,6 +106,45 @@
     <instance objName="DirtWall" x="576" y="352" name="inst_84D10A9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="32" y="320" name="inst_67F28B9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="576" y="320" name="inst_FB457BA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrassLand" x="0" y="320" name="inst_D859010E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="352" name="inst_38D4425E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrassLand" x="608" y="320" name="inst_A0B9F8D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="352" name="inst_98C566A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="288" name="inst_6B9E4920" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="256" name="inst_465ED5FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="224" name="inst_242DB2E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="192" name="inst_506F82A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="160" name="inst_75EFF605" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="128" name="inst_B00AD25A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="96" name="inst_9E74CE24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="64" name="inst_C40222E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="32" name="inst_438099A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="0" name="inst_AD9179B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="-32" name="inst_61795E69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrassLand" x="-32" y="320" name="inst_C5F37D8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrassLand" x="640" y="320" name="inst_B544CA5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="-32" y="-64" name="inst_F1441276" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="0" y="-64" name="inst_D9C0FDA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="32" y="-64" name="inst_C3C9A69B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="64" y="-64" name="inst_8238ECA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="96" y="-64" name="inst_753A02F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="128" y="-64" name="inst_56A5FD74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="160" y="-64" name="inst_3494AFD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="192" y="-64" name="inst_453112CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="224" y="-64" name="inst_A63F784B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="256" y="-64" name="inst_27459322" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="288" y="-64" name="inst_D8C9426B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="320" y="-64" name="inst_E3A1E313" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="352" y="-64" name="inst_634CE6FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="384" y="-64" name="inst_A9D0671B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="416" y="-64" name="inst_BCFEFA2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="448" y="-64" name="inst_7855F468" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="480" y="-64" name="inst_3432D670" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="512" y="-64" name="inst_6828CB6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="544" y="-64" name="inst_44A62A92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="576" y="-64" name="inst_87933223" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="608" y="-64" name="inst_DA17211C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DirtWall" x="640" y="-64" name="inst_B2C25366" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

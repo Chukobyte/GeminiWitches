@@ -1,6 +1,9 @@
 #[0.1.9] - Mar 09, 2016
 ------
 - Flower of life now doesn't boost hp beyond maxhp.
+- Changed rooms around a bit and cleaned up the ugly edges.
+- Each element now add a stat boost
+- The exit door is now visible without defeating all enemies.  Except for the last boss room.
 
 #[0.1.8] - Mar 08, 2016
 ------
