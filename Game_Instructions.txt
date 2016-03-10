@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.1.8) *
+	* GEMINI WITICHES (Version 0.1.9) *
 	***********************************
 
 ** Link to source code - https://github.com/Chukobyte/GeminiWitches
@@ -16,15 +16,19 @@
 You can only choose two!
 
 *Earth (orange gem)
+-Boost max hp
 -Flower of life - Restores health.
 
 *Wind (green gem)
+-Slight boost in speed and jump height.
 -Fly - Self explanory ;-)
 
 *Fire (red gem)
+-Physical attacks are twice as strong.
 -Fire Burst - Fire attack that surrouds the player on both side.  Lasts for 3 seconds.
 
 *Water (blue gem)
+-Boosts max mp
 -Piercing Water Crystal - Pierces through walls to attack enemies!
 
 

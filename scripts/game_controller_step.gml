@@ -18,7 +18,7 @@ switch(room) {
         }
         
         //Won't show exit door unless objective is complete
-        if(PlayerStats.soul_gems < 2 || instance_exists(Enemy)) {
+        if(PlayerStats.soul_gems < 2 || instance_exists(Devil)) {
             show_exit_door = false;
         } else {
             //Destroy other gems

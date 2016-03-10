@@ -55,6 +55,7 @@
       <sprite>sprites\spr_dirt_lr_edge</sprite>
       <sprite>sprites\spr_dirt_tb_edge</sprite>
       <sprite>sprites\spr_flower</sprite>
+      <sprite>sprites\spr_cloud</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bee">
@@ -231,6 +232,7 @@
       <object>objects\Flower</object>
       <object>objects\GrassLand</object>
       <object>objects\DirtWall</object>
+      <object>objects\Cloud</object>
     </objects>
     <objects name="Controllers">
       <object>objects\GameController</object>

@@ -6,30 +6,28 @@ with(other) {
     case "earth":
         PlayerStats.earth_unlocked = true;
         PlayerStats.soul_gems += 1;
+        PlayerStats.maxhp += 2;
+        PlayerStats.hp = PlayerStats.maxhp;
         instance_destroy();
         break;
     case "wind":
         PlayerStats.wind_unlocked = true;
         PlayerStats.soul_gems += 1;
+        PlayerStats.spd += 1;
+        PlayerStats.jump_height -= 1;
         instance_destroy();
         break;
     case "fire":
-        //temp for fire gem
-        /*
-        PlayerStats.maxhp += 2;
-        PlayerStats.hp = PlayerStats.maxhp;
-        PlayerStats.maxmp += 2;
-        PlayerStats.mp = PlayerStats.maxmp;
-        PlayerStats.spd += 1;
-        PlayerStats.jump_height += -2;
-        */
         PlayerStats.fire_unlocked = true;
         PlayerStats.soul_gems += 1;
+        PlayerStats.attack += 1;
         instance_destroy();
         break;
     case "water":
         PlayerStats.water_unlocked = true;
         PlayerStats.soul_gems += 1;
+        PlayerStats.maxmp += 2;
+        PlayerStats.mp = PlayerStats.maxmp;
         instance_destroy();
         break;
     default:

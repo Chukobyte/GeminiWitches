@@ -7,7 +7,8 @@ maxmp = 6;
 mp = maxmp;
 mp_regen = 0.005;
 
-//Adds or subtracts to Player's base speed.
+//Adds or subtracts to Player's base stats.
+attack = 1;
 spd = 0;
 jump_height = 0;
 

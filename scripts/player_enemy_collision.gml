@@ -27,9 +27,10 @@ if(above_enemy && falling && state != player_death_state) {
     vspd = (jump_height / 1.5);
     
 } else if(attacking && is_next_to_enemy) {
+    var attack_damage = PlayerStats.attack;
     with(other) {
         if(state != hurt_state) {
-            hp -= 1;
+            hp -= attack_damage;
             previous_state = state;
             state = hurt_state;
             enemy_damage_timer = enemy_damage_timer_max;  
