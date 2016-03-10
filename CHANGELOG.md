@@ -1,3 +1,7 @@
+#[0.2.0] - Mar 10, 2016
+------
+- Changed background music up a bit.
+
 #[0.1.9] - Mar 09, 2016
 ------
 - Flower of life now doesn't boost hp beyond maxhp.
