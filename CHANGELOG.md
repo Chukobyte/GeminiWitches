@@ -1,6 +1,9 @@
 #[0.2.0] - Mar 10, 2016
 ------
 - Changed background music up a bit.
+- Added death by falling
+- Have rooms now with death pits.
+- Hedgehog now doesn't fall off ledges.
 
 #[0.1.9] - Mar 09, 2016
 ------

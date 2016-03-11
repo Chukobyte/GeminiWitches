@@ -1,5 +1,7 @@
 ///hedgehog_attack_state()
 
+//TODO: Make this cleaner!
+
 //In the air
 if(!place_meeting(x, y + 1, Solid)) {
     vspd += grav;
@@ -27,4 +29,25 @@ if(instance_exists(Player)) {
 }
 
 correct_sprite_direction();
+//checks ledges
+if(image_xscale == 1) {
+    //facing right
+    var ledge_at_right = !position_meeting(bbox_right + 1, bbox_bottom + 1, Solid);
+    if(ledge_at_right) { 
+        hspd = 0; 
+        image_blend = c_white;
+        sprite_index = spr_hedgehog_idle;
+        image_speed = 0;
+    }
+} else if(image_xscale == -1) {
+    //facing left
+    var ledge_at_left = !position_meeting(bbox_left - 1, bbox_bottom + 1, Solid);
+    if(ledge_at_left) { 
+        hspd = 0; 
+        image_blend = c_white;
+        sprite_index = spr_hedgehog_idle;
+        image_speed = 0;
+    }
+}
+
 move(Solid);
