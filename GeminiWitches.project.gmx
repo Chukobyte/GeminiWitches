@@ -46,7 +46,7 @@
     </sprites>
     <sprites name="Level">
       <sprite>sprites\spr_solid</sprite>
-      <sprite>sprites\spr_black_block</sprite>
+      <sprite>sprites\spr_fall_block</sprite>
       <sprite>sprites\spr_door</sprite>
       <sprite>sprites\spr_door_closed</sprite>
       <sprite>sprites\spr_grass</sprite>
@@ -135,6 +135,7 @@
       </scripts>
       <scripts name="Collisions">
         <script>scripts\player_enemy_collision.gml</script>
+        <script>scripts\player_fall_block_collision.gml</script>
         <script>scripts\player_door_collision.gml</script>
         <script>scripts\player_coin_collision.gml</script>
         <script>scripts\player_gem_collision.gml</script>
@@ -226,7 +227,7 @@
     </objects>
     <objects name="Level">
       <object>objects\Solid</object>
-      <object>objects\BlackBlock</object>
+      <object>objects\FallBlock</object>
       <object>objects\DoorClosed</object>
       <object>objects\Door</object>
       <object>objects\Flower</object>
@@ -276,6 +277,7 @@
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
+    <room>rooms\rm_five</room>
     <room>rooms\rm_play_again</room>
   </rooms>
   <help>

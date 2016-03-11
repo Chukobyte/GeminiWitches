@@ -11,7 +11,6 @@ if(sign(damage) == -1) {
     }
 } else if(sign(damage) == 1) {
     //damaging attack
-    PlayerStats.hp -= damage;
     attacking = false;
 }
 
