@@ -56,6 +56,12 @@
       <sprite>sprites\spr_dirt_tb_edge</sprite>
       <sprite>sprites\spr_flower</sprite>
       <sprite>sprites\spr_cloud</sprite>
+      <sprites name="small_flowers">
+        <sprite>sprites\spr_small_flowers_blue</sprite>
+        <sprite>sprites\spr_small_flowers_orange</sprite>
+        <sprite>sprites\spr_small_flowers_red</sprite>
+        <sprite>sprites\spr_small_flowers_yellow</sprite>
+      </sprites>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bee">
@@ -234,6 +240,7 @@
       <object>objects\GrassLand</object>
       <object>objects\DirtWall</object>
       <object>objects\Cloud</object>
+      <object>objects\SmallFlower</object>
     </objects>
     <objects name="Controllers">
       <object>objects\GameController</object>
