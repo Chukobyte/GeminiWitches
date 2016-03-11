@@ -15,6 +15,7 @@ with(other) {
         PlayerStats.soul_gems += 1;
         PlayerStats.spd += 1;
         PlayerStats.jump_height -= 1;
+        //PlayerStats.knockback_strength *= 2;
         instance_destroy();
         break;
     case "fire":
@@ -28,6 +29,7 @@ with(other) {
         PlayerStats.soul_gems += 1;
         PlayerStats.maxmp += 2;
         PlayerStats.mp = PlayerStats.maxmp;
+        PlayerStats.mp_regen *= 2;
         instance_destroy();
         break;
     default:

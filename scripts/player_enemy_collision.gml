@@ -37,7 +37,8 @@ if(above_enemy && falling && state != player_death_state) {
             
             //Pushes the enemy back
             var dir = point_direction(x, y, Player.x, Player.y);
-            hspd = -(lengthdir_x(15, dir));
+            var temp_hspd = hspd;
+            hspd = -(lengthdir_x(PlayerStats.knockback_strength, dir));
             //vspd = lengthdir_y(20, dir);
             
             if(!can_go_through_walls) {
@@ -45,10 +46,11 @@ if(above_enemy && falling && state != player_death_state) {
             } else {
                 x += hspd;
             }
+            hspd = temp_hspd;
         }
     }
 } else {
     if(state != player_hurt_state && state != player_death_state && invincibility_timer <= 0) {
-        player_take_damage(other.enemy_attack, true); 
+        player_take_damage(other.enemy_attack, true, 15); 
     }
 }

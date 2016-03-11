@@ -2,7 +2,6 @@
 if(enemy_damage_timer > 0) {
     sprite_index = hurt_sprite;
     enemy_damage_timer--;
-    
 } else {
     state = previous_state;
 }

@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.2.0) *
+	* GEMINI WITICHES (Version 0.2.1) *
 	***********************************
 
 ** Link to source code - https://github.com/Chukobyte/GeminiWitches
@@ -29,7 +29,8 @@ You can only choose two!
 
 *Water (blue gem)
 -Boosts max mp
--Piercing Water Crystal - Pierces through walls to attack enemies!
+-Boosts mp regen
+-Piercing Water Crystal - Pierces through walls at super speeds to attack enemies!
 
 
 ** Controls **

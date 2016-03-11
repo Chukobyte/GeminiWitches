@@ -1,3 +1,9 @@
+#[0.2.1] - Mar 11, 2016
+------
+- More changes to bg music
+- Water Soul Gem now doubles mp regen.
+- Fixed enemy movement when attacked.
+
 #[0.2.0] - Mar 10, 2016
 ------
 - Changed background music up a bit.

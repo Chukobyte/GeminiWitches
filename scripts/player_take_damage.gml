@@ -1,6 +1,7 @@
 ///player_take_damage(damage, add_knock_back)
 var damage = argument0;
 var add_knock_back = argument1;
+var knockback_amount = argument2;
 PlayerStats.hp -= damage;
 
 //healing 
@@ -38,7 +39,7 @@ if(add_knock_back) {
     //adds knock back to opposite direction
     var temp_hspd = hspd;
     var temp_vspd = vspd;
-    hspd -= sign(image_xscale) * 15;
+    hspd -= sign(image_xscale) * knockback_amount;
     vspd = 0;
     move(Solid);
     hspd = temp_hspd;

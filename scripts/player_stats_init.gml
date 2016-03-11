@@ -9,6 +9,7 @@ mp_regen = 0.005;
 
 //Adds or subtracts to Player's base stats.
 attack = 1;
+knockback_strength = 15; //determines how far an enemy flies on punch
 spd = 0;
 jump_height = 0;
 

@@ -11,7 +11,7 @@ if(affects_player) {
     }
     
     with(other) {
-            player_take_damage(damage_taken, knock_back);
+            player_take_damage(damage_taken, knock_back, 15);
     }
     instance_destroy();
 }
