@@ -99,6 +99,7 @@ if(magic_attack_timer <= 0 && PlayerStats.mp > 0) {
     } else if(fire_magic_attack_button && PlayerStats.fire_unlocked) {
         q_button_attack();
     } else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_unlocked) {
+        audio_stop_sound(snd_jump);
         state = player_fly_state;
         vspd = 0;
         fly_delay = 10;

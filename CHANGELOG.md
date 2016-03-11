@@ -3,6 +3,7 @@
 - More changes to bg music
 - Water Soul Gem now doubles mp regen.
 - Fixed enemy movement when attacked.
+- Added controller support for powers
 
 #[0.2.0] - Mar 10, 2016
 ------
