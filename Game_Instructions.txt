@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.2.1) *
+	* GEMINI WITICHES (Version 0.2.2) *
 	***********************************
 
 ** Link to source code - https://github.com/Chukobyte/GeminiWitches

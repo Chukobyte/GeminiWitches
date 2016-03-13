@@ -1,3 +1,7 @@
+#[0.2.2] - Mar 13, 2016
+------
+- Added selection cursor for choose_character and play_again rooms.
+
 #[0.2.1] - Mar 11, 2016
 ------
 - More changes to bg music
