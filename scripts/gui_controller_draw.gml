@@ -64,11 +64,28 @@ switch(room) {
             draw_set_font(fnt_choose_character);
             draw_text_outline_color(192, 32, 2, "PLAY AGAIN!?", c_dkgray, c_yellow);
             
-            draw_rectangle_colour(128 - 4, 128, 192 - 4, 160 + 4, c_yellow, c_yellow, c_yellow, c_yellow, true);
-            draw_text_outline_color(128, 128, 2, "YES", c_dkgray, c_yellow);
+            //var determine size for cursor
+            var yes_cursor;
+            var yes_color;
+            var no_cursor;
+            var no_color;
+            if(global.play_again_prompt == global.play_again_prompt_yes) {
+                yes_cursor = 2;
+                yes_color = c_yellow;
+                no_cursor = 1;
+                no_color = c_dkgray;
+            } else if(global.play_again_prompt == global.play_again_prompt_no) {
+                yes_cursor = 1;
+                yes_color = c_dkgray;
+                no_cursor = 2;
+                no_color = c_yellow;
+            }
             
-            draw_rectangle_colour(416 - 2, 128, 480 - 10, 160 + 4, c_yellow, c_yellow, c_yellow, c_yellow, true);
-            draw_text_outline_color(416, 128, 2, "NO", c_dkgray, c_yellow);
+            draw_rectangle_colour(128 - 4, 128, 192 - 4, 160 + 4, yes_color, yes_color, yes_color, yes_color, true);
+            draw_text_outline_color(128, 128, yes_cursor, "YES", c_dkgray, yes_color);
+            
+            draw_rectangle_colour(416 - 2, 128, 480 - 10, 160 + 4, no_color, no_color, no_color, no_color, true);
+            draw_text_outline_color(416, 128, no_cursor, "NO", c_dkgray, no_color);
             
             var coin_text = "Coins: " + string(PlayerStats.money) + "#Score: " +  string(PlayerStats.money);
             draw_text((room_width / 2) - 80, room_height / 2, coin_text);

@@ -8,6 +8,7 @@ with(other) {
         PlayerStats.soul_gems += 1;
         PlayerStats.maxhp += 2;
         PlayerStats.hp = PlayerStats.maxhp;
+        PlayerStats.hp_regen += 0.001;
         instance_destroy();
         break;
     case "wind":

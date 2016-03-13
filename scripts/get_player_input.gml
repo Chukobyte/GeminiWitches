@@ -1,6 +1,7 @@
 ///get_player_input()
 
 //if(GameController.input_enabled){
+    start = keyboard_check(vk_enter);
     left = keyboard_check(vk_left);
     right = keyboard_check(vk_right);
     up = keyboard_check_pressed(vk_up);
@@ -19,6 +20,7 @@
     var thresh = .5;
 
     if(gamepad_is_connected(gp_id)) {
+        start = gamepad_button_check_pressed(gp_id, gp_start);
         right = gamepad_axis_value(gp_id, gp_axislh) > thresh;
         left = gamepad_axis_value(gp_id, gp_axislh) < -thresh;
         up = gamepad_button_check_pressed(gp_id, gp_face1);
