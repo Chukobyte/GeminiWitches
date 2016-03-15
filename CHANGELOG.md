@@ -1,3 +1,8 @@
+#[0.2.3] - Mar 14, 2016
+------
+- Changed rm_main up a bit.
+- Cleaned up code for dirt wall and grassland objects.
+
 #[0.2.2] - Mar 13, 2016
 ------
 - Added selection cursor for choose_character and play_again rooms.

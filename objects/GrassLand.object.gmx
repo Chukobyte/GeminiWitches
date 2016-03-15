@@ -35,11 +35,11 @@ var down = place_meeting(x, y + 1, Solid);
 
 
 
-if(!right || place_meeting(x + 1, y, DirtWall)){
+if(!right){
     draw_sprite_ext(spr_grass_shade_edge, 0, x + 16, y + 16, 1, 1, 0, c_white, 1);
 }
 
-if(!left || place_meeting(x - 1, y, DirtWall)){
+if(!left){
     draw_sprite_ext(spr_grass_shade_edge, 0, x + 16, y + 16, 1, -1, 180, c_white, 1);
 }
 
