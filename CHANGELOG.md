@@ -1,4 +1,4 @@
-#[0.2.4] - Mar 14, 2016
+#[0.2.4] - Mar 15, 2016
 ------
 - Had to change dirt wall and grass land objects.  place_meeting commands were expensive.
 - Added time line for cloud moving from left to right.
