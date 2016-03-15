@@ -28,12 +28,12 @@
             <string>draw_self();
 
 //Check for edges
+/*
+
 var right = place_meeting(x + 1, y, Solid);
 var left = place_meeting(x - 1, y, Solid);
 var up = place_meeting(x, y - 1, Solid);
 var down = place_meeting(x, y + 1, Solid);
-
-
 
 if(!right){
     draw_sprite_ext(spr_grass_shade_edge, 0, x + 16, y + 16, 1, 1, 0, c_white, 1);
@@ -47,8 +47,7 @@ if(!down) {
     draw_sprite_ext(spr_dirt_tb_edge, 0, x + 16, y + 16, 1, 1, 180, c_white, 1);
 }
 
-
-
+*/
 </string>
           </argument>
         </arguments>

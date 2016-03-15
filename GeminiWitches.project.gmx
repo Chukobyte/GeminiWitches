@@ -277,6 +277,9 @@
       <object>objects\FireBurst</object>
     </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tl_cloud</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>

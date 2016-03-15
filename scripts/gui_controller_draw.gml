@@ -19,6 +19,11 @@ switch(room) {
         draw_sprite(spr_gold_coin, 0, 408, 22);
         draw_text_colour(416, 14, "x" + string(PlayerStats.money), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
         
+        //debug
+        if(global.debug) {
+            draw_text_colour(400, 32, "fps: " + string(fps), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);    
+        }
+        
         break;
     case rm_choose_character:
     

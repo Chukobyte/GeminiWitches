@@ -7,6 +7,8 @@
 * Empty string "" means that the var is unitialized.
 */
 
+global.debug = false;
+
 //will default to true for now
 global.input_enabled = true;
 global.player_1_Selected = "";
