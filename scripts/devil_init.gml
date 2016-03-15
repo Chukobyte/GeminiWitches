@@ -1,9 +1,9 @@
 ///devil_init()
 
 event_inherited();
-enemy_attack = 2;
+enemy_attack = 1;
 spd = 1;
-hp = 4;
+hp = 6;
 sight_range = 150;
 hurt_sprite = spr_devil_hurt;
 state = devil_shoot_state;
@@ -16,3 +16,8 @@ spd_incr = 0;
 //spd_move_state = 0;
 
 coin_type_dropped = GoldCoin;
+
+timeline_index = tl_devil;
+timeline_position = 0;
+timeline_running = true;
+timeline_loop = true;

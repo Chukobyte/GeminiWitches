@@ -8,17 +8,16 @@ if(instance_exists(Player)) {
     
     var dis = point_distance(x, y, Player.x, Player.y);
     var dir = point_direction(x, y, Player.x, Player.y);
+    image_blend = c_red;
     if(dis <= sight_range) {
         sprite_index = spr_devil_move;   
         image_speed = 0.2;
-        image_blend = c_red;
         //run away from player
         hspd -= sign(lengthdir_x(spd, dir)) * spd;
     } else {
         hspd = 0;
         sprite_index = spr_devil_idle;
         image_speed = 0;
-        image_blend = c_white;
         //more sight for shooting
         if(dis <= sight_range + 60 && devil_shot_timer <= 0) {
             var shot_hspd = lengthdir_x(2, dir);

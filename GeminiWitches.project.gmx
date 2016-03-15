@@ -77,6 +77,7 @@
         <sprite>sprites\spr_devil_move</sprite>
         <sprite>sprites\spr_devil_idle</sprite>
         <sprite>sprites\spr_devil_hurt</sprite>
+        <sprite>sprites\spr_devil_power_change</sprite>
       </sprites>
       <sprites name="Hedgehog">
         <sprite>sprites\spr_hedgehog_idle</sprite>
@@ -181,7 +182,9 @@
         <script>scripts\devil_init.gml</script>
         <script>scripts\devil_step.gml</script>
         <script>scripts\devil_shoot_state.gml</script>
+        <script>scripts\devil_attack_state.gml</script>
         <script>scripts\devil_wall_bounce.gml</script>
+        <script>scripts\devil_power_change_state.gml</script>
       </scripts>
       <scripts name="Hedgehog">
         <script>scripts\hedgehog_attack_state.gml</script>
@@ -279,15 +282,18 @@
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_cloud</timeline>
+    <timelines name="Enemies">
+      <timeline>timelines\tl_devil</timeline>
+    </timelines>
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_five</room>
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
-    <room>rooms\rm_five</room>
     <room>rooms\rm_play_again</room>
   </rooms>
   <help>
