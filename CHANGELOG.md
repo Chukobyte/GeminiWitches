@@ -3,6 +3,7 @@
 - Had to change dirt wall and grass land objects.  place_meeting commands were expensive.
 - Added time line for cloud moving from left to right.
 - Improved Devil AI.
+- Added Tree
 
 #[0.2.3] - Mar 14, 2016
 ------

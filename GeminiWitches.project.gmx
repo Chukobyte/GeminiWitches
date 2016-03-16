@@ -62,6 +62,7 @@
         <sprite>sprites\spr_small_flowers_red</sprite>
         <sprite>sprites\spr_small_flowers_yellow</sprite>
       </sprites>
+      <sprite>sprites\spr_tree</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bee">
@@ -244,6 +245,7 @@
       <object>objects\DirtWall</object>
       <object>objects\Cloud</object>
       <object>objects\SmallFlower</object>
+      <object>objects\Tree</object>
     </objects>
     <objects name="Controllers">
       <object>objects\GameController</object>
