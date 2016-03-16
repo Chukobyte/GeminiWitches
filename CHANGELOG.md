@@ -4,6 +4,7 @@
 - Added time line for cloud moving from left to right.
 - Improved Devil AI.
 - Added Tree
+- Changed rm_one
 
 #[0.2.3] - Mar 14, 2016
 ------
