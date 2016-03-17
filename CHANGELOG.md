@@ -1,3 +1,8 @@
+#[0.2.5] - Mar 16, 2016
+------
+- Fixed movement for Devil and Hedgehog.  Added proper acceleration.
+- Added another song.
+
 #[0.2.4] - Mar 15, 2016
 ------
 - Had to change dirt wall and grass land objects.  place_meeting commands were expensive.

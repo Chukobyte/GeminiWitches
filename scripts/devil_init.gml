@@ -2,7 +2,8 @@
 
 event_inherited();
 enemy_attack = 1;
-spd = 1;
+acc = 2;
+spd = 6;
 hp = 6;
 sight_range = 150;
 hurt_sprite = spr_devil_hurt;

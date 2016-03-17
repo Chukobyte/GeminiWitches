@@ -6,19 +6,27 @@ if(instance_exists(Player)) {
         vspd += grav;
     }
 
-    image_blend = c_yellow;
     var dis = point_distance(x, y, Player.x, Player.y);
     var dir = point_direction(x, y, Player.x, Player.y);
     //boost sight range for attack
-    if(dis <= sight_range + 20) {
+    if(dis <= sight_range + 60) {
         sprite_index = spr_devil_move;   
         image_speed = 0.2;
+        image_blend = c_yellow;
         //run towards the player
-        hspd += sign(lengthdir_x(spd, dir)) * spd;
+        hspd += sign(lengthdir_x(acc, dir)) * acc;
     } else {
+        image_blend = c_white;
         apply_friction(.2);
     }
     
+    if(hspd > spd) {
+        hspd = spd;
+    }
+    
+    if(hspd < -spd) {
+        hspd = -spd;
+    } 
     correct_sprite_direction();
     move(Solid);
 }

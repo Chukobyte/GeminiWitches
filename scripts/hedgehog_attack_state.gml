@@ -18,7 +18,7 @@ if(instance_exists(Player)) {
         
         //Move towards the player
         if(abs(hspd) < spd) {
-            hspd += sign(lengthdir_x(spd, dir)) * spd;
+            hspd += sign(lengthdir_x(acc, dir)) * acc;
         }
     } else {
         image_blend = c_white;

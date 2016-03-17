@@ -1,7 +1,5 @@
 ///devil_wall_bounce()
 
-image_blend = c_yellow;
-
 hspd -= image_xscale * 160;
 vspd = -64;
 
