@@ -58,7 +58,7 @@ switch(room) {
                     global.player_1_selected = Amaya;
                 }
                 
-                room_goto(rm_main);
+                room_goto(rm_water);
             }
             
             

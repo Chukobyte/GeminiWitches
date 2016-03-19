@@ -29,6 +29,8 @@
         <sprite>sprites\spr_seika_hurt</sprite>
         <sprite>sprites\spr_seika_death</sprite>
         <sprite>sprites\spr_seika_fly</sprite>
+        <sprite>sprites\spr_seika_swim_idle</sprite>
+        <sprite>sprites\spr_seika_swim_anim</sprite>
       </sprites>
       <sprites name="Amaya">
         <sprite>sprites\spr_amaya_portrait</sprite>
@@ -50,11 +52,6 @@
       <sprite>sprites\spr_fall_block</sprite>
       <sprite>sprites\spr_door</sprite>
       <sprite>sprites\spr_door_closed</sprite>
-      <sprite>sprites\spr_grass</sprite>
-      <sprite>sprites\spr_grass_shade_edge</sprite>
-      <sprite>sprites\spr_dirt_wall</sprite>
-      <sprite>sprites\spr_dirt_lr_edge</sprite>
-      <sprite>sprites\spr_dirt_tb_edge</sprite>
       <sprite>sprites\spr_flower</sprite>
       <sprite>sprites\spr_cloud</sprite>
       <sprites name="small_flowers">
@@ -64,6 +61,17 @@
         <sprite>sprites\spr_small_flowers_yellow</sprite>
       </sprites>
       <sprite>sprites\spr_tree</sprite>
+      <sprites name="Land_Items">
+        <sprite>sprites\spr_dirt_tb_edge</sprite>
+        <sprite>sprites\spr_grass</sprite>
+        <sprite>sprites\spr_dirt_wall</sprite>
+        <sprite>sprites\spr_grass_shade_edge</sprite>
+        <sprite>sprites\spr_dirt_lr_edge</sprite>
+        <sprite>sprites\spr_land_water</sprite>
+        <sprite>sprites\spr_land_water_wall</sprite>
+        <sprite>sprites\spr_water_top</sprite>
+        <sprite>sprites\spr_water</sprite>
+      </sprites>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bee">
@@ -124,12 +132,14 @@
       <script>scripts\draw_roundrect_outline_color.gml</script>
       <script>scripts\direction_move_bounce.gml</script>
       <script>scripts\correct_sprite_direction.gml</script>
+      <script>scripts\correct_sprite_direction_move.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="State">
         <script>scripts\player_idle_state.gml</script>
         <script>scripts\player_move_state.gml</script>
         <script>scripts\player_fly_state.gml</script>
+        <script>scripts\player_swim_state.gml</script>
         <script>scripts\player_exit_state.gml</script>
         <script>scripts\player_hurt_state.gml</script>
         <script>scripts\player_death_state.gml</script>
@@ -148,6 +158,7 @@
         <script>scripts\player_door_collision.gml</script>
         <script>scripts\player_coin_collision.gml</script>
         <script>scripts\player_gem_collision.gml</script>
+        <script>scripts\player_water_top_collision.gml</script>
       </scripts>
       <script>scripts\player_step.gml</script>
       <script>scripts\player_init.gml</script>
@@ -242,11 +253,17 @@
       <object>objects\DoorClosed</object>
       <object>objects\Door</object>
       <object>objects\Flower</object>
-      <object>objects\GrassLand</object>
-      <object>objects\DirtWall</object>
       <object>objects\Cloud</object>
       <object>objects\SmallFlower</object>
       <object>objects\Tree</object>
+      <objects name="LandItems">
+        <object>objects\GrassLand</object>
+        <object>objects\DirtWall</object>
+        <object>objects\LandWater</object>
+        <object>objects\LandWaterWall</object>
+        <object>objects\Water</object>
+        <object>objects\WaterTop</object>
+      </objects>
     </objects>
     <objects name="Controllers">
       <object>objects\GameController</object>
@@ -292,6 +309,7 @@
   <rooms name="rooms">
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_water</room>
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>

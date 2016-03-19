@@ -1,3 +1,10 @@
+#[0.2.6] - Mar 18, 2016
+------
+- Updated new song.
+- Added water and room.
+- Added incomplete swimming.
+- Moved PlayerStats.spd addition to player_init() script.
+
 #[0.2.5] - Mar 16, 2016
 ------
 - Fixed movement for Devil and Hedgehog.  Added proper acceleration.

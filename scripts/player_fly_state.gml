@@ -12,11 +12,11 @@ if(hold_up || down) {
     vspd += up_or_down;
     
     if(vspd > spd) {
-        vspd = spd + PlayerStats.spd;
+        vspd = spd;
     }
     
     if(vspd < -spd) {
-        vspd = -spd - PlayerStats.spd;
+        vspd = -spd;
     }
 } 
 
@@ -25,11 +25,11 @@ if(right || left) {
     hspd += (right-left) * acc;
     
     if(hspd > spd) {
-        hspd = spd + PlayerStats.spd;
+        hspd = spd;
     }
     
     if(hspd < -spd) {
-        hspd = -spd - PlayerStats.spd;
+        hspd = -spd;
     } 
     
 } else {

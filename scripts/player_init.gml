@@ -1,6 +1,6 @@
 ///player_init()
 
-spd = 6;
+spd = 6 + PlayerStats.spd;
 acc = 2;
 hspd = 0;
 vspd = 0;
@@ -62,6 +62,10 @@ jump_sprite_attack_speed = 0.1;
 fly_sprite = spr_player_mask;
 fly_sprite_speed = 0;
 fly_delay = 10;
+
+swim_idle_sprite = spr_player_mask;
+swim_anim_sprite = spr_player_mask;
+swim_sprite_speed = 0;
 
 walk_animation_attack_sprite = spr_player_mask;
 walk_animation_attack_speed = 0.2;
