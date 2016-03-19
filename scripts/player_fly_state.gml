@@ -11,26 +11,13 @@ if(hold_up || down) {
     var up_or_down = down - hold_up;
     vspd += up_or_down;
     
-    if(vspd > spd) {
-        vspd = spd;
-    }
-    
-    if(vspd < -spd) {
-        vspd = -spd;
-    }
+    vspd = cap_at_max_spd(vpsd, spd);
 } 
 
 if(right || left) {
     //add 1 or -1 depending on which direction is pressed
     hspd += (right-left) * acc;
-    
-    if(hspd > spd) {
-        hspd = spd;
-    }
-    
-    if(hspd < -spd) {
-        hspd = -spd;
-    } 
+    hspd = cap_at_max_spd(hspd, spd); 
     
 } else {
     apply_friction(.1);

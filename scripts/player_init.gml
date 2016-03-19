@@ -65,7 +65,7 @@ fly_delay = 10;
 
 swim_idle_sprite = spr_player_mask;
 swim_anim_sprite = spr_player_mask;
-swim_sprite_speed = 0;
+swim_anim_sprite_speed = 0.3;
 
 walk_animation_attack_sprite = spr_player_mask;
 walk_animation_attack_speed = 0.2;

@@ -1,3 +1,7 @@
+#[0.2.7] - Mar 19, 2016
+------
+- Updated player_swim_state and added remaining swim sprites.
+
 #[0.2.6] - Mar 18, 2016
 ------
 - Updated new song.

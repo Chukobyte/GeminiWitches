@@ -63,13 +63,7 @@ if(right || left) {
     //add 1 or -1 depending on which direction is pressed
     hspd += (right-left) * acc;
     
-    if(hspd > spd) {
-        hspd = spd;
-    }
-    
-    if(hspd < -spd) {
-        hspd = -spd;
-    } 
+    hspd = cap_at_max_spd(hspd, spd);
     
 } else {
         apply_friction(acc);
