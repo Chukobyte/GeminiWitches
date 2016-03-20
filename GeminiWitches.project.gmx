@@ -312,13 +312,13 @@
   <rooms name="rooms">
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
-    <room>rooms\rm_water</room>
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
     <room>rooms\rm_five</room>
     <room>rooms\rm_play_again</room>
+    <room>rooms\rm_water</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -1,3 +1,7 @@
+#[0.2.8] - Mar 20, 2016
+------
+- Minor tweak to swim state.
+
 #[0.2.7] - Mar 19, 2016
 ------
 - Updated player_swim_state and added remaining swim sprites.

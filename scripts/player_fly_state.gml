@@ -11,7 +11,7 @@ if(hold_up || down) {
     var up_or_down = down - hold_up;
     vspd += up_or_down;
     
-    vspd = cap_at_max_spd(vpsd, spd);
+    vspd = cap_at_max_spd(vspd, spd);
 } 
 
 if(right || left) {

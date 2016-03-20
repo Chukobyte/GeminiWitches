@@ -9,7 +9,7 @@ if(hspd == 0 && vspd == 0) {
 }
 
 if(!place_meeting(x, y + 1, Solid)){
-    vspd += .3;
+    vspd += .15;
 } else {
     //adds friction when hitting floor
     apply_friction(acc);

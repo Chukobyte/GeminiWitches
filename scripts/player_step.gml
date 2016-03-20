@@ -26,4 +26,17 @@ if(PlayerStats.mp < PlayerStats.maxmp) {
     PlayerStats.mp += PlayerStats.mp_regen;
 }
 
+//swim state check for now
+//assumes player exit from the bottom
+var player_touched_water = place_meeting(x, y, Water) || place_meeting(x, y, WaterTop);
+if(player_touched_water) {
+    state = player_swim_state;
+} else if(state == player_swim_state && !player_touched_water) {
+    //boost jump
+    if(vspd > jump_height) {
+        vspd = jump_height;
+    }
+    state = player_move_state;
+} 
+
 script_execute(state);
