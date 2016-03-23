@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Executes special_attacks_init()
-special_attacks_init();
+            <string>///Executes element_power_init()
+element_power_init();
 </string>
           </argument>
         </arguments>
@@ -49,8 +49,8 @@ special_attacks_init();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///executes special_attacks_step()
-special_attacks_step();
+            <string>///executes element_power_step()
+element_power_step();
 </string>
           </argument>
         </arguments>
@@ -73,8 +73,8 @@ special_attacks_step();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Executes special_attacks_enemy_collision()
-special_attacks_enemy_collision();
+            <string>///Executes element_power_enemy_collision()
+element_power_enemy_collision();
 </string>
           </argument>
         </arguments>
@@ -122,8 +122,8 @@ special_attacks_enemy_collision();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///executes special_attacks_player_collision()
-special_attacks_player_collision();
+            <string>///executes element_power_player_collision()
+element_power_player_collision();
 </string>
           </argument>
         </arguments>

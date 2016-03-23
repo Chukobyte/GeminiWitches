@@ -4,4 +4,3 @@ damage = 1;
 
 affects_enemy = false;
 affects_player = true;
-fired = false;

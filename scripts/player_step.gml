@@ -2,7 +2,7 @@
 //Executes state and increment timers
 get_player_input();
 attack_timer--;
-magic_attack_timer--;
+soul_element_attack_timer--;
 invincibility_timer--;
 fly_delay--;
 if(attack_timer <= 0) {

@@ -1,4 +1,4 @@
-///special_attacks_player_collision()
+///element_power_player_collision()
 if(affects_player) {
     var damage_taken = damage;
     

@@ -78,27 +78,28 @@ if(attack_button && (attack_timer + 6) <= 0) {
     
 }
 
-//s_button attack
-if(magic_attack_timer <= 0 && PlayerStats.mp > 0) {
-    if(magic_attack_button){
-        s_button_attack();
+
+//TODO: Attack scripts return if successful or not
+if(soul_element_attack_button){
+    var success = mirror_shot_attack();
+    if(success) {
         var audio_em = audio_emitter_create();
         audio_emitter_gain(audio_em, .3);
         //audio_emitter_pitch(audio_em, .5);
         audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
-    } else if(water_magic_attack_button && PlayerStats.water_unlocked){
+    }
+} else if(water_magic_attack_button && PlayerStats.water_unlocked){
         x_button_attack();;
-    } else if(earth_magic_attack_button && PlayerStats.earth_unlocked) {
+} else if(earth_magic_attack_button && PlayerStats.earth_unlocked) {
         z_button_attack();
-    } else if(fire_magic_attack_button && PlayerStats.fire_unlocked) {
+} else if(fire_magic_attack_button && PlayerStats.fire_unlocked) {
         q_button_attack();
-    } else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_unlocked) {
+} else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_unlocked) {
         audio_stop_sound(snd_jump);
         state = player_fly_state;
         vspd = 0;
         fly_delay = 10;
-    }    
-}
+}    
 
 //Change sprite direction based on direction
 correct_sprite_direction();

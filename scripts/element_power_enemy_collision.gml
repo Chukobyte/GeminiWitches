@@ -1,4 +1,4 @@
-///special_attacks_enemy_collision()
+///element_power_enemy_collision()
 if(affects_enemy) {
     var damage_done = damage;
     with(other) {
