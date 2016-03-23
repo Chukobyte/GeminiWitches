@@ -39,12 +39,15 @@ switch(room) {
                 global.second_counter++;
             }
         }
+        
+        /*
         if(!audio_is_playing(snd_new_music)) {
             ///Play the background music
             audio_em = audio_emitter_create();
             audio_emitter_gain(audio_em, .5);
             audio_play_sound_on(audio_em, snd_new_music, true, 10);
         }
+        */
         
         //Won't show exit door unless objective is complete
         if(PlayerStats.soul_gems < 2 || instance_exists(Devil)) {
@@ -87,7 +90,7 @@ switch(room) {
                     global.player_1_selected = Amaya;
                 }
                 
-                room_goto(rm_water);
+                room_goto(rm_main);
             }
             
             
