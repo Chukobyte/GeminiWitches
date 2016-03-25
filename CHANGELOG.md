@@ -1,3 +1,7 @@
+#[0.2.9] - Mar 23, 2016
+------
+- Renamed some things to match the story.
+
 #[0.2.8] - Mar 20, 2016
 ------
 - Minor tweak to swim state.
