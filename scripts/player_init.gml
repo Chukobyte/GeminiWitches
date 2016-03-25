@@ -24,9 +24,6 @@ get_player_input();
 attack_cooldown = 0.50 * room_speed;
 attack_timer = attack_cooldown;
 
-soul_element_attack_cooldown = 1 * room_speed;
-soul_element_attack_timer = soul_element_attack_cooldown; 
-
 hurt_state_timer_max = 10;
 hurt_state_timer = hurt_state_timer_max;
 

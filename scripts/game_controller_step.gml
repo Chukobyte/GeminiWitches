@@ -34,6 +34,43 @@ switch(room) {
         }
         
         break;
+        
+    case rm_game_menu:
+        get_player_input();
+        global.menu_item_selection_timer--;
+        global.menu_item_confirmation_delay--;
+        
+        if(hold_up && global.menu_item_selection_timer <= 0) {
+            global.menu_item_selection_timer = global.menu_item_selection_timer_max;
+            if(global.game_menu_selection == global.game_menu_selection_play) {
+                global.game_menu_selection = global.game_menu_selection_exit
+            } else if(global.game_menu_selection == global.game_menu_selection_options) {
+                global.game_menu_selection = global.game_menu_selection_play
+            } else if(global.game_menu_selection == global.game_menu_selection_exit) {
+                global.game_menu_selection = global.game_menu_selection_options
+            }
+        } else if(down && global.menu_item_selection_timer <= 0) {
+            global.menu_item_selection_timer = global.menu_item_selection_timer_max;
+            if(global.game_menu_selection == global.game_menu_selection_play) {
+                global.game_menu_selection = global.game_menu_selection_options
+            } else if(global.game_menu_selection == global.game_menu_selection_options) {
+                global.game_menu_selection = global.game_menu_selection_exit
+            } else if(global.game_menu_selection == global.game_menu_selection_exit) {
+                global.game_menu_selection = global.game_menu_selection_play
+            }
+        }
+        
+        if((start || attack_button) && global.menu_item_confirmation_delay <= 0) {
+            global.menu_item_confirmation_delay = global.menu_item_confirmation_delay_max;
+            if(global.game_menu_selection == global.game_menu_selection_play) {
+                room_goto(rm_choose_character);
+            } else if(global.game_menu_selection == global.game_menu_selection_exit) {
+                game_end();
+            }
+        }
+        
+        break;
+        
     case rm_water:
     
         if(global.time > 0) {
@@ -71,6 +108,7 @@ switch(room) {
         if(instance_exists(SeikaPortrait) || instance_exists(AmayaPortrait)) {
             get_player_input();
             global.menu_item_selection_timer--;
+            global.menu_item_confirmation_delay--;
             if(global.choose_character_selection == SeikaPortrait) {
                 SeikaPortrait.image_blend = c_white;
                 AmayaPortrait.image_blend = c_dkgray;
@@ -88,7 +126,8 @@ switch(room) {
                 }
             }
             
-            if(start || attack_button || up) {
+            if((start || attack_button) && global.menu_item_confirmation_delay <= 0) {
+                global.menu_item_confirmation_delay = global.menu_item_confirmation_delay_max;
                 if(global.choose_character_selection == SeikaPortrait) {
                     global.player_1_selected = Seika;
                 } else if(global.choose_character_selection == AmayaPortrait) {

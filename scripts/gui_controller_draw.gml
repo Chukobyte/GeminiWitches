@@ -95,5 +95,29 @@ switch(room) {
             var coin_text = "Coins: " + string(PlayerStats.money) + "#Score: " +  string(PlayerStats.money);
             draw_text((room_width / 2) - 80, room_height / 2, coin_text);
             break;
+            
+        case rm_game_menu:
+            draw_set_font(fnt_choose_character)
+            draw_text_outline_color(192, 32, 2, "Gemini Witches", c_dkgray, c_yellow);
+            
+            draw_text_outline_color(192, 160, 2, global.game_menu_selection_play, c_dkgray, c_yellow);
+            
+            draw_text_outline_color(192, 200, 2, global.game_menu_selection_options, c_dkgray, c_yellow);
+            
+            draw_text_outline_color(192, 240, 2, global.game_menu_selection_exit, c_dkgray, c_yellow);
+            
+            switch(global.game_menu_selection) {
+                case global.game_menu_selection_play:
+                    draw_rectangle_colour(188, 160, 278, 196, c_yellow, c_yellow, c_yellow, c_yellow, true);
+                    break;
+                case global.game_menu_selection_options:
+                    draw_rectangle_colour(188, 200, 338, 236, c_yellow, c_yellow, c_yellow, c_yellow, true);
+                    break;
+                case global.game_menu_selection_exit:
+                    draw_rectangle_colour(188, 240, 264, 276, c_yellow, c_yellow, c_yellow, c_yellow, true);
+                    break;
+            }
+            
+            break;
 }
 

@@ -1,14 +1,17 @@
-///flower_of_life_attack()
+///flower_of_life_attack();
+        
+activation_timer--;
 
-//Piecing Water Crystal attack for now
+if(!place_meeting(x, y + 1, Solid)){
+    vspd += grav;
+    image_index = 0;
+    affects_player = false;
+} else {
+    vspd = 0;
+    image_index = 1;
+    if(activation_timer <= 0){
+        affects_player = true; 
+    }
+}
 
-
-var earth_magic_attack = instance_create(x + sign(image_xscale) * 30, y - 30, FlowerOfLife);
-//Assigns the same image_xscale to attack as player
-earth_magic_attack.image_xscale = sign(image_xscale);
-sprite_index = attack_sprite;
-PlayerStats.mp -= earth_magic_attack.cost;
-    
-//Sets cooldown on magic attack
-magic_attack_timer = magic_attack_cooldown;
-
+move(Solid);

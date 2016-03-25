@@ -2,7 +2,9 @@
 //Executes state and increment timers
 get_player_input();
 
-if(start) {
+global.menu_item_pause_delay--;
+if(start && global.menu_item_pause_delay <= 0) {
+    global.menu_item_pause_delay = global.menu_item_pause_delay_max;
     global.game_paused = !global.game_paused;
 }
 
@@ -12,7 +14,7 @@ if(global.game_paused) {
 }
 
 attack_timer--;
-soul_element_attack_timer--;
+PlayerStats.soul_element_attack_timer--;
 invincibility_timer--;
 fly_delay--;
 if(attack_timer <= 0) {

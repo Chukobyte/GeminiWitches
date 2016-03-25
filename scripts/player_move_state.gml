@@ -81,7 +81,7 @@ if(attack_button && (attack_timer + 6) <= 0) {
 
 //TODO: Attack scripts return if successful or not
 if(soul_element_attack_button){
-    var success = mirror_shot_attack();
+    var success = mirror_shot_attempt();
     if(success) {
         var audio_em = audio_emitter_create();
         audio_emitter_gain(audio_em, .3);
@@ -89,11 +89,11 @@ if(soul_element_attack_button){
         audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
     }
 } else if(water_magic_attack_button && PlayerStats.water_unlocked){
-        piecing_water_crystal_attack();;
+    var sucess = piecing_water_crystal_attempt();;
 } else if(earth_magic_attack_button && PlayerStats.earth_unlocked) {
-        flower_of_life_attack();
+    var success = flower_of_life_attempt();
 } else if(fire_magic_attack_button && PlayerStats.fire_unlocked) {
-        fire_burst_attack();
+    var success = fire_burst_attempt();
 } else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_unlocked) {
         audio_stop_sound(snd_jump);
         state = player_fly_state;

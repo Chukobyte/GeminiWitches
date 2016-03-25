@@ -216,10 +216,6 @@
     </scripts>
     <scripts name="Powers">
       <script>scripts\a_button_attack.gml</script>
-      <script>scripts\mirror_shot_attack.gml</script>
-      <script>scripts\piecing_water_crystal_attack.gml</script>
-      <script>scripts\fire_burst_attack.gml</script>
-      <script>scripts\flower_of_life_attack.gml</script>
       <scripts name="ElementPower">
         <script>scripts\element_power_init.gml</script>
         <script>scripts\element_power_enemy_collision.gml</script>
@@ -227,17 +223,20 @@
         <script>scripts\element_power_step.gml</script>
         <scripts name="Planet">
           <script>scripts\flower_of_life_init.gml</script>
-          <script>scripts\piecing_water_crystal_step.gml</script>
+          <script>scripts\piecing_water_crystal_attack.gml</script>
+          <script>scripts\fire_burst_attempt.gml</script>
+          <script>scripts\piecing_water_crystal_attempt.gml</script>
           <script>scripts\piecing_water_crystal_init.gml</script>
-          <script>scripts\flower_of_life_step.gml</script>
+          <script>scripts\flower_of_life_attack.gml</script>
           <script>scripts\fire_burst_init.gml</script>
-          <script>scripts\fire_burst_step.gml</script>
           <script>scripts\devil_shot_step.gml</script>
+          <script>scripts\flower_of_life_attempt.gml</script>
         </scripts>
         <scripts name="Soul">
+          <script>scripts\mirror_shot_attempt.gml</script>
           <script>scripts\devil_shot_init.gml</script>
           <script>scripts\mirror_shot_init.gml</script>
-          <script>scripts\mirror_shot_step.gml</script>
+          <script>scripts\mirror_shot_attack.gml</script>
         </scripts>
         <script>scripts\element_power_attack.gml</script>
       </scripts>
@@ -319,6 +318,7 @@
     </timelines>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_one</room>
@@ -326,8 +326,8 @@
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
     <room>rooms\rm_five</room>
-    <room>rooms\rm_play_again</room>
     <room>rooms\rm_water</room>
+    <room>rooms\rm_play_again</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

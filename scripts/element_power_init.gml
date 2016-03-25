@@ -15,8 +15,7 @@ type = "none";
 element = "none"
 stage = 0;
 cooldown = 0;
-duration = 0;
-duration_max = 0;
+duration = 99999;
 fired = false;
 
 affects_enemy = true;

@@ -7,6 +7,9 @@ maxmp = 6;
 mp = maxmp;
 mp_regen = 0.005;
 
+soul_element_attack_cooldown = 1 * room_speed;
+soul_element_attack_timer = soul_element_attack_cooldown; 
+
 //Adds or subtracts to Player's base stats.
 attack = 1;
 knockback_strength = 15; //determines how far an enemy flies on punch
