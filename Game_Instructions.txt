@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.2.9) *
+	* GEMINI WITICHES (Version 0.3.0) *
 	***********************************
 
 ** Link to source code - https://github.com/Chukobyte/GeminiWitches
@@ -40,6 +40,7 @@ You can only choose two!
 <- = Left
 -> = Right
 ^ =  Jump / Enter Door
+<Enter> = Menu Selection / Pause
 
 'A' attacks with a punch
 'S' shoots magic
@@ -54,6 +55,7 @@ You can only choose two!
 <- = Left
 -> = Right
 'A' = Jump / Enter Door
+<Start> = Menu Selection / Pause
 
 'X' attacks with a punch
 'B' shoots magic

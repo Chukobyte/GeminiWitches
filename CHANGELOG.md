@@ -1,5 +1,11 @@
+#[0.3.0] - Mar 23, 2016
+------
+- added game menu.
+- made element powers more coupled.
+
 #[0.2.9] - Mar 23, 2016
 ------
+- added pause
 - Renamed some things to match the story.
 
 #[0.2.8] - Mar 20, 2016
