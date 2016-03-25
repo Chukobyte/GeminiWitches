@@ -1,4 +1,4 @@
-#[0.3.0] - Mar 23, 2016
+#[0.3.0] - Mar 25, 2016
 ------
 - added game menu.
 - made element powers more coupled.
