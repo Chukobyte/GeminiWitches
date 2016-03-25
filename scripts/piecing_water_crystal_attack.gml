@@ -1,4 +1,4 @@
-///x_button_attack()
+///piecing_water_crystal_attack()
 
 //Piecing Water Crystal attack for now
 
@@ -10,5 +10,5 @@ sprite_index = attack_sprite;
 PlayerStats.mp -= water_magic_attack.cost;
     
 //Sets cooldown on magic attack
-magic_attack_timer = magic_attack_cooldown;
+soul_element_attack_timer = soul_element_attack_cooldown;
 

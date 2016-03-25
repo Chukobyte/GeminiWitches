@@ -9,11 +9,14 @@ cost = 0;
 hspd = 0;
 vspd = 0;
 grav = 0;
+attack_script = "none";
 
 type = "none";
 element = "none"
 stage = 0;
 cooldown = 0;
+duration = 0;
+duration_max = 0;
 fired = false;
 
 affects_enemy = true;

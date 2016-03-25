@@ -14,6 +14,7 @@ global.input_enabled = true;
 global.player_1_Selected = "";
 global.second_counter = 0;
 global.time = 120;
+global.game_paused = false;
 
 //menu
 global.play_again_prompt_yes = "YES";

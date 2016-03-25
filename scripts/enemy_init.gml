@@ -10,7 +10,7 @@ grav = 1.5;
 enemy_attack = 1;
 
 enemy_damaged = false;
-enemy_damage_timer_max = 15;
+enemy_damage_timer_max = 5;
 enemy_damage_timer = enemy_damage_timer_max;
 
 state = "";

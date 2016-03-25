@@ -1,6 +1,16 @@
 ///player_step()
 //Executes state and increment timers
 get_player_input();
+
+if(start) {
+    global.game_paused = !global.game_paused;
+}
+
+if(global.game_paused) {
+    image_speed = 0;
+    return -1;
+}
+
 attack_timer--;
 soul_element_attack_timer--;
 invincibility_timer--;

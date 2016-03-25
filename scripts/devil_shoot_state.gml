@@ -16,6 +16,7 @@ if(instance_exists(Player)) {
         //run away from player
         hspd -= sign(lengthdir_x(acc, dir)) * acc;
     } else if(dis <= sight_range + 60) {
+        apply_friction(.2)
         if(devil_shot_timer <= 0) {
             var shot_hspd = lengthdir_x(2, dir);
             var shot_vspd = lengthdir_y(2, dir);
@@ -26,7 +27,6 @@ if(instance_exists(Player)) {
             devil_shot_timer = devil_shot_timer_max;
         }
         
-        apply_friction(.2)
         if(hspd == 0) {
             sprite_index = spr_devil_idle;
             image_speed = 0;

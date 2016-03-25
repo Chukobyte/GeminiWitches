@@ -1,4 +1,9 @@
 ///game_controller_step()
+
+if(global.game_paused) {
+    return -1;
+}
+
 switch(room) {
     default:
     

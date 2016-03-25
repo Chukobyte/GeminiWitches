@@ -217,9 +217,9 @@
     <scripts name="Powers">
       <script>scripts\a_button_attack.gml</script>
       <script>scripts\mirror_shot_attack.gml</script>
-      <script>scripts\x_button_attack.gml</script>
-      <script>scripts\q_button_attack.gml</script>
-      <script>scripts\z_button_attack.gml</script>
+      <script>scripts\piecing_water_crystal_attack.gml</script>
+      <script>scripts\fire_burst_attack.gml</script>
+      <script>scripts\flower_of_life_attack.gml</script>
       <scripts name="ElementPower">
         <script>scripts\element_power_init.gml</script>
         <script>scripts\element_power_enemy_collision.gml</script>
@@ -239,6 +239,7 @@
           <script>scripts\mirror_shot_init.gml</script>
           <script>scripts\mirror_shot_step.gml</script>
         </scripts>
+        <script>scripts\element_power_attack.gml</script>
       </scripts>
     </scripts>
   </scripts>

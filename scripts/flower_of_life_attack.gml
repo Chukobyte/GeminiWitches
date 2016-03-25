@@ -1,4 +1,4 @@
-///z_button_attack()
+///flower_of_life_attack()
 
 //Piecing Water Crystal attack for now
 

@@ -89,11 +89,11 @@ if(soul_element_attack_button){
         audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
     }
 } else if(water_magic_attack_button && PlayerStats.water_unlocked){
-        x_button_attack();;
+        piecing_water_crystal_attack();;
 } else if(earth_magic_attack_button && PlayerStats.earth_unlocked) {
-        z_button_attack();
+        flower_of_life_attack();
 } else if(fire_magic_attack_button && PlayerStats.fire_unlocked) {
-        q_button_attack();
+        fire_burst_attack();
 } else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_unlocked) {
         audio_stop_sound(snd_jump);
         state = player_fly_state;
