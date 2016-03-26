@@ -17,20 +17,21 @@ You can only choose two!
 
 *Earth (orange gem)
 -Boost max hp
--Flower of life - Restores health.
+-damages enemies when character lands on top of them.
+-[Element Power] Flower of life - Restores health.
 
 *Wind (green gem)
 -Slight boost in speed and jump height.
--Fly - Self explanory ;-)
+-[Element Power] Fly - Self explanory ;-)
 
 *Fire (red gem)
 -Physical attacks are twice as strong.
--Fire Burst - Fire attack that surrouds forming a type of rotating shield.
+-[Element Power] Fire Burst - Fire attack that surrouds forming a type of rotating shield.
 
 *Water (blue gem)
 -Boosts max mp
 -Boosts mp regen
--Piercing Water Crystal - Pierces through walls at super speeds to attack enemies!
+-[Element Power] Piercing Water Crystal - Pierces through walls at super speeds to attack enemies!
 
 
 ** Controls **

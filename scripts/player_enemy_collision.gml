@@ -15,6 +15,18 @@ for(i = -20; i <= 20; i++) {
 }
 
 if(above_enemy && falling && state != player_death_state) {
+
+    if(PlayerStats.earth_unlocked) {
+        with(other) {
+            if(state != hurt_state) {
+                hp -= 1;
+                previous_state = state;
+                state = hurt_state;
+                enemy_damage_timer = enemy_damage_timer_max;
+            }
+        }
+    }
+    
     if(!place_meeting(x, yprevious, Solid)) {
         y = yprevious;
     }

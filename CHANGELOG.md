@@ -1,6 +1,7 @@
 #[0.3.1] - Mar 26, 2016
 ------
 - Updated Fire Burst.  Is now a rotating shield like attack.
+- Earth now does damage when character lands on enemy.
 
 #[0.3.0] - Mar 25, 2016
 ------
