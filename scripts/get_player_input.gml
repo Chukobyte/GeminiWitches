@@ -1,6 +1,7 @@
 ///get_player_input()
 
 //if(GameController.input_enabled){
+    full_screen_button = keyboard_check_pressed(vk_f1);
     start = keyboard_check(vk_enter);
     left = keyboard_check(vk_left);
     right = keyboard_check(vk_right);

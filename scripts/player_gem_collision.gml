@@ -15,7 +15,7 @@ with(other) {
         PlayerStats.wind_unlocked = true;
         PlayerStats.soul_gems += 1;
         PlayerStats.spd += 1;
-        PlayerStats.jump_height -= 1;
+        //PlayerStats.jump_height -= 1;
         //PlayerStats.knockback_strength *= 2;
         instance_destroy();
         break;

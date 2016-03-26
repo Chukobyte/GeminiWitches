@@ -4,6 +4,8 @@
 - Earth now does damage when character lands on enemy.
 - Piercing Water Shot grows larger under water.
 - Starting to work on cut scene stuff.
+- Wind now gives double jump.
+- Changed room view and port to 534 x 300.
 
 #[0.3.0] - Mar 25, 2016
 ------

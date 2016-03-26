@@ -25,7 +25,14 @@ if(!place_meeting(x, y + 1, Solid)){
     if(up_release && (vspd < -6)) {
         vspd = -6;
     }
+    
+    //double jump
+    if(up && double_jump_enabled && PlayerStats.wind_unlocked) {
+        double_jump_enabled = false;
+        vspd = jump_height;
+    }
 } else {
+    double_jump_enabled = true;
     vspd = 0;
     
     //Jumping code

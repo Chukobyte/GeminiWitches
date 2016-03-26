@@ -4,6 +4,12 @@ if(global.game_paused) {
     return -1;
 }
 
+get_player_input();
+
+if(full_screen_button) {
+    window_set_fullscreen(!window_get_fullscreen());
+}
+
 switch(room) {
     default:
     
@@ -36,7 +42,6 @@ switch(room) {
         break;
         
     case rm_game_menu:
-        get_player_input();
         global.menu_item_selection_timer--;
         global.menu_item_confirmation_delay--;
         
@@ -106,7 +111,6 @@ switch(room) {
         
     case rm_choose_character:
         if(instance_exists(SeikaPortrait) || instance_exists(AmayaPortrait)) {
-            get_player_input();
             global.menu_item_selection_timer--;
             global.menu_item_confirmation_delay--;
             if(global.choose_character_selection == SeikaPortrait) {
@@ -143,7 +147,6 @@ switch(room) {
         
         break;
     case rm_play_again:
-        get_player_input();
         global.menu_item_selection_timer--;
         if(audio_is_playing(snd_main)) {
             audio_stop_sound(snd_main);

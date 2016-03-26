@@ -21,7 +21,8 @@ You can only choose two!
 -[Element Power] Flower of life - Restores health.
 
 *Wind (green gem)
--Slight boost in speed and jump height.
+-Slight boost in speed.
+-Double Jump
 -[Element Power] Fly - Self explanory ;-)
 
 *Fire (red gem)
@@ -35,6 +36,8 @@ You can only choose two!
 
 
 ** Controls **
+
+F1 = Toggle Fullscreen
 
 -KeyBoard controls
 ------------------
