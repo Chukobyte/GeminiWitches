@@ -2,6 +2,8 @@
 ------
 - Updated Fire Burst.  Is now a rotating shield like attack.
 - Earth now does damage when character lands on enemy.
+- Piercing Water Shot grows larger under water.
+- Starting to work on cut scene stuff.
 
 #[0.3.0] - Mar 25, 2016
 ------

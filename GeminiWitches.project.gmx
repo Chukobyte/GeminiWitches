@@ -146,6 +146,7 @@
         <script>scripts\player_exit_state.gml</script>
         <script>scripts\player_hurt_state.gml</script>
         <script>scripts\player_death_state.gml</script>
+        <script>scripts\player_cut_scene_state.gml</script>
       </scripts>
       <scripts name="Seika">
         <script>scripts\seika_init.gml</script>
@@ -317,18 +318,19 @@
     <timelines name="Enemies">
       <timeline>timelines\tl_devil</timeline>
     </timelines>
+    <timeline>timelines\tl_player_cut_scene</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_water</room>
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
     <room>rooms\rm_five</room>
     <room>rooms\rm_play_again</room>
-    <room>rooms\rm_water</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
