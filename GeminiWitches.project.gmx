@@ -231,6 +231,7 @@
           <script>scripts\fire_burst_init.gml</script>
           <script>scripts\devil_shot_step.gml</script>
           <script>scripts\flower_of_life_attempt.gml</script>
+          <script>scripts\fire_burst_attack.gml</script>
         </scripts>
         <scripts name="Soul">
           <script>scripts\mirror_shot_attempt.gml</script>

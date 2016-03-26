@@ -1,3 +1,7 @@
+#[0.3.1] - Mar 26, 2016
+------
+- Updated Fire Burst.  Is now a rotating shield like attack.
+
 #[0.3.0] - Mar 25, 2016
 ------
 - added game menu.

@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.3.0) *
+	* GEMINI WITICHES (Version 0.3.1) *
 	***********************************
 
 ** Link to source code - https://github.com/Chukobyte/GeminiWitches
@@ -25,7 +25,7 @@ You can only choose two!
 
 *Fire (red gem)
 -Physical attacks are twice as strong.
--Fire Burst - Fire attack that surrouds the player on both side.  Lasts for 3 seconds.
+-Fire Burst - Fire attack that surrouds forming a type of rotating shield.
 
 *Water (blue gem)
 -Boosts max mp
