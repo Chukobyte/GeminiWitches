@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.3.1) *
+	* GEMINI WITICHES (Version 0.3.2) *
 	***********************************
 
 ** Link to source code - https://github.com/Chukobyte/GeminiWitches
@@ -38,6 +38,7 @@ You can only choose two!
 ** Controls **
 
 F1 = Toggle Fullscreen
+F5 = Reset Game
 
 -KeyBoard controls
 ------------------

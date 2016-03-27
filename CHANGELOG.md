@@ -1,3 +1,8 @@
+#[0.3.2] - Mar 27, 2016
+------
+- Added pause menu.
+- F5 to reset game.
+
 #[0.3.1] - Mar 26, 2016
 ------
 - Updated Fire Burst.  Is now a rotating shield like attack.

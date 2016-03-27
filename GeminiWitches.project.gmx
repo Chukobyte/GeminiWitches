@@ -331,6 +331,7 @@
     <room>rooms\rm_five</room>
     <room>rooms\rm_play_again</room>
     <room>rooms\rm_water</room>
+    <room>rooms\rm_pause_menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

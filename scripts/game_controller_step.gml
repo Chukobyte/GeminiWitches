@@ -1,13 +1,36 @@
 ///game_controller_step()
 
-if(global.game_paused) {
-    return -1;
-}
+
 
 get_player_input();
+var is_pause = global.game_paused;
+//Pause Logic
+if(room == rm_pause_menu && global.game_paused) {
+    global.menu_item_pause_delay--;
+    if(!audio_is_playing(snd_main)) {
+        ///Play the background music
+        audio_em = audio_emitter_create();
+        audio_emitter_gain(audio_em, .3);
+        audio_play_sound_on(audio_em, snd_main, true, 10);
+    }
+        
+    if(start && global.menu_item_pause_delay <= 0) {
+        global.menu_item_pause_delay = global.menu_item_pause_delay_max;
+        global.game_paused = false;
+        room_goto(PlayerStats.current_room);
+    }
+}       
 
 if(full_screen_button) {
     window_set_fullscreen(!window_get_fullscreen());
+}
+
+if(restart_button) {
+    game_restart();
+}
+
+if(global.game_paused) {
+    return -1;
 }
 
 switch(room) {

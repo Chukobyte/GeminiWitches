@@ -8,6 +8,7 @@ switch(room) {
     * will display health, magic, lives, etc
     */
     default:
+        draw_set_font(-1);
         var hpAmount = (PlayerStats.hp / PlayerStats.maxhp) * 100;
         var mpAmount = (PlayerStats.mp / PlayerStats.maxmp) * 100;
         draw_healthbar(10, 10, 20, 40, hpAmount, c_black, c_red, c_lime, 3, true, true)
@@ -118,6 +119,11 @@ switch(room) {
                     break;
             }
             
+            break;
+            
+        case rm_pause_menu:
+            draw_set_font(fnt_choose_character)
+            draw_text_outline_color(192, 32, 2, "Game Paused", c_dkgray, c_yellow);
             break;
 }
 

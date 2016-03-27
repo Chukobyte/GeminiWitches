@@ -1,11 +1,14 @@
 ///player_step()
 //Executes state and increment timers
 get_player_input();
-
 global.menu_item_pause_delay--;
-if(start && global.menu_item_pause_delay <= 0) {
+
+//pause the game
+if(start && global.menu_item_pause_delay <= 0 && !global.game_paused) {
     global.menu_item_pause_delay = global.menu_item_pause_delay_max;
-    global.game_paused = !global.game_paused;
+    PlayerStats.current_room = room;
+    global.game_paused = true;
+    room_goto(rm_pause_menu);
 }
 
 if(global.game_paused) {
