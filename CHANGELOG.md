@@ -2,6 +2,8 @@
 ------
 - Added pause menu.
 - F5 to reset game.
+- Made rooms persistent.  Persistent is set to false when player dies
+so that the room can restart.
 
 #[0.3.1] - Mar 26, 2016
 ------
