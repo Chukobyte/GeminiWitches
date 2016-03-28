@@ -9,6 +9,9 @@
 Player
 - Intializes player properties, states, and controls character sprite.
 
+PlayerStats
+- Holds all player attributes
+
 Enemies
 - Initializes enemy properties and states.
 
@@ -18,22 +21,6 @@ GameController
 
 GUIController
 - handles gui
-
-Effects
-- handles special attacks, effects, and particles.
-
-*************************************
-*Ingredients are the basis of spells*
-*************************************
-
--There are permanent (passive) spells a witch can learn by combining magic power, ingredient/s, and soul gems.
-
--The magic power limitation is somewhat of a level cap on the spells you can learn.  Since an mp boosting is required for more 
-powerful spells.
-
--Permanent spells form a neutral and character specific skill tree.
-
--The level up mechanism needs to be fleshed out.
 
 ***********
 *SOUL GEMS*
@@ -55,28 +42,53 @@ Five for now.  Passives help boost spell abilities.  (Will eventually choose a s
 - Most abilities will focus on laying down flames, some projectiles.  Which last on the field after awhile and can damage enemies.  Passives can
 also help reduce the damage of fire in the environment to the player.
 
+Release 1:
 *Flame Burst
-- Flames burst from the player and will last for 3 seconds (at first).
+- Flames burst from the player forming a flame shield.
+
+*Increase Attack Strength
+
+Release 2:
+*Flame burst fire shield doubles
 
 **Water
 - Abilities include affecting clouds, water pools, shooting water bullets.  Boost water power when near water.  Also can help with swimming maybe?
 
+Release 1:
 *Piecing Water Crystal
-- Able to go through walls (and is strong than normal shot?)
+- Able to go through walls 
+- Become larger under water
+
+*Swim Faster
+
+Release 2:
+*Summon Water, Rain?
 
 **Wind
 - Deals with flying and blowing enemies away.  If they hit terrain they sustain damage.
 
+Release 1:
+*Double Jump
+*Increase Speed
+
+Release 2:
 *Fly
 - Able to fly
+
+*Able to withstand wind turrents?
 
 **Earth
 -Can deal damage to multiple enemies at once with the right conditions.  Cause rock slides.  Have special powers near trees?  
 
+Release 1:
 *Flower of Life
 - A seed of life falls down and sprang into a plant that restores hp.
 - Hp restoration based on earth abilities.
 
+*Damages some enemies by jumping on top
+
+Release 2:
+*Flower comes to life and becomes a turret like thing.
 
 **Soul
 -Character specific powers.  The other elements are shared between all characters, but the soul element is character specific.
