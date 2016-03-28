@@ -5,4 +5,6 @@ if(!instance_exists(Player)) {
     } else {
         instance_create(64, 208, global.player_1_selected);
     }
+    
+    room_persistent = true;
 }
