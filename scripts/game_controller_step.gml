@@ -13,6 +13,31 @@ if(room == rm_pause_menu && global.game_paused) {
         audio_emitter_gain(audio_em, .3);
         audio_play_sound_on(audio_em, snd_main, true, 10);
     }
+    
+    //exp stuff here
+    if(PlayerStats.fire_unlocked) {
+        MenuFire.image_blend = c_white;
+    } else {
+        MenuFire.image_blend = c_dkgray;
+    }
+    
+    if(PlayerStats.water_unlocked) {
+        MenuWater.image_blend = c_white;
+    } else {
+        MenuWater.image_blend = c_dkgray;
+    }
+    
+    if(PlayerStats.earth_unlocked) {
+        MenuEarth.image_blend = c_white;
+    } else {
+        MenuEarth.image_blend = c_dkgray;
+    }
+    
+    if(PlayerStats.wind_unlocked) {
+        MenuWind.image_blend = c_white;
+    } else {
+        MenuWind.image_blend = c_dkgray;
+    }
         
     if(start && global.menu_item_pause_delay <= 0) {
         global.menu_item_pause_delay = global.menu_item_pause_delay_max;

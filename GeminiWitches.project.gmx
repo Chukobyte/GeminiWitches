@@ -116,6 +116,12 @@
       <sprite>sprites\spr_soul_gem_earth</sprite>
       <sprite>sprites\spr_soul_gem_water</sprite>
     </sprites>
+    <sprites name="MenuItems">
+      <sprite>sprites\spr_menu_wind</sprite>
+      <sprite>sprites\spr_menu_fire</sprite>
+      <sprite>sprites\spr_menu_water</sprite>
+      <sprite>sprites\spr_menu_earth</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_choose_character</background>
@@ -311,6 +317,12 @@
         <object>objects\PiecingWaterCrystal</object>
         <object>objects\FlowerOfLife</object>
       </objects>
+    </objects>
+    <objects name="MenuItems">
+      <object>objects\MenuFire</object>
+      <object>objects\MenuWater</object>
+      <object>objects\MenuEarth</object>
+      <object>objects\MenuWind</object>
     </objects>
   </objects>
   <timelines name="timelines">
