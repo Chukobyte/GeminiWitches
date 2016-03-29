@@ -1,3 +1,7 @@
+#[0.3.3] - Mar 27, 2016
+------
+- Added elements icons to pause menu
+
 #[0.3.2] - Mar 27, 2016
 ------
 - Added pause menu.

@@ -104,8 +104,3 @@ Release 2:
 *******
 
 - Can buy equipment, spell books, and ingredients.
-
-*0.2.1 Section Note*
-
-Soul Gems
-- Some of the current soul gem powers will probably need to be unlocked in the game.
