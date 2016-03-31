@@ -41,6 +41,14 @@ if(PlayerStats.mp < PlayerStats.maxmp) {
     PlayerStats.mp += PlayerStats.mp_regen;
 }
 
+//for level up
+if(PlayerStats.level_exp >= PlayerStats.level_exp_max) {
+    PlayerStats.level += 1;
+    PlayerStats.element_points += 1;
+    PlayerStats.level_exp = PlayerStats.level_exp - PlayerStats.level_exp_max;
+    PlayerStats.level_exp_max *= 2;
+}
+
 //swim state check for now
 //assumes player exit from the bottom
 var player_touched_water = place_meeting(x, y, Water) || place_meeting(x, y, WaterTop);

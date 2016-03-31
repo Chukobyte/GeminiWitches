@@ -121,6 +121,7 @@
       <sprite>sprites\spr_menu_fire</sprite>
       <sprite>sprites\spr_menu_water</sprite>
       <sprite>sprites\spr_menu_earth</sprite>
+      <sprite>sprites\spr_menu_skill</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -323,6 +324,7 @@
       <object>objects\MenuWater</object>
       <object>objects\MenuEarth</object>
       <object>objects\MenuWind</object>
+      <object>objects\MenuSkill</object>
     </objects>
   </objects>
   <timelines name="timelines">
@@ -344,6 +346,7 @@
     <room>rooms\rm_play_again</room>
     <room>rooms\rm_water</room>
     <room>rooms\rm_pause_menu</room>
+    <room>rooms\room11</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

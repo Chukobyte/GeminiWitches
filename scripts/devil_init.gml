@@ -7,6 +7,7 @@ spd = 6;
 hp = 6;
 sight_range = 150;
 hurt_sprite = spr_devil_hurt;
+exp_given = 10;
 state = devil_shoot_state;
 
 devil_shot_timer_max = room_speed * 2;
