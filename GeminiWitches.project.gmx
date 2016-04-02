@@ -73,6 +73,8 @@
         <sprite>sprites\spr_land_water_wall</sprite>
         <sprite>sprites\spr_water_top</sprite>
         <sprite>sprites\spr_water</sprite>
+        <sprite>sprites\spr_black_block</sprite>
+        <sprite>sprites\spr_lava</sprite>
       </sprites>
     </sprites>
     <sprites name="Enemies">
@@ -280,6 +282,8 @@
         <object>objects\LandWaterWall</object>
         <object>objects\Water</object>
         <object>objects\WaterTop</object>
+        <object>objects\BlackBlock</object>
+        <object>objects\Lava</object>
       </objects>
     </objects>
     <objects name="Controllers">
@@ -339,15 +343,16 @@
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
-    <room>rooms\room11</room>
+    <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
     <room>rooms\rm_five</room>
     <room>rooms\rm_play_again</room>
-    <room>rooms\rm_water</room>
     <room>rooms\rm_pause_menu</room>
-    <room>rooms\rm_one</room>
+    <room>rooms\rm_water_test</room>
+    <room>rooms\rm_expanded_test</room>
+    <room>rooms\rm_fire_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

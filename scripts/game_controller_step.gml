@@ -7,12 +7,6 @@ var is_pause = global.game_paused;
 //Pause Logic
 if(room == rm_pause_menu && global.game_paused) {
     global.menu_item_pause_delay--;
-    if(!audio_is_playing(snd_main)) {
-        ///Play the background music
-        audio_em = audio_emitter_create();
-        audio_emitter_gain(audio_em, .3);
-        audio_play_sound_on(audio_em, snd_main, true, 10);
-    }
     
     //exp stuff here
     if(PlayerStats.fire_level == 1) {
@@ -124,7 +118,7 @@ switch(room) {
         
         break;
         
-    case rm_water:
+    case rm_water_test:
     
         if(global.time > 0) {
             if(global.second_counter == room_speed) {
