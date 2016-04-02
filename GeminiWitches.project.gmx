@@ -88,6 +88,7 @@
       <sprites name="Devil">
         <sprite>sprites\spr_devil_move</sprite>
         <sprite>sprites\spr_devil_idle</sprite>
+        <sprite>sprites\spr_devil_test</sprite>
         <sprite>sprites\spr_devil_hurt</sprite>
         <sprite>sprites\spr_devil_power_change</sprite>
       </sprites>
@@ -338,7 +339,7 @@
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
     <room>rooms\rm_main</room>
-    <room>rooms\rm_one</room>
+    <room>rooms\room11</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
@@ -346,7 +347,7 @@
     <room>rooms\rm_play_again</room>
     <room>rooms\rm_water</room>
     <room>rooms\rm_pause_menu</room>
-    <room>rooms\room11</room>
+    <room>rooms\rm_one</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -5,6 +5,7 @@ with(other) {
     switch(element) {
     case "earth":
         PlayerStats.earth_unlocked = true;
+        PlayerStats.earth_level += 1;
         PlayerStats.soul_gems += 1;
         PlayerStats.maxhp += 2;
         PlayerStats.hp = PlayerStats.maxhp;
@@ -13,6 +14,7 @@ with(other) {
         break;
     case "wind":
         PlayerStats.wind_unlocked = true;
+        PlayerStats.wind_level += 1;
         PlayerStats.soul_gems += 1;
         PlayerStats.spd += 1;
         //PlayerStats.jump_height -= 1;
@@ -21,12 +23,14 @@ with(other) {
         break;
     case "fire":
         PlayerStats.fire_unlocked = true;
+        PlayerStats.fire_level += 1;
         PlayerStats.soul_gems += 1;
         PlayerStats.attack += 1;
         instance_destroy();
         break;
     case "water":
         PlayerStats.water_unlocked = true;
+        PlayerStats.water_level += 1;
         PlayerStats.soul_gems += 1;
         PlayerStats.maxmp += 2;
         PlayerStats.mp = PlayerStats.maxmp;

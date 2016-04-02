@@ -27,7 +27,7 @@ if(!place_meeting(x, y + 1, Solid)){
     }
     
     //double jump
-    if(up && double_jump_enabled && PlayerStats.wind_unlocked) {
+    if(up && double_jump_enabled && PlayerStats.wind_level > 0) {
         double_jump_enabled = false;
         vspd = jump_height;
     }
@@ -95,13 +95,13 @@ if(soul_element_attack_button){
         //audio_emitter_pitch(audio_em, .5);
         audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
     }
-} else if(water_magic_attack_button && PlayerStats.water_unlocked){
+} else if(water_magic_attack_button && PlayerStats.water_level > 0){
     var sucess = piecing_water_crystal_attempt();;
-} else if(earth_magic_attack_button && PlayerStats.earth_unlocked) {
+} else if(earth_magic_attack_button && PlayerStats.earth_level > 0) {
     var success = flower_of_life_attempt();
-} else if(fire_magic_attack_button && PlayerStats.fire_unlocked) {
+} else if(fire_magic_attack_button && PlayerStats.fire_level > 0) {
     var success = fire_burst_attempt();
-} else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_unlocked) {
+} else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_level > 0) {
         audio_stop_sound(snd_jump);
         state = player_fly_state;
         vspd = 0;

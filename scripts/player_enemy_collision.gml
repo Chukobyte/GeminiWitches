@@ -16,7 +16,7 @@ for(i = -20; i <= 20; i++) {
 
 if(above_enemy && falling && state != player_death_state) {
 
-    if(PlayerStats.earth_unlocked) {
+    if(PlayerStats.earth_level > 0) {
         with(other) {
             if(state != hurt_state) {
                 hp -= 1;

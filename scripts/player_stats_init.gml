@@ -5,7 +5,7 @@ hp_regen = 0;
 
 maxmp = 6;
 mp = maxmp;
-mp_regen = 0.005;
+mp_regen = 0.002;
 
 soul_element_attack_cooldown = 1 * room_speed;
 soul_element_attack_timer = soul_element_attack_cooldown; 
@@ -28,7 +28,7 @@ money = 0;
 //Soul Gems Attributes
 soul_gems = 0;
 
-earth_unlocked = false;
-wind_unlocked = false;
-fire_unlocked = false;
-water_unlocked = false;
+earth_level = 0;
+wind_level = 0;
+fire_level = 0;
+water_level = 0;

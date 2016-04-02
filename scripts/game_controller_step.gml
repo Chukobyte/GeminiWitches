@@ -15,25 +15,25 @@ if(room == rm_pause_menu && global.game_paused) {
     }
     
     //exp stuff here
-    if(PlayerStats.fire_unlocked) {
+    if(PlayerStats.fire_level == 1) {
         MenuFire.image_blend = c_white;
     } else {
         MenuFire.image_blend = c_dkgray;
     }
     
-    if(PlayerStats.water_unlocked) {
+    if(PlayerStats.water_level == 1) {
         MenuWater.image_blend = c_white;
     } else {
         MenuWater.image_blend = c_dkgray;
     }
     
-    if(PlayerStats.earth_unlocked) {
+    if(PlayerStats.earth_level == 1) {
         MenuEarth.image_blend = c_white;
     } else {
         MenuEarth.image_blend = c_dkgray;
     }
     
-    if(PlayerStats.wind_unlocked) {
+    if(PlayerStats.wind_level == 1) {
         MenuWind.image_blend = c_white;
     } else {
         MenuWind.image_blend = c_dkgray;

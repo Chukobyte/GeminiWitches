@@ -1,3 +1,7 @@
+#[0.3.4] - Mar 27, 2016
+------
+- Made gem collision increase element level.
+
 #[0.3.3] - Mar 27, 2016
 ------
 - Added elements icons to pause menu
