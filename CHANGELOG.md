@@ -1,4 +1,12 @@
-#[0.3.4] - Mar 27, 2016
+#[0.3.6] - Apr 3, 2016
+------
+- Changing visuals for enemy hurt state, element attack collisions, etc.
+
+#[0.3.5] - Apr 2, 2016
+------
+- Added fire themed room (rough draft)
+
+#[0.3.4] - Apr 1, 2016
 ------
 - Made gem collision increase element level.
 

@@ -11,7 +11,7 @@
     up_release = keyboard_check_released(vk_up);
     down = keyboard_check(vk_down);
     attack_button = keyboard_check(ord('A'));
-    soul_element_attack_button = keyboard_check(ord('S'));
+    soul_element_attack_button = keyboard_check_pressed(ord('S'));
     water_magic_attack_button = keyboard_check(ord('X'));
     earth_magic_attack_button = keyboard_check(ord('Z'));
     fire_magic_attack_button = keyboard_check(ord('Q'));

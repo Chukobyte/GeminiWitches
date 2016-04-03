@@ -1,4 +1,4 @@
-///player_take_damage(damage, add_knock_back)
+///player_take_damage(damage, add_knock_back, knock_back_amount)
 var damage = argument0;
 var add_knock_back = argument1;
 var knockback_amount = argument2;

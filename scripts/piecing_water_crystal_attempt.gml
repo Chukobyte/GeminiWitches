@@ -9,7 +9,6 @@ if(PlayerStats.mp > 0 && PlayerStats.soul_element_attack_timer <= 0) {
     sprite_index = attack_sprite;
     PlayerStats.mp -= water_magic_attack.cost;
     
-    //Sets cooldown on magic attack
     PlayerStats.soul_element_attack_timer = PlayerStats.soul_element_attack_cooldown;
     return true;
 } else {

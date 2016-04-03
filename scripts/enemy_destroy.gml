@@ -1,5 +1,5 @@
 ///enemy_destroy()
-
+/*
 var audio_em = audio_emitter_create();
 audio_emitter_gain(audio_em, .3);
 audio_play_sound_on(audio_em, snd_explosion, false, 5);
@@ -12,6 +12,7 @@ repeat(5) {
     instance_create(x - rand_num, y + rand_num, Smoke);
     instance_create(x + rand_num, y - rand_num, Smoke);
 }
+*/
 
 //Drops a coin and makes sure the Player can collect
 if(!position_meeting(x, y, Solid)) {

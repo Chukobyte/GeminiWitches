@@ -21,6 +21,7 @@ level = 1;
 level_exp = 0;
 level_exp_max = 10;
 element_points = 0;
+soul_element_shot_count = 3;
 
 //Items related stats
 money = 0;
