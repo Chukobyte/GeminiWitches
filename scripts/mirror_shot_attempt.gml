@@ -8,7 +8,6 @@ if(instance_number(MirrorShot) < PlayerStats.soul_element_shot_count) {
     new_mirror_shot_attack.fired = true;
     sprite_index = attack_sprite;
     PlayerStats.mp -= new_mirror_shot_attack.cost;
-    PlayerStats.soul_element_attack_timer = PlayerStats.soul_element_attack_cooldown;
     return true;
 } else {
     return false;

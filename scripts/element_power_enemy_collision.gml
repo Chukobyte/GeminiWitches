@@ -1,12 +1,18 @@
 ///element_power_enemy_collision()
 if(affects_enemy) {
     var damage_done = damage;
+    var flinch = stuns;
     with(other) {
         if(state != hurt_state){
-            hp -= damage_done;
-            previous_state = state;
-            state = hurt_state;
-            enemy_damage_timer = enemy_damage_timer_max;
+            if(flinch) {
+                hp -= damage_done;
+                previous_state = state;
+                state = hurt_state;
+                enemy_damage_timer = enemy_damage_timer_max;
+            } else {
+                hp -= damage_done;
+            }
+            
         }
     }
     var audio_em = audio_emitter_create();

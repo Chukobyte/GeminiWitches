@@ -17,6 +17,7 @@ stage = 0;
 cooldown = 0;
 duration = 99999;
 fired = false;
+stuns = true;
 
 affects_enemy = true;
 affects_player = false;
