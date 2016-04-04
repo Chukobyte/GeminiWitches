@@ -18,12 +18,11 @@ if(above_enemy && falling && state != player_death_state) {
 
     if(PlayerStats.earth_level > 0) {
         with(other) {
-            if(state != hurt_state) {
-                hp -= 1;
-                previous_state = state;
-                state = hurt_state;
-                enemy_damage_timer = enemy_damage_timer_max;
-            }
+            if(!enemy_damaged) {
+                hp -= damage_done;
+                enemy_damaged = true;
+                enemy_damaged_timer = enemy_damaged_timer_max;
+            }  
         }
     }
     
@@ -41,11 +40,10 @@ if(above_enemy && falling && state != player_death_state) {
 } else if(attacking && is_next_to_enemy) {
     var attack_damage = PlayerStats.attack;
     with(other) {
-        if(state != hurt_state) {
+        if(!enemy_damaged) {
             hp -= attack_damage;
-            previous_state = state;
-            state = hurt_state;
-            enemy_damage_timer = enemy_damage_timer_max;  
+            enemy_damaged = true;
+            enemy_damaged_timer = enemy_damaged_timer_max;  
             
             //Pushes the enemy back
             var dir = point_direction(x, y, Player.x, Player.y);

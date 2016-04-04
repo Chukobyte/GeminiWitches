@@ -3,17 +3,11 @@ if(affects_enemy) {
     var damage_done = damage;
     var flinch = stuns;
     with(other) {
-        if(state != hurt_state){
-            if(flinch) {
-                hp -= damage_done;
-                previous_state = state;
-                state = hurt_state;
-                enemy_damage_timer = enemy_damage_timer_max;
-            } else {
-                hp -= damage_done;
-            }
-            
-        }
+        if(!enemy_damaged) {
+            hp -= damage_done;
+            enemy_damaged = true;
+            enemy_damaged_timer = enemy_damaged_timer_max;
+        }   
     }
     var audio_em = audio_emitter_create();
     audio_emitter_gain(audio_em, .3);

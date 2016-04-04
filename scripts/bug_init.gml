@@ -5,7 +5,7 @@ event_inherited();
 spd = 1;
 hp = 2;
 state = bug_move_right_state;
-enemy_flinch = true;
+//enemy_flinch = true;
 //enemy_damage_timer_max = 1;
 
 //sprite

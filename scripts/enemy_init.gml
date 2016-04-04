@@ -10,9 +10,9 @@ grav = 1.5;
 enemy_attack = 1;
 
 enemy_damaged = false;
-enemy_flinch = true;
-enemy_damage_timer_max = 5;
-enemy_damage_timer = 0;
+//enemy_flinch = true;
+enemy_damaged_timer_max = 5;
+enemy_damaged_timer = 0;
 
 state = "";
 hurt_state = enemy_hurt_state;

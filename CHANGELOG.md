@@ -1,6 +1,7 @@
 #[0.3.6] - Apr 3, 2016
 ------
 - Changing visuals for enemy hurt state, element attack collisions, etc.
+- Decoupled enemy hurt state dependency.
 
 #[0.3.5] - Apr 2, 2016
 ------
