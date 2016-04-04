@@ -19,7 +19,7 @@ if(above_enemy && falling && state != player_death_state) {
     if(PlayerStats.earth_level > 0) {
         with(other) {
             if(!enemy_damaged) {
-                hp -= damage_done;
+                hp -= 1;
                 enemy_damaged = true;
                 enemy_damaged_timer = enemy_damaged_timer_max;
             }  
