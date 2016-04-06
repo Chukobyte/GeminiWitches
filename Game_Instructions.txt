@@ -1,9 +1,7 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.3.5) *
+	* GEMINI WITICHES (Version 0.3.7) *
 	***********************************
-
-** Link to source code - https://github.com/Chukobyte/GeminiWitches
-
+	
 ** Click character portrait to select **
 
 ** Score = Coins collected for now. **
@@ -12,8 +10,12 @@
 
 ** Blue Bar = Magic (can't use magic when it reached 0) **
 
-** GEM POWERS**
-You can only choose two!
+** ELEMENTAL POWERS**
+
+*Mirror Shot
+-Shoots a small mirror energy shot.  Doesn't cost mp.  Charge for a more powerful attack.
+
+**You can only choose two gems from the trees!
 
 *Earth (orange gem)
 -Boost max hp
@@ -48,7 +50,7 @@ F5 = Reset Game
 <Enter> = Menu Selection / Pause
 
 'A' attacks with a punch
-'S' shoots magic
+'S' Mirror Shot (Hold to Charge)
 'Z' Flower of life
 'W' Fly
 'X' Piercing Water Crystal
@@ -63,7 +65,7 @@ F5 = Reset Game
 <Start> = Menu Selection / Pause
 
 'X' attacks with a punch
-'B' shoots magic
+'B' Mirror Shot (Hold to Charge)
 
 *While Holding Down Right Back Trigger
 'Y' Flower of life

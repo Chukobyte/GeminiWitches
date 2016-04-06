@@ -1,3 +1,7 @@
+#[0.3.7] - Apr 5, 2016
+------
+- Added charge to mirror shot.  When charged attack does 2x damage and is 3x bigger!
+
 #[0.3.6] - Apr 3, 2016
 ------
 - Changing visuals for enemy hurt state, element attack collisions, etc.
