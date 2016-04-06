@@ -12,6 +12,8 @@ soul_element_attack_timer = soul_element_attack_cooldown;
 
 //Adds or subtracts to Player's base stats.
 attack = 1;
+charge_time = 0;
+charge_time_max = room_speed * 2;
 knockback_strength = 15; //determines how far an enemy flies on punch
 spd = 0;
 jump_height = 0;

@@ -36,3 +36,13 @@ global.menu_item_confirmation_delay_max = 10;
 global.menu_item_confirmation_delay = global.menu_item_confirmation_delay_max;
 global.menu_item_pause_delay_max = 10;
 global.menu_item_pause_delay = global.menu_item_pause_delay_max;
+
+//particles
+global.particle_system = part_system_create();
+global.particle1 = part_type_create();
+part_type_shape(global.particle1, pt_shape_circle);
+part_type_size(global.particle1, 0.05, 0.1, 0, 0.5);
+part_type_colour1(global.particle1, c_silver);
+part_type_speed(global.particle1, 0.5, 2, -0.10, 0);
+part_type_life(global.particle1,10,10);  
+

@@ -11,7 +11,8 @@
     up_release = keyboard_check_released(vk_up);
     down = keyboard_check(vk_down);
     attack_button = keyboard_check(ord('A'));
-    soul_element_attack_button = keyboard_check_pressed(ord('S'));
+    soul_element_attack_button_pressed = keyboard_check(ord('S'));
+    soul_element_attack_button_released = keyboard_check_released(ord('S'));
     water_magic_attack_button = keyboard_check(ord('X'));
     earth_magic_attack_button = keyboard_check(ord('Z'));
     fire_magic_attack_button = keyboard_check(ord('Q'));
@@ -30,7 +31,8 @@
         up_release = gamepad_button_check_released(gp_id, gp_face1);
         down = gamepad_axis_value(gp_id, gp_axislv) > thresh;
         attack_button = gamepad_button_check_pressed(gp_id, gp_face3);;
-        soul_element_attack_button = gamepad_button_check_pressed(gp_id, gp_face2) && !gamepad_button_check(gp_id, gp_shoulderrb);
+        soul_element_attack_button_pressed = gamepad_button_check(gp_id, gp_face2) && !gamepad_button_check(gp_id, gp_shoulderrb);
+        soul_element_attack_button_released = gamepad_button_check_released(gp_id, gp_face2) && !gamepad_button_check(gp_id, gp_shoulderrb);
         water_magic_attack_button = gamepad_button_check_pressed(gp_id, gp_face3) && gamepad_button_check(gp_id, gp_shoulderrb);
         earth_magic_attack_button = gamepad_button_check_pressed(gp_id, gp_face4) && gamepad_button_check(gp_id, gp_shoulderrb);
         fire_magic_attack_button = gamepad_button_check_pressed(gp_id, gp_face2) && gamepad_button_check(gp_id, gp_shoulderrb);

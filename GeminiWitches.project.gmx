@@ -101,9 +101,9 @@
       </sprites>
     </sprites>
     <sprites name="Effects">
-      <sprite>sprites\spr_magic_attack</sprite>
       <sprite>sprites\spr_smoke_anim</sprite>
       <sprites name="Powers">
+        <sprite>sprites\spr_mirror_shot</sprite>
         <sprite>sprites\spr_piecing_water_crystal</sprite>
         <sprite>sprites\spr_flower_of_life</sprite>
       </sprites>
