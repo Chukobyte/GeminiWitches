@@ -53,6 +53,9 @@ if(PlayerStats.level_exp >= PlayerStats.level_exp_max) {
 //assumes player exit from the bottom
 var player_touched_water = place_meeting(x, y, Water) || place_meeting(x, y, WaterTop);
 if(player_touched_water) {
+    image_blend = c_white;
+    //reset charge time when under water
+    PlayerStats.charge_time = 0;
     state = player_swim_state;
 } else if(state == player_swim_state && !player_touched_water) {
     //boost jump

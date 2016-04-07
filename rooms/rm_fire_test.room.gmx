@@ -598,6 +598,7 @@
     <instance objName="BlackBlock" x="1312" y="512" name="inst_668D461A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1216" y="512" name="inst_CB772303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="480" name="inst_33D16356" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SoulGemFire" x="576" y="320" name="inst_2ACEB7AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

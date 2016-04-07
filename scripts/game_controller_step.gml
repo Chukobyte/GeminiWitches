@@ -71,13 +71,9 @@ switch(room) {
         }
         
         //Won't show exit door unless objective is complete
-        if(PlayerStats.soul_gems < 2 || instance_exists(Devil)) {
+        if(instance_exists(Devil)) {
             show_exit_door = false;
         } else {
-            //Destroy other gems
-            with(SoulGem) {
-                instance_destroy();
-            }
             show_exit_door = true;
         }
         
@@ -118,39 +114,6 @@ switch(room) {
         
         break;
         
-    case rm_water_test:
-    
-        if(global.time > 0) {
-            if(global.second_counter == room_speed) {
-                global.time--;
-                global.second_counter = 0;
-            } else {
-                global.second_counter++;
-            }
-        }
-        
-        /*
-        if(!audio_is_playing(snd_new_music)) {
-            ///Play the background music
-            audio_em = audio_emitter_create();
-            audio_emitter_gain(audio_em, .5);
-            audio_play_sound_on(audio_em, snd_new_music, true, 10);
-        }
-        */
-        
-        //Won't show exit door unless objective is complete
-        if(PlayerStats.soul_gems < 2 || instance_exists(Devil)) {
-            show_exit_door = false;
-        } else {
-            //Destroy other gems
-            with(SoulGem) {
-                instance_destroy();
-            }
-            show_exit_door = true;
-        }
-        
-        break;
-        
     case rm_choose_character:
         if(instance_exists(SeikaPortrait) || instance_exists(AmayaPortrait)) {
             global.menu_item_selection_timer--;
@@ -180,7 +143,7 @@ switch(room) {
                     global.player_1_selected = Amaya;
                 }
                 
-                room_goto(rm_main);
+                room_goto_next();
             }
             
             
