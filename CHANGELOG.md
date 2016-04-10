@@ -1,3 +1,11 @@
+#[0.3.9] - Apr 10, 2016
+------
+- Tweaked rooms a bit more.  Now player has the collect the four gems to fight the final boss.
+
+#[0.3.8] - Apr 7, 2016
+------
+- Tweaking rooms.
+
 #[0.3.7] - Apr 5, 2016
 ------
 - Added charge to mirror shot.  When charged attack does 2x damage and is 3x bigger!

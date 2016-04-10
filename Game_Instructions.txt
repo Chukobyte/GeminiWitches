@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.3.7) *
+	* GEMINI WITICHES (Version 0.3.9) *
 	***********************************
 	
 ** Click character portrait to select **
@@ -15,7 +15,7 @@
 *Mirror Shot
 -Shoots a small mirror energy shot.  Doesn't cost mp.  Charge for a more powerful attack.
 
-**You can only choose two gems from the trees!
+**Collect all four gems to fight the boss!
 
 *Earth (orange gem)
 -Boost max hp
