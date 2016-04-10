@@ -1,7 +1,5 @@
 ///game_controller_step()
 
-
-
 get_player_input();
 var is_pause = global.game_paused;
 //Pause Logic
@@ -107,6 +105,14 @@ switch(room) {
                 show_exit_door = true;
             }
         }        
+        
+        else {
+            if(instance_exists(SoulGem)) {
+                show_exit_door = false;
+            } else {
+                show_exit_door = true;
+            }
+        }
         
         break;
         
