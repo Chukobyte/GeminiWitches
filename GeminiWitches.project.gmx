@@ -146,6 +146,7 @@
       <script>scripts\correct_sprite_direction.gml</script>
       <script>scripts\correct_sprite_direction_move.gml</script>
       <script>scripts\cap_at_max_spd.gml</script>
+      <script>scripts\create_timer.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="State">
@@ -253,6 +254,7 @@
         <script>scripts\element_power_attack.gml</script>
       </scripts>
     </scripts>
+    <script>scripts\door_init.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_choose_character</font>
@@ -342,19 +344,14 @@
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
-    <room>rooms\rm_earth_test</room>
-    <room>rooms\rm_wind_test</room>
-    <room>rooms\rm_fire_test</room>
-    <room>rooms\rm_water_test</room>
-    <room>rooms\rm_five</room>
+    <room>rooms\rm_select</room>
+    <room>rooms\rm_boss</room>
     <room>rooms\rm_play_again</room>
     <room>rooms\rm_pause_menu</room>
-    <room>rooms\rm_one</room>
-    <room>rooms\rm_two</room>
-    <room>rooms\rm_three</room>
-    <room>rooms\rm_four</room>
-    <room>rooms\rm_expanded_test</room>
-    <room>rooms\rm_main</room>
+    <room>rooms\rm_wind_test</room>
+    <room>rooms\rm_fire_test</room>
+    <room>rooms\rm_earth_test</room>
+    <room>rooms\rm_water_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

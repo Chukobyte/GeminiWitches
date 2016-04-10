@@ -70,12 +70,43 @@ switch(room) {
             audio_play_sound_on(audio_em, snd_main, true, 10);
         }
         
-        //Won't show exit door unless objective is complete
-        if(instance_exists(Devil)) {
-            show_exit_door = false;
-        } else {
+        //for select room
+        if(room == rm_select) {
             show_exit_door = true;
-        }
+        
+            var e_done = PlayerStats.earth_level > 0;
+            var w_done = PlayerStats.wind_level > 0;
+            var f_done = PlayerStats.fire_level > 0;
+            var w_done = PlayerStats.water_level > 0;
+            if(e_done && w_done && f_done && w_done) {
+                //Destroys closed doors
+                if(instance_exists(DoorClosed)) {
+                  with(DoorClosed){
+                    instance_destroy();
+                  }
+                }
+                
+                //Show Boss door
+                with(Door) {
+                    if(room_selected == rm_boss) {
+                        visible = true;
+                    }
+                }
+            } else {
+                with(Door) {
+                    if(room_selected == rm_boss) {
+                        visible = false;
+                    }
+                }
+            }
+        } else if(room == rm_boss) {
+            //Won't show exit door unless objective is complete
+            if(instance_exists(Devil)) {
+                show_exit_door = false;
+            } else {
+                show_exit_door = true;
+            }
+        }        
         
         break;
         

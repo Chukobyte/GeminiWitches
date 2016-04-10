@@ -3,12 +3,12 @@
   <caption></caption>
   <width>2560</width>
   <height>720</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>-1</persistent>
-  <colour>12632256</colour>
+  <colour>9408399</colour>
   <showcolour>-1</showcolour>
   <code>rm_main_init();</code>
   <enableViews>-1</enableViews>
@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bg_main" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Door" x="1184" y="320" name="inst_CF620CAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Door" x="2464" y="352" name="inst_CF620CAD" locked="0" code="room_selected = rm_select;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DoorClosed" x="80" y="640" name="inst_3661DE34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Cloud" x="224" y="224" name="inst_C372AA33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Cloud" x="640" y="256" name="inst_7082AA70" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -195,7 +195,6 @@
     <instance objName="BlackBlock" x="192" y="672" name="inst_D16EE5E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="224" y="672" name="inst_3C2F7229" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="256" y="672" name="inst_3EEBF175" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="352" y="672" name="inst_30CC44BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="544" y="672" name="inst_71EBBA08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="576" y="672" name="inst_405EC21F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="608" y="672" name="inst_39030B63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -205,9 +204,6 @@
     <instance objName="BlackBlock" x="736" y="672" name="inst_E12A3ADE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="768" y="672" name="inst_F048A7BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="800" y="672" name="inst_791F387A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="832" y="672" name="inst_89EB3138" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="864" y="672" name="inst_BDC2F6F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="896" y="672" name="inst_163CE7A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="0" y="704" name="inst_06958489" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="32" y="704" name="inst_A9E5DE5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="64" y="704" name="inst_0BD8AB71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -234,24 +230,12 @@
     <instance objName="BlackBlock" x="992" y="704" name="inst_9FEE3BBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1024" y="704" name="inst_B7B4BEF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="704" name="inst_F5060A0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1120" y="704" name="inst_A911FFCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1152" y="704" name="inst_8CC40372" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1184" y="704" name="inst_882DC693" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1216" y="704" name="inst_56F2F790" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1248" y="704" name="inst_8B9E69E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1280" y="704" name="inst_60B163A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Lava" x="288" y="672" name="inst_3F67E312" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Lava" x="320" y="672" name="inst_68FBC758" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1312" y="704" name="inst_41381FFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1376" y="672" name="inst_BEBEF8EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1408" y="672" name="inst_64C6753A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1440" y="672" name="inst_934C3A19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1472" y="672" name="inst_CB481F71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1504" y="672" name="inst_CF726589" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1536" y="672" name="inst_13126777" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1568" y="672" name="inst_4F8EF7C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1600" y="672" name="inst_0F1B67C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1632" y="672" name="inst_DB2EAECE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1696" y="672" name="inst_1F35AA10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1728" y="672" name="inst_FE1C3430" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1760" y="672" name="inst_E3CE08B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -266,20 +250,6 @@
     <instance objName="BlackBlock" x="2016" y="672" name="inst_11C0E05C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="2048" y="672" name="inst_D48337F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="2080" y="672" name="inst_1A284CAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2144" y="672" name="inst_ECF87380" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2176" y="672" name="inst_7B8C9CF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2208" y="672" name="inst_A490AB62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2240" y="672" name="inst_35064F4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2112" y="672" name="inst_86E91B22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2272" y="672" name="inst_9446F782" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2304" y="672" name="inst_C4BEBB6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2336" y="672" name="inst_51E3A6E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2368" y="672" name="inst_ECDB50F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2400" y="672" name="inst_694E504B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2432" y="672" name="inst_0E737E78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2464" y="672" name="inst_861C3656" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2496" y="672" name="inst_B4DF8E7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2528" y="672" name="inst_C7CF783F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1440" y="704" name="inst_8B207371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1472" y="704" name="inst_D4AD6F62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1504" y="704" name="inst_CDFC7B30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -322,8 +292,6 @@
     <instance objName="BlackBlock" x="832" y="480" name="inst_B27FB587" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="864" y="480" name="inst_6FD453CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="896" y="480" name="inst_BCCE805B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="928" y="480" name="inst_A62AB51D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="928" y="448" name="inst_3F8DC809" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="928" y="416" name="inst_7D21D718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="960" y="416" name="inst_0D3F3471" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="992" y="384" name="inst_6A006176" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -341,11 +309,6 @@
     <instance objName="BlackBlock" x="1344" y="352" name="inst_C92AD10C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="192" name="inst_14CF853D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1344" y="256" name="inst_9F4781A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="288" name="inst_3C8DF238" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="320" name="inst_11BFE840" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="160" name="inst_82A98FBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="128" name="inst_7FCB045E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="96" name="inst_559809C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1344" y="64" name="inst_686A0AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1344" y="32" name="inst_53E222EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1344" y="0" name="inst_254E4E65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -372,40 +335,21 @@
     <instance objName="BlackBlock" x="768" y="608" name="inst_4955149D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="800" y="576" name="inst_2842BD8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="960" y="480" name="inst_EE6C3682" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="960" y="448" name="inst_C95B372D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1024" y="448" name="inst_F7F8606E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1120" y="384" name="inst_4FEB48BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1152" y="384" name="inst_242A6D80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1248" y="384" name="inst_DCBDE062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1216" y="384" name="inst_4058CAAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="384" name="inst_B1F1BC03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1312" y="384" name="inst_7A44FD49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1344" y="448" name="inst_9E3E046E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="608" name="inst_9075F8E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1312" y="416" name="inst_A453644F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1152" y="416" name="inst_CB37437E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1120" y="416" name="inst_E54C96C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1088" y="416" name="inst_2BF0EC31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1312" y="448" name="inst_0257BDC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1312" y="608" name="inst_FCF0D59D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="448" name="inst_1247BFD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1152" y="448" name="inst_F5DE7DE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1120" y="448" name="inst_9567D35B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="448" name="inst_E29C88A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1056" y="448" name="inst_DE9C509E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1024" y="448" name="inst_FD7DE725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1248" y="448" name="inst_EF6284F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1216" y="448" name="inst_962D0695" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="480" name="inst_1CF5F7F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="544" name="inst_29D79A1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="544" name="inst_BB698935" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="512" name="inst_6B72ED4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1120" y="512" name="inst_1C51438E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1056" y="512" name="inst_3E6A7A06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1024" y="480" name="inst_C31D2177" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="960" y="480" name="inst_5DD15CE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1056" y="480" name="inst_D1688584" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1152" y="480" name="inst_1C44B637" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="608" y="640" name="inst_2304E222" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="448" y="608" name="inst_EE75079F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="512" y="608" name="inst_3A64BB50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -424,37 +368,16 @@
     <instance objName="BlackBlock" x="832" y="544" name="inst_1D0A7365" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="832" y="512" name="inst_A319AFBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="864" y="512" name="inst_9CDC26CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="896" y="512" name="inst_A19BC490" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="928" y="512" name="inst_E3EC070B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="992" y="480" name="inst_71EB3028" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="992" y="448" name="inst_0799E094" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="992" y="416" name="inst_778D1E70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1024" y="416" name="inst_7CC51F24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1056" y="416" name="inst_A3B28248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1056" y="384" name="inst_E9555E92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="384" name="inst_733A17D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1184" y="384" name="inst_4214A657" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1184" y="416" name="inst_2754802B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1216" y="416" name="inst_FDAD0E8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1248" y="416" name="inst_2FEC8A41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="416" name="inst_44DF6C16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="512" name="inst_CAFC6C47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="544" name="inst_885C3AB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1312" y="576" name="inst_C55FF994" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1312" y="544" name="inst_3255D5CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="576" name="inst_C174514C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="608" name="inst_3EDBE898" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1280" y="672" name="inst_CCB62F3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1248" y="672" name="inst_3CDEF400" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1216" y="672" name="inst_30B64744" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1184" y="672" name="inst_ACC769E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1120" y="672" name="inst_344F1EE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1088" y="672" name="inst_71544855" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1056" y="704" name="inst_E113B2AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="992" y="640" name="inst_A094FAB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="832" y="640" name="inst_638047F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="960" y="640" name="inst_185D65CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="928" y="640" name="inst_32BE2952" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="864" y="640" name="inst_DDE27641" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="736" y="640" name="inst_958FE4DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="704" y="640" name="inst_052D5048" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -470,24 +393,12 @@
     <instance objName="BlackBlock" x="768" y="640" name="inst_4AEA8270" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="800" y="640" name="inst_4A42CAF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="960" y="672" name="inst_EBF8DA7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1024" y="640" name="inst_669490FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1056" y="640" name="inst_FE1DF28F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="640" name="inst_8DD21B04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1120" y="640" name="inst_AB7B9375" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1248" y="640" name="inst_FDAE41D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1248" y="544" name="inst_AFE388F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1216" y="544" name="inst_507A9B07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1216" y="576" name="inst_FF703AE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1248" y="576" name="inst_64061626" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1216" y="608" name="inst_33288ADE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1152" y="608" name="inst_07C4D662" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1184" y="448" name="inst_A0A36534" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1152" y="512" name="inst_28E6877A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1120" y="544" name="inst_CCF2A1C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1152" y="544" name="inst_5E005E59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1184" y="512" name="inst_15BCDCBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1184" y="544" name="inst_BBBD448F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1088" y="576" name="inst_2EA483A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="544" name="inst_145D8157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="512" name="inst_CBECB24D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1056" y="544" name="inst_994DADC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -498,38 +409,23 @@
     <instance objName="BlackBlock" x="960" y="512" name="inst_9422F2C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="960" y="544" name="inst_9F03EB0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="864" y="544" name="inst_0552AA95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="896" y="544" name="inst_A8DC3C06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="928" y="544" name="inst_DC2B4A13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="864" y="576" name="inst_2ADDA184" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="800" y="608" name="inst_942E08D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="832" y="608" name="inst_82AEC8C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="864" y="608" name="inst_11606F48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="928" y="608" name="inst_6CC89B6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="992" y="608" name="inst_29D62B2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="960" y="608" name="inst_C1CFFE11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="896" y="608" name="inst_B05DFF44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="832" y="576" name="inst_CDDD748A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1024" y="576" name="inst_5F24BFE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="992" y="576" name="inst_47C420DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="960" y="576" name="inst_07C036EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="896" y="576" name="inst_10D98627" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="928" y="576" name="inst_15AC147C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1056" y="608" name="inst_98D0B329" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1120" y="608" name="inst_8BE30D1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="608" name="inst_7BCA1434" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1024" y="608" name="inst_060E84EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1056" y="576" name="inst_D413A186" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1120" y="576" name="inst_F918F290" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1152" y="576" name="inst_AD6B49D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1184" y="608" name="inst_1E335878" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1248" y="608" name="inst_A63AD8C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1280" y="640" name="inst_8C56BDB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1312" y="672" name="inst_2FF17658" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1312" y="640" name="inst_CC906C3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="640" name="inst_F0B2C051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="576" name="inst_E1575F45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1312" y="480" name="inst_12A8B9D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="480" name="inst_121446FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1344" y="416" name="inst_C9BAA67F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1344" y="384" name="inst_C58BFD3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1344" y="224" name="inst_8BC7E512" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -577,28 +473,330 @@
     <instance objName="BlackBlock" x="640" y="640" name="inst_994C8108" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="672" y="640" name="inst_95F42EAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="896" y="640" name="inst_C1D40810" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="928" y="672" name="inst_5ADB8126" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="992" y="672" name="inst_F1947407" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1056" y="672" name="inst_2722F40A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1024" y="672" name="inst_A34F0CF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1184" y="640" name="inst_09540B9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1216" y="640" name="inst_606E32A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1344" y="672" name="inst_1508BAEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1408" y="704" name="inst_30054DDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1376" y="704" name="inst_64219569" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1344" y="704" name="inst_1B4C0DDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1152" y="672" name="inst_652792BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1152" y="640" name="inst_9D09D078" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1184" y="576" name="inst_1BF24CB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1248" y="512" name="inst_1441C9A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1248" y="480" name="inst_B3742350" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1216" y="480" name="inst_852FD043" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1120" y="480" name="inst_0E11C4CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1184" y="480" name="inst_85BDE135" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1312" y="512" name="inst_668D461A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="1216" y="512" name="inst_CB772303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1088" y="480" name="inst_33D16356" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SoulGemFire" x="576" y="320" name="inst_2ACEB7AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SoulGemFire" x="1952" y="32" name="inst_2ACEB7AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="-32" name="inst_A6C341B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1408" y="-32" name="inst_BA61FFC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1440" y="-32" name="inst_2857F3E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1472" y="-32" name="inst_1DCB4E5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1504" y="-32" name="inst_F16E532B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1536" y="-32" name="inst_3E256618" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1568" y="-32" name="inst_881D3BAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1600" y="-32" name="inst_90CFECD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1632" y="-32" name="inst_785BF003" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1664" y="-32" name="inst_8A9F2E09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1696" y="-32" name="inst_760007EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1728" y="-32" name="inst_1A8B7291" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1760" y="-32" name="inst_D4896710" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1792" y="-32" name="inst_D6006104" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1824" y="-32" name="inst_C202D076" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1856" y="-32" name="inst_0CF7358F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1888" y="-32" name="inst_B43766C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1920" y="-32" name="inst_1696B297" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1952" y="-32" name="inst_46BFB655" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1984" y="-32" name="inst_17F8F242" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2016" y="-32" name="inst_B3967477" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2048" y="-32" name="inst_EEE4487B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2080" y="-32" name="inst_11D20857" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2112" y="-32" name="inst_09130F5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2144" y="-32" name="inst_DD1959E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2176" y="-32" name="inst_E942A641" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2208" y="-32" name="inst_7B3A9CCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2240" y="-32" name="inst_879DAE63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2272" y="-32" name="inst_B081322A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2304" y="-32" name="inst_A799022A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2336" y="-32" name="inst_ED66BAA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="-32" name="inst_F752E8C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="-32" name="inst_BC9A6A6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="-32" name="inst_A9880A53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="-32" name="inst_A96769F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="-32" name="inst_CB56AFAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2976" y="-32" name="inst_02511F42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="-32" name="inst_1C5A8524" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="384" name="inst_5FB8CA44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="416" name="inst_05EE2B3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="448" name="inst_DA77B376" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="480" name="inst_28E3E66D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="512" name="inst_5F029334" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="544" name="inst_C5445ECF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="576" name="inst_ADB1D4A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="576" name="inst_DE54FB5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="608" name="inst_67B8B85B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1696" y="640" name="inst_FEEFF713" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1536" y="544" name="inst_C811D9AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1568" y="544" name="inst_5C98757C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1600" y="576" name="inst_8F3C7CB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1600" y="608" name="inst_5BE86F2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1632" y="608" name="inst_6046B0E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1760" y="448" name="inst_3E190F56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1792" y="448" name="inst_08ABA1B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1824" y="448" name="inst_B8732D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1888" y="448" name="inst_D453A5A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1920" y="448" name="inst_1975DB72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2016" y="448" name="inst_08D4510D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2048" y="448" name="inst_7CDA03D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2208" y="512" name="inst_A179D4D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2240" y="512" name="inst_C3B4CDFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2272" y="512" name="inst_00E9C282" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1952" y="288" name="inst_5E07DC55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1984" y="288" name="inst_52F29B3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1888" y="352" name="inst_8552CBB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1888" y="224" name="inst_022CBDA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1792" y="160" name="inst_0EE2BBBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1664" y="96" name="inst_2FDDBE4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1760" y="64" name="inst_7271855F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1792" y="64" name="inst_3C2806A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1824" y="64" name="inst_FEAF7F77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1856" y="64" name="inst_8509C67B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1888" y="64" name="inst_9E69B18C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1920" y="64" name="inst_DAF68D06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1952" y="64" name="inst_5E83825D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1984" y="64" name="inst_551801DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2016" y="64" name="inst_86BF7F26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2016" y="32" name="inst_E39CF008" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2016" y="0" name="inst_7AF97951" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="352" y="672" name="inst_941BA66A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="1728" y="640" name="inst_3FC337CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="1760" y="640" name="inst_455F8BE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="1792" y="640" name="inst_C64E0F59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="1824" y="640" name="inst_1AB3BC4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="1856" y="640" name="inst_065EEF57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="1888" y="640" name="inst_80E47D9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="1920" y="640" name="inst_E084D947" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="1952" y="640" name="inst_0329E93E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="1984" y="640" name="inst_E30E897C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="2016" y="640" name="inst_C8BEF393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="2048" y="640" name="inst_E91F7C95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="2080" y="640" name="inst_35F0E54F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="2112" y="640" name="inst_AD7049C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="2144" y="640" name="inst_69E39935" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="2176" y="640" name="inst_446AD2BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2208" y="640" name="inst_619E941E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2208" y="608" name="inst_377E7304" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2208" y="576" name="inst_EC8DC96E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2208" y="544" name="inst_72D548B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2304" y="480" name="inst_1DA43364" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2336" y="480" name="inst_692DA855" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2336" y="448" name="inst_8025BB9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="416" name="inst_614C1CB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="416" name="inst_AB11E0AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="384" name="inst_5A1E3D0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="384" name="inst_860F146E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="384" name="inst_9AF4D79B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="320" name="inst_FB171E4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="288" name="inst_DB863981" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="256" name="inst_98EB9A72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="224" name="inst_8A0691C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="192" name="inst_5CCDB0CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="160" name="inst_F9CA5CAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="128" name="inst_6D06E168" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="64" name="inst_F931E66B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="32" name="inst_E033D17A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="0" name="inst_50104F1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="32" name="inst_C65F34BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="64" name="inst_08DC9AD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="96" name="inst_8A189303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="640" name="inst_FB46BD39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="640" name="inst_76D5CB9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="640" name="inst_FEB60E43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="640" name="inst_51138EE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="640" name="inst_2AEAF199" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2272" y="640" name="inst_E0CB3A8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2240" y="640" name="inst_C4DE780A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2240" y="544" name="inst_24D52851" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2240" y="608" name="inst_E9B6CF70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="608" name="inst_BD5DA5C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="608" name="inst_53A3E100" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="608" name="inst_28843C66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="608" name="inst_183EDF2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="608" name="inst_9AA29683" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="576" name="inst_53D67FD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="544" name="inst_A488A0DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="512" name="inst_E81859C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="480" name="inst_DC109EDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="448" name="inst_FB5E8DE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="416" name="inst_FBF19881" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="416" name="inst_73D033E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="448" name="inst_85604E30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="480" name="inst_94C4832C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="512" name="inst_358FCDBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="544" name="inst_37308F99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="576" name="inst_E62688D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="576" name="inst_3C47DB24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="576" name="inst_0F9B130F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2304" y="608" name="inst_2CAD2393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2240" y="576" name="inst_DC740725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2272" y="544" name="inst_AE3D3819" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2272" y="576" name="inst_FE8BE567" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2272" y="608" name="inst_5507D597" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2304" y="576" name="inst_7A0D89FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2304" y="544" name="inst_71C453B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2336" y="544" name="inst_77897C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2304" y="512" name="inst_B75F7087" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2336" y="512" name="inst_CC7CB8FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="512" name="inst_9C104AFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="512" name="inst_19E76D2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="448" name="inst_307F5170" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="480" name="inst_692350FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="480" name="inst_24BD877D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="448" name="inst_6EDDA553" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="416" name="inst_06C9ABEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="448" name="inst_18F5DB9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="480" name="inst_13257777" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="512" name="inst_32A8083E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="544" name="inst_EBEDFF2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="544" name="inst_B8B6B15F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="544" name="inst_7396CB40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="576" name="inst_112E06FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2336" y="576" name="inst_5D790CC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2336" y="608" name="inst_C255CA2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2336" y="640" name="inst_E87B7D0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2304" y="640" name="inst_22975456" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2112" y="672" name="inst_A4ABBCDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2144" y="672" name="inst_96F5F722" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2176" y="672" name="inst_2C1B0055" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2208" y="672" name="inst_440F11C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2240" y="672" name="inst_4600C1F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2272" y="672" name="inst_29D4D230" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2304" y="672" name="inst_5B8AF21F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2336" y="672" name="inst_E3C72386" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2368" y="672" name="inst_C176D5EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2400" y="672" name="inst_B1290A6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2432" y="672" name="inst_5A26BD37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2464" y="672" name="inst_5B3A9926" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2496" y="672" name="inst_7912C9C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="672" name="inst_2BD77FE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="640" name="inst_62FF3AEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="608" name="inst_8B82A120" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="576" name="inst_B9419F75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="544" name="inst_D14E0C13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="512" name="inst_7DFA728F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="480" name="inst_D238042C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="448" name="inst_A17ABEF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="416" name="inst_58DAB3AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="384" name="inst_109487EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2528" y="352" name="inst_41BE9568" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1120" y="480" name="inst_B6033913" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1280" y="416" name="inst_F9514104" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1280" y="384" name="inst_3B97441C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1248" y="384" name="inst_54349B15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1216" y="384" name="inst_5E788F10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1184" y="384" name="inst_1EAF1508" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1152" y="384" name="inst_70CFD26A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1120" y="384" name="inst_DD5529DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1088" y="416" name="inst_45D7EB78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1056" y="384" name="inst_72826174" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1056" y="416" name="inst_74FB29D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="992" y="416" name="inst_46374386" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="960" y="448" name="inst_42923024" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="928" y="448" name="inst_49F6ED2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="928" y="480" name="inst_9D9DDAC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="928" y="512" name="inst_5123ECF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="896" y="512" name="inst_9EBF48FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="896" y="544" name="inst_9C068559" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="896" y="576" name="inst_E42CD8F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="800" y="608" name="inst_EE925806" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="832" y="608" name="inst_AE5550FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="832" y="640" name="inst_E3CE5A6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="832" y="672" name="inst_1A2232DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="864" y="672" name="inst_0436161D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="896" y="672" name="inst_8CEE4BEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="928" y="672" name="inst_8D5678CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="928" y="640" name="inst_7080750E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="960" y="640" name="inst_5C469AF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1056" y="672" name="inst_92345FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1088" y="672" name="inst_26C33A62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="672" name="inst_B3BB4206" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1408" y="672" name="inst_ACDE4F08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1344" y="672" name="inst_C448EB9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1312" y="672" name="inst_B35D9EB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1280" y="672" name="inst_A448B818" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1248" y="672" name="inst_73DA8EB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1216" y="672" name="inst_F8B5A5E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1184" y="704" name="inst_165D629B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1152" y="704" name="inst_63E5BE6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1120" y="704" name="inst_03008115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1056" y="704" name="inst_7FB2BDBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1024" y="672" name="inst_2B2F25F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="992" y="672" name="inst_DA2DD3BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="992" y="640" name="inst_122CB157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1024" y="640" name="inst_75F2EC21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1120" y="640" name="inst_5D479EE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1152" y="608" name="inst_6EB368D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1184" y="576" name="inst_DA2FC20A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1024" y="576" name="inst_CBB5FD18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1056" y="576" name="inst_8158557C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1088" y="576" name="inst_E7E52995" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1120" y="576" name="inst_4CD3F241" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1248" y="448" name="inst_D189F771" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1280" y="448" name="inst_03154942" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1280" y="480" name="inst_B27E09AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1248" y="480" name="inst_E57CD827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1216" y="480" name="inst_65CB9A00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1152" y="480" name="inst_E50F1DC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1152" y="448" name="inst_9D78DDFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1152" y="416" name="inst_EA6DAC54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1184" y="416" name="inst_3A55C0FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1216" y="448" name="inst_B87CA92C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1184" y="448" name="inst_71811469" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1184" y="480" name="inst_E823E14A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1184" y="512" name="inst_F0C03B01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1152" y="512" name="inst_0084352A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1152" y="544" name="inst_FCFDDDFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1152" y="576" name="inst_0EB50B42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1568" y="576" name="inst_A3BD04AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1568" y="608" name="inst_00F8E2F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1440" y="672" name="inst_4EB12B1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1472" y="672" name="inst_6A61C1DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1504" y="672" name="inst_E1C115BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1536" y="672" name="inst_178171C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1568" y="672" name="inst_CA8D405B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1600" y="672" name="inst_BA5CC4F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1632" y="672" name="inst_53F3E57E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1664" y="640" name="inst_E3527856" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1632" y="640" name="inst_2E283188" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1600" y="640" name="inst_CDD161EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1568" y="640" name="inst_989416E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1536" y="640" name="inst_58D18827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1504" y="640" name="inst_F85A2D67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1472" y="640" name="inst_C9CDE545" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1440" y="640" name="inst_AAD010C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1408" y="640" name="inst_0A046F78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1376" y="640" name="inst_847BAF1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1344" y="640" name="inst_A595C163" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1312" y="640" name="inst_E93A5058" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1312" y="608" name="inst_980DBD79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1344" y="544" name="inst_1E8788D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1344" y="608" name="inst_0F7185A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1344" y="576" name="inst_F7DF599D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1344" y="512" name="inst_0BAFF90F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1344" y="480" name="inst_AB2F2969" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1312" y="480" name="inst_459DC6CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1312" y="512" name="inst_81A2ACB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1248" y="576" name="inst_FF1A10D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1280" y="608" name="inst_56B0CE7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1280" y="576" name="inst_18F697E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1280" y="544" name="inst_A975E1ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1280" y="512" name="inst_F6D8ACA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1248" y="512" name="inst_3D78F024" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1216" y="512" name="inst_77B276D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1216" y="544" name="inst_8B68919A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1216" y="576" name="inst_F351B9A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1216" y="608" name="inst_95598CD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1248" y="608" name="inst_3A6AD577" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Bee" x="1472" y="128" name="inst_6D776A70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Bee" x="2272" y="160" name="inst_624786EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Bee" x="1792" y="352" name="inst_3CB82573" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Bug" x="1793" y="434" name="inst_362008BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Bug" x="1152" y="338" name="inst_BFC80B1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Bug" x="642" y="530" name="inst_A7F662F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
