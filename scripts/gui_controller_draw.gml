@@ -14,10 +14,10 @@ switch(room) {
         
         var hpAmount = (PlayerStats.hp / PlayerStats.maxhp) * 100;
         var mpAmount = (PlayerStats.mp / PlayerStats.maxmp) * 100;
-        //var expAmount = (PlayerStats.level_exp / PlayerStats.level_exp_max) * 100;
+        var expAmount = (PlayerStats.level_exp / PlayerStats.level_exp_max) * 100;
         draw_healthbar(10, 10, 20, 40, hpAmount, c_black, c_red, c_lime, 3, true, true);
         draw_healthbar(21, 10, 31, 40, mpAmount, c_black, c_blue, c_blue, 3, true, true);
-        //draw_healthbar(32, 10, 35, 40, expAmount, c_black, c_orange, c_yellow, 3, true, true)
+        draw_healthbar(32, 10, 35, 40, expAmount, c_black, c_orange, c_yellow, 3, true, true)
         
         draw_text_colour(200, 5, "Time", c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
         draw_text_colour(207, 20, global.time, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
@@ -25,7 +25,7 @@ switch(room) {
         draw_sprite(spr_gold_coin, 0, 408, 22);
         draw_text_colour(416, 14, "x" + string(PlayerStats.money), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
         
-        //draw_text_colour(10, 280, "Level: " + string(PlayerStats.level), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
+        draw_text_colour(10, 280, "Level: " + string(PlayerStats.level), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
         //debug
         if(global.debug) {
             draw_text_colour(400, 32, "fps: " + string(fps), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1); 

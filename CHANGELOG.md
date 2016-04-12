@@ -1,3 +1,7 @@
+#[0.4.0] - Apr 11, 2016
+------
+- Lava now does damage
+
 #[0.3.9] - Apr 10, 2016
 ------
 - Tweaked rooms a bit more.  Now player has the collect the four gems to fight the final boss.

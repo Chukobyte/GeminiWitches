@@ -1,6 +1,6 @@
-///player_take_damage(damage, add_knock_back, knock_back_amount)
+///player_take_damage(damage, switch_to_hurt_state, knock_back_amount)
 var damage = argument0;
-var add_knock_back = argument1;
+var switch_to_hurt_state = argument1;
 var knockback_amount = argument2;
 PlayerStats.hp -= damage;
 
@@ -20,10 +20,10 @@ if(sign(damage) == -1) {
   
 //If player dies
 if(damage > 0) {
-    if(PlayerStats.hp > 0) {
+    if(PlayerStats.hp > 0 && switch_to_hurt_state) {
         hurt_state_timer = hurt_state_timer_max;
         state = player_hurt_state;
-    } else {
+    } else if(PlayerStats.hp <= 0) {
         //Sprite image_speed is set to 0 when animation ends
         sprite_index = death_state_sprite;
         image_speed = death_state_sprite_speed;
@@ -35,7 +35,7 @@ if(damage > 0) {
     //add healing logic
 }
 
-if(add_knock_back) {
+if(abs(knockback_amount) > 0) {
     //adds knock back to opposite direction
     var temp_hspd = hspd;
     var temp_vspd = vspd;
