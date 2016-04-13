@@ -82,7 +82,8 @@ if(attack_button && (attack_timer + 6) <= 0) {
     var audio_em = audio_emitter_create();
     audio_emitter_gain(audio_em, .25);
     audio_play_sound_on(audio_em, snd_punch, false, 6);
-    
+    PlayerStats.charge_time = 0;    
+    image_blend = c_white;
 }
 
 
@@ -95,14 +96,10 @@ if(soul_element_attack_button_pressed) {
         }
     } else {
         image_blend = c_orange;    
-    }
-    
-    
-    
+    }    
 }
 
 if(soul_element_attack_button_released) {
-    image_blend = c_white;
     var success = mirror_shot_attempt();
     if(success) {
         var audio_em = audio_emitter_create();
@@ -111,12 +108,24 @@ if(soul_element_attack_button_released) {
         audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
     }
     PlayerStats.charge_time = 0;
+    image_blend = c_white;
 } else if(water_magic_attack_button && PlayerStats.water_level > 0){
-    var sucess = piecing_water_crystal_attempt();;
+    var success = piecing_water_crystal_attempt();
+    if(success) {
+        var audio_em = audio_emitter_create();
+        audio_emitter_gain(audio_em, .2);
+        audio_emitter_pitch(audio_em, 1.2);
+        audio_play_sound_on(audio_em, snd_water_shot, false, 5);
+    }
 } else if(earth_magic_attack_button && PlayerStats.earth_level > 0) {
     var success = flower_of_life_attempt();
 } else if(fire_magic_attack_button && PlayerStats.fire_level > 0) {
     var success = fire_burst_attempt();
+    if(success) {
+        var audio_em = audio_emitter_create();
+        audio_emitter_gain(audio_em, .3);
+        audio_play_sound_on(audio_em, snd_fire, false, 5);
+    }
 } else if(wind_magic_attack_button && fly_delay <= 0 && PlayerStats.wind_level > 0) {
         audio_stop_sound(snd_jump);
         state = player_fly_state;

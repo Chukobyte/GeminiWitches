@@ -1,3 +1,8 @@
+#[0.4.1] - Apr 12, 2016
+------
+- added more sound effects
+- charge is lost when attacking with punch
+
 #[0.4.0] - Apr 11, 2016
 ------
 - Lava now does damage

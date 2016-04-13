@@ -14,6 +14,8 @@
     <sound>sound\snd_explosion</sound>
     <sound>sound\snd_coin_pickup</sound>
     <sound>sound\snd_new_music</sound>
+    <sound>sound\snd_fire</sound>
+    <sound>sound\snd_water_shot</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">
@@ -353,6 +355,7 @@
     <room>rooms\rm_fire_test</room>
     <room>rooms\rm_earth_test</room>
     <room>rooms\rm_water_test</room>
+    <room>rooms\rm_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
