@@ -16,6 +16,7 @@
     <sound>sound\snd_new_music</sound>
     <sound>sound\snd_fire</sound>
     <sound>sound\snd_water_shot</sound>
+    <sound>sound\snd_second_jump</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">
@@ -347,7 +348,7 @@
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
-    <room>rooms\rm_select</room>
+    <room>rooms\rm_test</room>
     <room>rooms\rm_boss</room>
     <room>rooms\rm_play_again</room>
     <room>rooms\rm_pause_menu</room>
@@ -355,7 +356,7 @@
     <room>rooms\rm_fire_test</room>
     <room>rooms\rm_earth_test</room>
     <room>rooms\rm_water_test</room>
-    <room>rooms\rm_test</room>
+    <room>rooms\rm_select</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

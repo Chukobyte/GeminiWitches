@@ -29,6 +29,11 @@ if(!place_meeting(x, y + 1, Solid)){
     //double jump
     if(up && double_jump_enabled && PlayerStats.wind_level > 0) {
         double_jump_enabled = false;
+        part_particles_create(global.particle_system, x, y + 1, global.particle2, 1);
+        var audio_em = audio_emitter_create();
+        audio_emitter_gain(audio_em, .09);
+        //audio_emitter_pitch(audio_em, .5);
+        audio_play_sound_on(audio_em, snd_second_jump, false, 6);
         vspd = jump_height;
     }
 } else {
@@ -41,7 +46,7 @@ if(!place_meeting(x, y + 1, Solid)){
         var audio_em = audio_emitter_create();
         audio_emitter_gain(audio_em, .07);
         audio_emitter_pitch(audio_em, .5);
-        audio_play_sound_on(audio_em, snd_jump, false, 5);
+        audio_play_sound_on(audio_em, snd_jump, false, 6);
     }
     
     //Player is on the ground
