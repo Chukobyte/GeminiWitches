@@ -135,5 +135,8 @@ switch(room) {
             draw_set_font(-1);
             draw_text_outline_color(224, 320, 1, "Element Points: " + string(PlayerStats.element_points), c_dkgray, c_yellow);
             break;
+            
+        case rm_cutscene:
+            break;
 }
 

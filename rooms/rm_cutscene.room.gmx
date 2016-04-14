@@ -98,7 +98,7 @@
     <instance objName="GrassLand" x="160" y="672" name="inst_5613BEEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="192" y="672" name="inst_32AACF97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="320" y="576" name="inst_C687A573" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DoorClosed" x="800" y="288" name="inst_3661DE34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DoorClosed" x="816" y="288" name="inst_3661DE34" locked="0" code="visible = false;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="256" y="608" name="inst_FB31ED9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="224" y="640" name="inst_34164231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="288" y="576" name="inst_EF9DA417" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

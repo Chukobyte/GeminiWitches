@@ -19,7 +19,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto_next();
+            <string>/// Goto to next room and reset player health
+PlayerStats.hp = PlayerStats.maxhp;
+room_goto_next();
 </string>
           </argument>
         </arguments>

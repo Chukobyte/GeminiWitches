@@ -24,7 +24,6 @@ if(room == rm_cutscene) {
         timeline_running = true;
         timeline_loop = false;
     }
-    return -1;
 }
 
 attack_timer--;

@@ -6,6 +6,10 @@ if(hurt_state_timer > 0) {
     image_blend = c_red;
 } else {
     image_blend = c_white;
-    state = player_move_state;
     invincibility_timer = invincibility_timer_max;
+    if(room != rm_cutscene) {
+        state = player_move_state;
+    } else {
+        state = player_idle_state;
+    }
 }

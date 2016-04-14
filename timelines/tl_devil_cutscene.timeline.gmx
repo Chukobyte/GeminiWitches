@@ -46,10 +46,10 @@ state = enemy_idle_state;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var devil_shot = instance_create(x, y, DevilShot);
+            <string>/// Shoot devil shot
+var devil_shot = instance_create(x, y, DevilShot);
 devil_shot.homing = true;
 devil_shot.target = Player;
-devil_shot.damage = 0;
 devil_shot.fired = true;
 devil_shot.attack_script = element_power_attack;
 </string>
