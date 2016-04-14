@@ -9,12 +9,6 @@ jump_height = -18;
 double_jump_enabled = false
 state = player_move_state;
 
-timeline_index = tl_player_cut_scene;
-timeline_position = 0;
-timeline_running = false;
-timeline_loop = false;
-
-
 //For determining if the player is attacking or not.
 //Resets in player step event
 attacking = false;

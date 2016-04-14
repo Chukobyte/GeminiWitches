@@ -7,9 +7,9 @@ with(other) {
         PlayerStats.earth_unlocked = true;
         PlayerStats.earth_level += 1;
         PlayerStats.soul_gems += 1;
-        PlayerStats.maxhp += 2;
-        PlayerStats.hp = PlayerStats.maxhp;
-        PlayerStats.hp_regen += 0.001;
+        //PlayerStats.maxhp += 2;
+        //PlayerStats.hp = PlayerStats.maxhp;
+        //PlayerStats.hp_regen += 0.001;
         instance_destroy();
         break;
     case "wind":
@@ -32,9 +32,9 @@ with(other) {
         PlayerStats.water_unlocked = true;
         PlayerStats.water_level += 1;
         PlayerStats.soul_gems += 1;
-        PlayerStats.maxmp += 2;
-        PlayerStats.mp = PlayerStats.maxmp;
-        PlayerStats.mp_regen *= 2;
+        //PlayerStats.maxmp += 2;
+        //PlayerStats.mp = PlayerStats.maxmp;
+        //PlayerStats.mp_regen *= 2;
         instance_destroy();
         break;
     default:

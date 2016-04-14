@@ -134,7 +134,9 @@
     <background>background\bg_choose_character</background>
     <background>background\bg_main</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_devil1</path>
+  </paths>
   <scripts name="scripts">
     <scripts name="GUIController">
       <script>scripts\gui_controller_draw.gml</script>
@@ -199,6 +201,7 @@
       <script>scripts\enemy_destroy.gml</script>
       <script>scripts\enemy_hurt_state.gml</script>
       <script>scripts\enemy_init.gml</script>
+      <script>scripts\enemy_idle_state.gml</script>
       <scripts name="Bee">
         <script>scripts\bee_chase_state.gml</script>
         <script>scripts\bee_init.gml</script>
@@ -217,6 +220,7 @@
         <script>scripts\devil_attack_state.gml</script>
         <script>scripts\devil_wall_bounce.gml</script>
         <script>scripts\devil_power_change_state.gml</script>
+        <script>scripts\devil_soul_gem_collision.gml</script>
       </scripts>
       <scripts name="Hedgehog">
         <script>scripts\hedgehog_attack_state.gml</script>
@@ -245,13 +249,13 @@
           <script>scripts\piecing_water_crystal_init.gml</script>
           <script>scripts\flower_of_life_attack.gml</script>
           <script>scripts\fire_burst_init.gml</script>
-          <script>scripts\devil_shot_step.gml</script>
           <script>scripts\flower_of_life_attempt.gml</script>
           <script>scripts\fire_burst_attack.gml</script>
         </scripts>
         <scripts name="Soul">
           <script>scripts\mirror_shot_attempt.gml</script>
           <script>scripts\devil_shot_init.gml</script>
+          <script>scripts\devil_shot_step.gml</script>
           <script>scripts\mirror_shot_init.gml</script>
           <script>scripts\mirror_shot_attack.gml</script>
         </scripts>
@@ -343,11 +347,16 @@
     <timelines name="Enemies">
       <timeline>timelines\tl_devil</timeline>
     </timelines>
-    <timeline>timelines\tl_player_cut_scene</timeline>
+    <timelines name="cutscene">
+      <timeline>timelines\tl_player_cut_scene</timeline>
+      <timeline>timelines\tl_devil_cutscene</timeline>
+      <timeline>timelines\tl_game_controller_cutscene</timeline>
+    </timelines>
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
+    <room>rooms\rm_cutscene</room>
     <room>rooms\rm_select</room>
     <room>rooms\rm_boss</room>
     <room>rooms\rm_play_again</room>

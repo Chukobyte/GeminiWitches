@@ -20,6 +20,7 @@ previous_state = "";
 hp = 1;
 exp_given = 4;
 sight_range = 180;
+jump_damage = true;
 //may be temp, determines whether enemy flies into a wall or through it
 can_go_through_walls = false;
 coin_type_dropped = SilverCoin;

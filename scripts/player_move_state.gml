@@ -135,7 +135,9 @@ if(soul_element_attack_button_released) {
         audio_stop_sound(snd_jump);
         state = player_fly_state;
         vspd = 0;
-        fly_delay = 10;
+        fly_delay = 10;            
+        PlayerStats.charge_time = 0;
+        image_blend = c_white;
 }    
 
 //Change sprite direction based on direction

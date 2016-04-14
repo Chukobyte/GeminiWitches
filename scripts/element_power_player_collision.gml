@@ -5,13 +5,13 @@ if(affects_player) {
     //if healing don't knock enemy back
     var knock_back;
     if(damage <= 0) {
-        knock_back = false;
+        knock_back = 0;
     } else {
-        knock_back = true;
+        knock_back = 15;
     }
     
     with(other) {
-            player_take_damage(damage_taken, knock_back, 15);
+            player_take_damage(damage_taken, false, knock_back);
     }
     instance_destroy();
 }

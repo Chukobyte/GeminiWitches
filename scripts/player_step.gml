@@ -16,6 +16,17 @@ if(global.game_paused) {
     return -1;
 }
 
+//temp for now
+if(room == rm_cutscene) {
+    if(timeline_index != tl_player_cut_scene) {
+        timeline_index = tl_player_cut_scene;
+        timeline_position = 0;
+        timeline_running = true;
+        timeline_loop = false;
+    }
+    return -1;
+}
+
 attack_timer--;
 PlayerStats.soul_element_attack_timer--;
 invincibility_timer--;
@@ -47,6 +58,12 @@ if(PlayerStats.level_exp >= PlayerStats.level_exp_max) {
     PlayerStats.element_points += 1;
     PlayerStats.level_exp = PlayerStats.level_exp - PlayerStats.level_exp_max;
     PlayerStats.level_exp_max *= 2;
+    
+    //stat increase
+    PlayerStats.hp += 1;
+    PlayerStats.maxhp += 1;
+    PlayerStats.mp += 1;
+    PlayerStats.maxmp += 1;
 }
 
 //swim state check for now

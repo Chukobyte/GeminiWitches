@@ -186,8 +186,8 @@ switch(room) {
             
         }
         
-        
         break;
+        
     case rm_play_again:
         global.menu_item_selection_timer--;
         if(audio_is_playing(snd_main)) {
@@ -221,4 +221,21 @@ switch(room) {
             game_end();
             }
         }
+        break;
+        
+    case rm_cutscene:
+        if(!audio_is_playing(snd_main)) {
+            ///Play the background music
+            audio_em = audio_emitter_create();
+            audio_emitter_gain(audio_em, .3);
+            audio_play_sound_on(audio_em, snd_main, true, 10);
+        }
+        
+        if(timeline_index != tl_game_controller_cutscene) {
+            timeline_index = tl_game_controller_cutscene;
+            timeline_position = 0;
+            timeline_running = true;
+            timeline_loop = false;
+        }
+        break;
 }       

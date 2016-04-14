@@ -1,3 +1,7 @@
+#[0.4.2] - Apr 13, 2016
+------
+- added cutscene in the beginning.
+
 #[0.4.1] - Apr 12, 2016
 ------
 - added more sound effects

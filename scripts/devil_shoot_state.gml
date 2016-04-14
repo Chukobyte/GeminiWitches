@@ -18,8 +18,8 @@ if(instance_exists(Player)) {
     } else if(dis <= sight_range + 60) {
         apply_friction(.2)
         if(devil_shot_timer <= 0) {
-            var shot_hspd = lengthdir_x(2, dir);
-            var shot_vspd = lengthdir_y(2, dir);
+            var shot_hspd = lengthdir_x(spd, dir);
+            var shot_vspd = lengthdir_y(spd, dir);
             var devil_shot = instance_create(x, y, DevilShot);
             devil_shot.hspd = shot_hspd;
             devil_shot.vspd = shot_vspd;

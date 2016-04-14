@@ -21,10 +21,16 @@ if(!place_meeting(x + image_xscale, y, Solid) && hspd != 0) {
 
 if(up || down) {
     var swim_height = 4;
-    up = sign(up) * swim_height;
+//    up = sign(up) * swim_height;
     var up_or_down = down - up;
-    vspd += up_or_down;
+    vspd += up_or_down * swim_height;
     vspd = cap_at_max_spd(vspd, spd);
+    if(up_or_down == -1) {
+        var audio_em = audio_emitter_create();
+        audio_emitter_gain(audio_em, .07);
+        //audio_emitter_pitch(audio_em, .5);
+        audio_play_sound_on(audio_em, snd_water_swim, false, 6);
+    }
     
 }
 
