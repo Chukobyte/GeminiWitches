@@ -1,3 +1,7 @@
+#[0.4.3] - Apr 15, 2016
+------
+- fixed door bug.
+
 #[0.4.2] - Apr 13, 2016
 ------
 - added cutscene in the beginning.
