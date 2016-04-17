@@ -43,13 +43,13 @@ if(instance_exists(Player)) {
     correct_sprite_direction();
     //Jump if hits a wall or ledge
     var touching_wall = place_meeting(x + sign(image_xscale), y, Solid);
-    var touching_ledge = "";
+    var touching_ledge = false;
     if(image_xscale == 1) {
-        touching_ledge = position_meeting(bbox_right + 1, bbox_bottom + 1, Solid);
+        touching_ledge = !position_meeting(bbox_right + 1, bbox_bottom + 1, Solid) && place_meeting(x, y + 1, Solid);
     } else {
-        touching_ledge = position_meeting(bbox_left - 1, bbox_bottom + 1, Solid);
+        touching_ledge = !position_meeting(bbox_left - 1, bbox_bottom + 1, Solid) && place_meeting(x, y + 1, Solid);
     }
-    if(!touching_wall || !touching_ledge) {
+    if(!touching_wall && !is_at_ledge()) {
         move(Solid);
     } else {
         devil_wall_bounce();

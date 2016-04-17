@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.4.3) *
+	* GEMINI WITICHES (Version 0.4.4) *
 	***********************************
 	
 ** Click character portrait to select **

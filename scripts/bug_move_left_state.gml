@@ -1,18 +1,21 @@
 ///bug_move_left_state()
 
-var wall_at_left = place_meeting(x - 1, y, Solid);
-var ledge_at_left = !position_meeting(bbox_left - 1, bbox_bottom + 1, Solid);
-
-if(wall_at_left || ledge_at_left) {
-    state = bug_move_right_state;
-}
-
-//Control the bug sprite
 sprite_index = spr_bug_move;
 image_xscale = -1;
 image_speed = 0.3;
 
+if(!place_meeting(x, y + 1, Solid)) {
+        vspd += grav;
+}
+
+var wall_at_left = place_meeting(x - 1, y, Solid);
+
+if(wall_at_left || is_at_ledge()) {
+    state = bug_move_right_state;
+}
 
 //Move the bug
-x -= spd;
+hspd = -spd;
+
+move(Solid);
 

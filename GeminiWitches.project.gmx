@@ -175,6 +175,7 @@
       <script>scripts\correct_sprite_direction_move.gml</script>
       <script>scripts\cap_at_max_spd.gml</script>
       <script>scripts\create_timer.gml</script>
+      <script>scripts\is_at_ledge.gml</script>
     </scripts>
     <scripts name="Player">
       <scripts name="State">
@@ -388,6 +389,7 @@
     <room>rooms\rm_earth_test</room>
     <room>rooms\rm_water_test</room>
     <room>rooms\rm_cutscene</room>
+    <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>

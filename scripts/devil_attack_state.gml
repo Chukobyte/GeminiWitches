@@ -28,14 +28,7 @@ if(instance_exists(Player)) {
         hspd = -spd;
     } 
     
-    var touching_ledge = false;
-    if(image_xscale == 1) {
-        touching_ledge = position_meeting(bbox_right + 1, bbox_bottom + 1, Solid);
-    } else {
-        touching_ledge = position_meeting(bbox_left - 1, bbox_bottom + 1, Solid);
-    }
-    
-    if(touching_ledge) {
+    if(is_at_ledge()) {
         hspd = 0;
     }
        
