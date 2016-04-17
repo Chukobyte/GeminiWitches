@@ -1,3 +1,7 @@
+#[0.4.4] - Apr 17, 2016
+------
+- Added 3 other color sprites for devil enemies.
+
 #[0.4.3] - Apr 15, 2016
 ------
 - fixed door bug.

@@ -10,7 +10,7 @@ if(instance_exists(Player)) {
     var dir = point_direction(x, y, Player.x, Player.y);
     
     if(dis <= sight_range) {
-        sprite_index = spr_devil_move;   
+        sprite_index = asset_get_index("spr_devil_move_" + sprite_color)  ;   
         image_speed = 0.2;
         image_blend = c_red;
         //run away from player
@@ -28,7 +28,7 @@ if(instance_exists(Player)) {
         }
         
         if(hspd == 0) {
-            sprite_index = spr_devil_idle;
+            sprite_index = asset_get_index("spr_devil_idle_" + sprite_color)  ;
             image_speed = 0;
         }
     }
@@ -41,8 +41,15 @@ if(instance_exists(Player)) {
         hspd = -spd;
     } 
     correct_sprite_direction();
-    //Jump if hits a wall
-    if(!place_meeting(x + sign(image_xscale), y, Solid)) {
+    //Jump if hits a wall or ledge
+    var touching_wall = place_meeting(x + sign(image_xscale), y, Solid);
+    var touching_ledge = "";
+    if(image_xscale == 1) {
+        touching_ledge = position_meeting(bbox_right + 1, bbox_bottom + 1, Solid);
+    } else {
+        touching_ledge = position_meeting(bbox_left - 1, bbox_bottom + 1, Solid);
+    }
+    if(!touching_wall || !touching_ledge) {
         move(Solid);
     } else {
         devil_wall_bounce();

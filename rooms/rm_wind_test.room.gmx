@@ -443,6 +443,11 @@
     <instance objName="Bee" x="1728" y="128" name="inst_A1BA80B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Bee" x="2016" y="128" name="inst_BFA17381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Bee" x="2240" y="320" name="inst_B68E1F18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrassLand" x="2432" y="192" name="inst_3263B2ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrassLand" x="2464" y="192" name="inst_F882287C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrassLand" x="2496" y="192" name="inst_DB37B932" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrassLand" x="2528" y="192" name="inst_85F3D370" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Devil" x="2400" y="160" name="inst_3F131B0D" locked="0" code="sprite_color = &quot;green&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
