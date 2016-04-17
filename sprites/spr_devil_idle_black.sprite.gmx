@@ -9,7 +9,7 @@
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
   <bbox_right>40</bbox_right>
-  <bbox_top>8</bbox_top>
+  <bbox_top>7</bbox_top>
   <bbox_bottom>29</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -20,6 +20,6 @@
   <width>42</width>
   <height>30</height>
   <frames>
-    <frame index="0">images\spr_devil_power_change_0.png</frame>
+    <frame index="0">images\spr_devil_idle_black_0.png</frame>
   </frames>
 </sprite>
