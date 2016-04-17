@@ -203,7 +203,7 @@ switch(room) {
             }
         }
         
-        if(start || attack_button || up) {
+        if(start || attack_button) {
             if(global.play_again_prompt == global.play_again_prompt_yes) {
                 game_restart();
             } else if(global.play_again_prompt == global.play_again_prompt_no) {

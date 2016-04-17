@@ -91,11 +91,34 @@
         <sprite>sprites\spr_bug_damaged</sprite>
       </sprites>
       <sprites name="Devil">
-        <sprite>sprites\spr_devil_move</sprite>
-        <sprite>sprites\spr_devil_idle</sprite>
-        <sprite>sprites\spr_devil_test</sprite>
-        <sprite>sprites\spr_devil_hurt</sprite>
+        <sprites name="red">
+          <sprite>sprites\spr_devil_power_change_red</sprite>
+          <sprite>sprites\spr_devil_hurt_red</sprite>
+          <sprite>sprites\spr_devil_idle_red</sprite>
+          <sprite>sprites\spr_devil_move_red</sprite>
+        </sprites>
+        <sprites name="blue">
+          <sprite>sprites\spr_devil_power_change_blue</sprite>
+          <sprite>sprites\spr_devil_move_blue</sprite>
+          <sprite>sprites\spr_devil_hurt_blue</sprite>
+          <sprite>sprites\spr_devil_idle_blue</sprite>
+        </sprites>
+        <sprites name="yellow">
+          <sprite>sprites\spr_devil_move_yellow</sprite>
+          <sprite>sprites\spr_devil_idle_yellow</sprite>
+          <sprite>sprites\spr_devil_power_change_yellow</sprite>
+          <sprite>sprites\spr_devil_hurt_yellow</sprite>
+        </sprites>
+        <sprites name="green">
+          <sprite>sprites\spr_devil_power_change_green</sprite>
+          <sprite>sprites\spr_devil_hurt_green</sprite>
+          <sprite>sprites\spr_devil_idle_green</sprite>
+          <sprite>sprites\spr_devil_move_green</sprite>
+        </sprites>
         <sprite>sprites\spr_devil_power_change</sprite>
+        <sprite>sprites\spr_devil_move</sprite>
+        <sprite>sprites\spr_devil_hurt</sprite>
+        <sprite>sprites\spr_devil_idle</sprite>
       </sprites>
       <sprites name="Hedgehog">
         <sprite>sprites\spr_hedgehog_idle</sprite>
