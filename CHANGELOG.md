@@ -1,3 +1,7 @@
+#[0.4.5] - Apr 18, 2016
+------
+- Every room has a different color devil boss.
+
 #[0.4.4] - Apr 17, 2016
 ------
 - Added 3 other color sprites for devil enemies.

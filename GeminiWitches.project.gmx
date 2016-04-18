@@ -115,10 +115,13 @@
           <sprite>sprites\spr_devil_idle_green</sprite>
           <sprite>sprites\spr_devil_move_green</sprite>
         </sprites>
-        <sprite>sprites\spr_devil_power_change</sprite>
-        <sprite>sprites\spr_devil_move</sprite>
-        <sprite>sprites\spr_devil_hurt</sprite>
         <sprite>sprites\spr_devil_idle</sprite>
+        <sprites name="black">
+          <sprite>sprites\spr_devil_power_change_black</sprite>
+          <sprite>sprites\spr_devil_idle_black</sprite>
+          <sprite>sprites\spr_devil_hurt_black</sprite>
+          <sprite>sprites\spr_devil_move_black</sprite>
+        </sprites>
       </sprites>
       <sprites name="Hedgehog">
         <sprite>sprites\spr_hedgehog_idle</sprite>
@@ -380,6 +383,7 @@
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
+    <room>rooms\rm_cutscene</room>
     <room>rooms\rm_select</room>
     <room>rooms\rm_boss</room>
     <room>rooms\rm_play_again</room>
@@ -388,7 +392,6 @@
     <room>rooms\rm_fire_test</room>
     <room>rooms\rm_earth_test</room>
     <room>rooms\rm_water_test</room>
-    <room>rooms\rm_cutscene</room>
     <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_test</room>
   </rooms>
