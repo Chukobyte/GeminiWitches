@@ -1,6 +1,8 @@
 	***********************************
 	* GEMINI WITICHES (Version 0.4.5) *
 	***********************************
+
+** A Platformer about two twin sisters! **
 	
 ** Click character portrait to select **
 
