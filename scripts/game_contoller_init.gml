@@ -13,7 +13,7 @@ global.debug = false;
 global.input_enabled = true;
 global.player_1_Selected = "";
 global.second_counter = 0;
-global.time = 120;
+global.time = 180;
 global.game_paused = false;
 
 //menu

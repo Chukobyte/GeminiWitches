@@ -15,7 +15,7 @@
 *Mirror Shot
 -Shoots a small mirror energy shot.  Doesn't cost mp.  Charge for a more powerful attack.
 
-**Collect all four gems!
+**Collect all four elemental gems!
 
 *Earth (orange gem)
 -Boost max hp
@@ -67,7 +67,7 @@ F5 = Reset Game
 'X' attacks with a punch
 'B' Mirror Shot (Hold to Charge)
 
-*While Holding Down Right Back Trigger
+*While Holding Down RT (Right Back Trigger)
 'Y' Flower of life
 'A' Fly
 'X' Piercing Water Crystal

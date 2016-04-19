@@ -133,7 +133,7 @@ switch(room) {
             draw_text_outline_color(room_width / 4 + 50, 32, 2, "Game Paused", c_dkgray, c_yellow);
             
             draw_set_font(-1);
-            draw_text_outline_color(224, 320, 1, "Element Points: " + string(PlayerStats.element_points), c_dkgray, c_yellow);
+            //draw_text_outline_color(224, 320, 1, "Element Points: " + string(PlayerStats.element_points), c_dkgray, c_yellow);
             break;
             
         case rm_cutscene:

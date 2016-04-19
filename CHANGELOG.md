@@ -1,6 +1,7 @@
 #[0.4.5] - Apr 18, 2016
 ------
 - Every room has a different color devil boss.
+- Gave boss in last room more health.
 
 #[0.4.4] - Apr 17, 2016
 ------
