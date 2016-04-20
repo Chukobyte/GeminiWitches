@@ -1,3 +1,7 @@
+#[0.4.6] - Apr 18, 2016
+------
+- Devil enemies drop elemental gems.
+
 #[0.4.5] - Apr 18, 2016
 ------
 - Every room has a different color devil boss.

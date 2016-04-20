@@ -367,7 +367,6 @@
     <instance objName="WaterTop" x="1056" y="512" name="inst_01D30D31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WaterTop" x="1088" y="512" name="inst_E999FA51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="1056" y="608" name="inst_37D3C4C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SoulGemWater" x="1216" y="640" name="inst_39121DA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="1312" y="-64" name="inst_71E83007" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="1344" y="-64" name="inst_068933FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="1376" y="-64" name="inst_24321EC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -750,7 +749,10 @@
     <instance objName="GrassLand" x="2464" y="448" name="inst_332D3FD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="2496" y="448" name="inst_8457F63C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="2528" y="448" name="inst_0ACAE9FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Devil" x="2336" y="416" name="inst_18DDF2DE" locked="0" code="sprite_color = &quot;blue&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Devil" x="2336" y="416" name="inst_18DDF2DE" locked="0" code="sprite_color = &quot;blue&quot;;&#xA;item_dropped = SoulGemWater;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SilverCoin" x="1120" y="672" name="inst_DC4B0BEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SilverCoin" x="1184" y="672" name="inst_0C98CDFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SilverCoin" x="1248" y="672" name="inst_A3E29972" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

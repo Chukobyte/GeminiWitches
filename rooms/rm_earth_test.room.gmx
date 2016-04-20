@@ -231,7 +231,6 @@
     <instance objName="SmallFlower" x="668" y="560" name="inst_8D2BE457" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SmallFlower" x="588" y="560" name="inst_13BE8F20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Bug" x="356" y="658" name="inst_C6021BFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SoulGemEarth" x="784" y="560" name="inst_159598FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="1312" y="-64" name="inst_1301DED2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="1344" y="-64" name="inst_7A1A8BC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="1376" y="-64" name="inst_88DF97FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -379,7 +378,7 @@
     <instance objName="Bee" x="1664" y="352" name="inst_ED266159" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Bee" x="1984" y="480" name="inst_709BBB2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Hedgehog" x="1888" y="657" name="inst_DED48904" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Devil" x="2430" y="638" name="inst_BCC0E969" locked="0" code="sprite_color = &quot;yellow&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Devil" x="2430" y="638" name="inst_BCC0E969" locked="0" code="sprite_color = &quot;yellow&quot;;&#xA;item_dropped = SoulGemEarth;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

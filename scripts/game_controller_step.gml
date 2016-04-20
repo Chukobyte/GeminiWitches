@@ -39,7 +39,13 @@ if(room == rm_pause_menu && global.game_paused) {
 }       
 
 if(full_screen_button) {
-    window_set_fullscreen(!window_get_fullscreen());
+    if(window_get_fullscreen()) {
+        window_set_fullscreen(false);
+        texture_set_interpolation(false);
+    } else {
+        window_set_fullscreen(true);
+        texture_set_interpolation(true);
+    }
 }
 
 if(restart_button) {
@@ -48,6 +54,10 @@ if(restart_button) {
 
 if(global.game_paused) {
     return -1;
+}
+
+if(view_wport[0] != surface_get_width(application_surface) || view_hport[0] != surface_get_height(application_surface)) {
+    surface_resize(application_surface, view_wport[0],view_hport[0]);
 }
 
 switch(room) {
@@ -105,14 +115,6 @@ switch(room) {
                 show_exit_door = true;
             }
         }        
-        
-        else {
-            if(instance_exists(SoulGem)) {
-                show_exit_door = false;
-            } else {
-                show_exit_door = true;
-            }
-        }
         
         break;
         

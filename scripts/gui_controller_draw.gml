@@ -29,7 +29,6 @@ switch(room) {
         //debug
         if(global.debug) {
             draw_text_colour(400, 32, "fps: " + string(fps), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1); 
-            draw_text_colour(432, 32, PlayerStats.charge_time, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);   
         }
         
         break;

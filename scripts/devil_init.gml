@@ -20,7 +20,7 @@ devil_shot_timer = devil_shot_timer_max;
 spd_incr = 0;
 //spd_move_state = 0;
 
-coin_type_dropped = GoldCoin;
+coin_type_dropped = "none";
 
 
 if(room == rm_cutscene) {

@@ -24,6 +24,7 @@ jump_damage = true;
 //may be temp, determines whether enemy flies into a wall or through it
 can_go_through_walls = false;
 coin_type_dropped = SilverCoin;
+item_dropped = "none";
 
 //sprite properties
 hurt_sprite = "";

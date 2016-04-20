@@ -7,7 +7,7 @@
 * Empty string "" means that the var is unitialized.
 */
 
-global.debug = false;
+global.debug = true;
 
 //will default to true for now
 global.input_enabled = true;
@@ -50,6 +50,6 @@ part_type_life(global.particle1,10,10);
 global.particle2 = part_type_create();
 part_type_shape(global.particle2, pt_shape_cloud);
 part_type_size(global.particle2, 0.1, 0.15, 0, 0.5);
-part_type_colour1(global.particle2, c_dkgray);
+part_type_colour1(global.particle2, c_white);
 part_type_speed(global.particle2, 0.3, 0.4, -0.10, 0);
 part_type_life(global.particle2,10,10);  
