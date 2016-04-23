@@ -13,7 +13,7 @@ global.debug = true;
 global.input_enabled = true;
 global.player_1_Selected = "";
 global.second_counter = 0;
-global.time = 180;
+global.time = 0;
 global.game_paused = false;
 
 //menu
@@ -53,3 +53,8 @@ part_type_size(global.particle2, 0.1, 0.15, 0, 0.5);
 part_type_colour1(global.particle2, c_white);
 part_type_speed(global.particle2, 0.3, 0.4, -0.10, 0);
 part_type_life(global.particle2,10,10);  
+
+//Enemy Item Drop Arrays
+//global.enemy_item_drop[0] = SilverCoin;
+//global.enemy_item_drop[1] = HealthDrop;
+//global.enemy_item_drop[2] = MagicPowerDrop;

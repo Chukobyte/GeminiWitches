@@ -1,3 +1,7 @@
+#[0.4.7] - Apr 23, 2016
+------
+- Enemies now drop health and magic power refil containers
+
 #[0.4.6] - Apr 18, 2016
 ------
 - Devil enemies drop elemental gems.

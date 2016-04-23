@@ -141,6 +141,8 @@
     </sprites>
     <sprites name="Collectables">
       <sprite>sprites\spr_silver_coin</sprite>
+      <sprite>sprites\spr_health_drop</sprite>
+      <sprite>sprites\spr_magic_power_drop</sprite>
       <sprite>sprites\spr_gold_coin</sprite>
       <sprite>sprites\spr_soul_gem_fire</sprite>
       <sprite>sprites\spr_soul_gem_wind</sprite>
@@ -207,6 +209,8 @@
         <script>scripts\player_gem_collision.gml</script>
         <script>scripts\player_water_top_collision.gml</script>
         <script>scripts\player_lava_collision.gml</script>
+        <script>scripts\player_health_drop_collision.gml</script>
+        <script>scripts\player_magic_power_drop_collision.gml</script>
       </scripts>
       <script>scripts\player_step.gml</script>
       <script>scripts\player_init.gml</script>
@@ -348,6 +352,8 @@
         <object>objects\SoulGemEarth</object>
         <object>objects\SoulGemWind</object>
       </objects>
+      <object>objects\HealthDrop</object>
+      <object>objects\MagicPowerDrop</object>
     </objects>
     <objects name="ElementPowers">
       <object>objects\ElementPower</object>

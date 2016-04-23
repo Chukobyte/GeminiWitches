@@ -52,6 +52,10 @@ if(restart_button) {
     game_restart();
 }
 
+if(end_game_button) {
+    game_end();
+}
+
 if(global.game_paused) {
     return -1;
 }
@@ -63,14 +67,14 @@ if(view_wport[0] != surface_get_width(application_surface) || view_hport[0] != s
 switch(room) {
     default:
     
-        if(global.time > 0) {
+//        if(global.time > 0) {
             if(global.second_counter == room_speed) {
-                global.time--;
+                global.time++;
                 global.second_counter = 0;
             } else {
                 global.second_counter++;
             }
-        }
+//        }
         if(!audio_is_playing(snd_main)) {
             ///Play the background music
             audio_em = audio_emitter_create();

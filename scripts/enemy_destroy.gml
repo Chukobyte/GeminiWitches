@@ -15,11 +15,23 @@ repeat(5) {
 
 //TODO: have better implementation of item/coin drops
 
+//If an array is passed, it will choose randomly between items
+//defaults to knowing the standard enemy health drop
+if(item_dropped == "enemy") {
+    var item_percentage = irandom(100);
+    if(item_percentage >= 0 && item_percentage <= 10) {
+        item_dropped = HealthDrop;
+    } else if(item_percentage > 10 && item_percentage <= 30) {
+        item_dropped = MagicPowerDrop;
+    } else if(item_percentage > 30 && item_percentage <= 100) {
+        item_dropped = SilverCoin;
+    }
+}
 
 //Drops a coin and makes sure the Player can collect
-if(coin_type_dropped != "none") {
+if(item_dropped != "none") {
     if(!position_meeting(x, y, Solid)) {
-        instance_create(x, y, coin_type_dropped);
+        instance_create(x, y, item_dropped);
     } else {
         //Checks north west and south east diagonally
         var terminate_loop = false;
@@ -27,11 +39,11 @@ if(coin_type_dropped != "none") {
             if(!terminate_loop) {
                 for(var yy = 1; yy <= 25; yy++) {
                     if(!position_meeting(x - xx, y - yy, Solid)) {
-                        instance_create(x - xx, y - yy, coin_type_dropped);
+                        instance_create(x - xx, y - yy, item_dropped);
                         terminate_loop = true;
                         break;
                     } else if(!position_meeting(x + xx, y + yy, Solid)) {
-                        instance_create(x + xx, y + yy, coin_type_dropped);
+                        instance_create(x + xx, y + yy, item_dropped);
                         terminate_loop = true;
                         break;
                     }
@@ -39,9 +51,4 @@ if(coin_type_dropped != "none") {
             }   
         }
     }
-}
-
-
-if(item_dropped != "none") {
-    instance_create(x, y, item_dropped);
 }
