@@ -37,7 +37,7 @@ if(up || down) {
 if(right || left) {
     //add 1 or -1 depending on which direction is pressed
     //if(!place_meeting(x, y + 1, Solid)) {
-        hspd += (right-left) * acc;
+        hspd += ((right-left) * acc) / 2;
     //}
     
     hspd = cap_at_max_spd(hspd, spd); 
