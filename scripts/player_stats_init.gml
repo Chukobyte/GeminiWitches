@@ -5,7 +5,7 @@ hp_regen = 0;
 
 maxmp = 6;
 mp = maxmp;
-mp_regen = 0.002;
+mp_regen = 0;
 
 soul_element_attack_cooldown = 1 * room_speed;
 soul_element_attack_timer = soul_element_attack_cooldown; 
