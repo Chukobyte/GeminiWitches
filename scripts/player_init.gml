@@ -40,6 +40,9 @@ invincibility_timer = -1;
 * All default to player mask in parent object
 */
 
+sprite_color = c_white;
+sprite_alpha = 1;
+
 idle_sprite = spr_player_mask;
 idle_sprite_speed = 0;
 

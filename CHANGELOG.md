@@ -1,3 +1,7 @@
+#[0.4.9] - Apr 24, 2016
+------
+- Fixed player sprite issues by rounding the x and y values.
+
 #[0.4.8] - Apr 24, 2016
 ------
 - added rough background

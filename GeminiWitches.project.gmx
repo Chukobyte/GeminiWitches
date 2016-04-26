@@ -219,6 +219,7 @@
       </scripts>
       <script>scripts\player_animation_end.gml</script>
       <script>scripts\player_take_damage.gml</script>
+      <script>scripts\player_draw.gml</script>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
