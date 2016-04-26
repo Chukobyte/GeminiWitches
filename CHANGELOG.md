@@ -1,4 +1,9 @@
-#[0.4.9] - Apr 26, 2016
+#[0.5.0] - Apr 26, 2016
+------
+- temp solution for wind menu item sprite messing up.
+- fixed most sprites by flooring the x and y values.
+
+#[0.4.9] - Apr 25, 2016
 ------
 - Fixed player sprite issues by rounding the x and y values.
 
