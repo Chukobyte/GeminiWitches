@@ -1,4 +1,4 @@
-#[0.4.9] - Apr 24, 2016
+#[0.4.9] - Apr 26, 2016
 ------
 - Fixed player sprite issues by rounding the x and y values.
 
