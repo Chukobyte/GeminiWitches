@@ -37,9 +37,9 @@ if(attack_timer <= 0) {
 //Toggles back and forth between being visible while invincible.
 if(invincibility_timer >= 0) {
     if(invincibility_timer mod 2 == 0) {
-        sprite_alpha = 1;
+        image_alpha = 1;
     } else {
-        sprite_alpha = 0;
+        image_alpha = 0;
     }
 }
 
@@ -69,7 +69,7 @@ if(PlayerStats.level_exp >= PlayerStats.level_exp_max) {
 //assumes player exit from the bottom
 var player_touched_water = place_meeting(x, y, Water) || place_meeting(x, y, WaterTop);
 if(player_touched_water) {
-    sprite_color = c_white;
+    image_blend = c_white;
     //reset charge time when under water
     PlayerStats.charge_time = 0;
     state = player_swim_state;
@@ -83,7 +83,3 @@ if(player_touched_water) {
 
 
 script_execute(state);
-
-// Sets sprite color
-image_blend = sprite_color;
-image_alpha = sprite_alpha;

@@ -1,6 +1,6 @@
 ///flower_of_life_init()
 event_inherited();
-damage = -2;
+damage = -1;
 cost = 2;
 hspd = 0;
 vspd = 0;

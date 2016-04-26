@@ -171,6 +171,7 @@
     </scripts>
     <scripts name="HelperScripts">
       <script>scripts\get_player_input.gml</script>
+      <script>scripts\draw_self_floored.gml</script>
       <script>scripts\move.gml</script>
       <script>scripts\apply_friction.gml</script>
       <script>scripts\draw_text_outline_color.gml</script>
@@ -219,7 +220,6 @@
       </scripts>
       <script>scripts\player_animation_end.gml</script>
       <script>scripts\player_take_damage.gml</script>
-      <script>scripts\player_draw.gml</script>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
@@ -374,6 +374,7 @@
       <object>objects\MenuEarth</object>
       <object>objects\MenuWind</object>
       <object>objects\MenuSkill</object>
+      <object>objects\MenuItems</object>
     </objects>
   </objects>
   <timelines name="timelines">

@@ -88,7 +88,7 @@ if(attack_button && (attack_timer + 6) <= 0) {
     audio_emitter_gain(audio_em, .25);
     audio_play_sound_on(audio_em, snd_punch, false, 6);
     PlayerStats.charge_time = 0;    
-    sprite_color = c_white;
+    image_blend = c_white;
 }
 
 
@@ -100,7 +100,7 @@ if(soul_element_attack_button_pressed) {
             part_particles_create(global.particle_system, x, y, global.particle1, 1);
         }
     } else {
-        sprite_color = c_orange;    
+        image_blend = c_orange;    
     }    
 }
 
@@ -113,7 +113,7 @@ if(soul_element_attack_button_released) {
         audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
     }
     PlayerStats.charge_time = 0;
-    sprite_color = c_white;
+    image_blend = c_white;
 } else if(water_magic_attack_button && PlayerStats.water_level > 0){
     var success = piecing_water_crystal_attempt();
     if(success) {
@@ -137,7 +137,7 @@ if(soul_element_attack_button_released) {
         vspd = 0;
         fly_delay = 10;            
         PlayerStats.charge_time = 0;
-        sprite_color = c_white;
+        image_blend = c_white;
 }    
 
 //Change sprite direction based on direction

@@ -313,7 +313,7 @@ player_animation_end();
           <argument>
             <kind>1</kind>
             <string>/// Executes player_draw()
-player_draw();
+draw_self_floored();
 </string>
           </argument>
         </arguments>

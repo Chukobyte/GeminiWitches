@@ -3,9 +3,9 @@ if(hurt_state_timer > 0) {
     hurt_state_timer--;
     sprite_index = hurt_state_sprite;
     image_speed = 0;
-    sprite_color = c_red;
+    image_blend = c_red;
 } else {
-    sprite_color = c_white;
+    image_blend = c_white;
     invincibility_timer = invincibility_timer_max;
     if(room != rm_cutscene) {
         state = player_move_state;
