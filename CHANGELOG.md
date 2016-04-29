@@ -1,6 +1,9 @@
+#[0.5.1] - Apr 28, 2016
+------
+- added charging sound to mirror shot.
+
 #[0.5.0] - Apr 26, 2016
 ------
-- temp solution for wind menu item sprite messing up.
 - fixed most sprites by flooring the x and y values.
 
 #[0.4.9] - Apr 25, 2016

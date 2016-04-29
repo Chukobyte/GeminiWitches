@@ -534,8 +534,6 @@
     <instance objName="BlackBlock" x="1952" y="64" name="inst_5E83825D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1984" y="64" name="inst_551801DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="2016" y="64" name="inst_86BF7F26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2016" y="32" name="inst_E39CF008" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2016" y="0" name="inst_7AF97951" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Lava" x="352" y="672" name="inst_941BA66A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Lava" x="1728" y="640" name="inst_3FC337CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Lava" x="1760" y="640" name="inst_455F8BE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -786,15 +784,6 @@
     <instance objName="BlackBlock" x="2304" y="160" name="inst_A5CF8B88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="2208" y="160" name="inst_111C6D89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="2240" y="160" name="inst_ECBC9D7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2368" y="320" name="inst_F802ED1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2336" y="320" name="inst_9A4DEC08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2336" y="288" name="inst_C8208700" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2304" y="288" name="inst_6B00864C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2304" y="256" name="inst_E9C92B83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2272" y="256" name="inst_A1050DDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2272" y="224" name="inst_E4F5D4FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2240" y="224" name="inst_3DC14AC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlackBlock" x="2240" y="192" name="inst_A23C794A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="2176" y="160" name="inst_84A4712D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Devil" x="2400" y="128" name="inst_FE226B37" locked="0" code="sprite_color = &quot;red&quot;;&#xA;item_dropped = SoulGemFire;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SilverCoin" x="1952" y="32" name="inst_9AC1CC1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -844,6 +833,15 @@
     <instance objName="BlackBlock" x="1504" y="32" name="inst_5287A592" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1472" y="32" name="inst_BF1E307B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1440" y="32" name="inst_E41C91AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2144" y="160" name="inst_EE3A3F2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2112" y="160" name="inst_FEC96B80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2080" y="160" name="inst_FB31532F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2048" y="160" name="inst_18798DDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2016" y="160" name="inst_D4B0B55C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2016" y="128" name="inst_6BFEAF66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2016" y="96" name="inst_3E5853E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="2272" y="160" name="inst_2EBD5231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlackBlock" x="1856" y="192" name="inst_4508BA32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

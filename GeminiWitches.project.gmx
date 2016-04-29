@@ -17,6 +17,7 @@
     <sound>sound\snd_fire</sound>
     <sound>sound\snd_water_shot</sound>
     <sound>sound\snd_second_jump</sound>
+    <sound>sound\snd_charging</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">

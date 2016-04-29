@@ -96,12 +96,26 @@ if(attack_button && (attack_timer + 6) <= 0) {
 if(soul_element_attack_button_pressed) {
     if(PlayerStats.charge_time < PlayerStats.charge_time_max) {
         PlayerStats.charge_time += 1;
-        if(PlayerStats.charge_time > 25) {
+        if(PlayerStats.charge_time >= 25) {
             part_particles_create(global.particle_system, x, y, global.particle1, 1);
+            
+            if(!audio_is_playing(snd_charging)) {
+                var audio_em = audio_emitter_create();
+                audio_emitter_gain(audio_em, .25);
+                audio_emitter_pitch(audio_em, 1);
+                audio_play_sound_on(audio_em, snd_charging, false, 6);
+            }          
         }
     } else {
         image_blend = c_orange;    
-    }    
+        if(!audio_is_playing(snd_charging)) {
+            var audio_em = audio_emitter_create();
+            audio_emitter_gain(audio_em, .25);
+            audio_emitter_pitch(audio_em, 0.6);
+            audio_play_sound_on(audio_em, snd_charging, false, 6);
+        }    
+    }
+    
 }
 
 if(soul_element_attack_button_released) {
