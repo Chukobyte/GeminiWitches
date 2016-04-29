@@ -514,7 +514,7 @@
     <instance objName="Door" x="800" y="288" name="inst_4BA2DBAA" locked="0" code="room_selected = rm_earth_test;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Door" x="928" y="288" name="inst_DAD09FC0" locked="0" code="room_selected = rm_wind_test;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Door" x="1088" y="288" name="inst_05B48F0D" locked="0" code="room_selected = rm_fire_test;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Door" x="1216" y="288" name="inst_BF7964CF" locked="0" code="room_selected = rm_water_test;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Door" x="1216" y="288" name="inst_BF7964CF" locked="0" code="room_selected = rm_water;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DoorClosed" x="1008" y="288" name="inst_60DF95B9" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Door" x="1008" y="288" name="inst_742CBA5F" locked="0" code="room_selected = rm_boss;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

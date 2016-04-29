@@ -1,6 +1,7 @@
 #[0.5.1] - Apr 28, 2016
 ------
 - added charging sound to mirror shot.
+- switched up water and wind levels.
 
 #[0.5.0] - Apr 26, 2016
 ------
