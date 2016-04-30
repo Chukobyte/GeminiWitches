@@ -86,11 +86,10 @@ switch(room) {
         if(room == rm_select) {
             show_exit_door = true;
         
-            var e_done = PlayerStats.earth_level > 0;
-            var wd_done = PlayerStats.wind_level > 0;
-            var f_done = PlayerStats.fire_level > 0;
-            var w_done = PlayerStats.water_level > 0;
-            if(e_done && w_done && f_done && wd_done) {
+            var levels_complete = global.earth_level_completed && global.wind_level_completed 
+                && global.fire_level_completed && global.water_level_completed
+            
+            if(levels_complete) {
                 //Destroys closed doors
                 if(instance_exists(DoorClosed)) {
                   with(DoorClosed){

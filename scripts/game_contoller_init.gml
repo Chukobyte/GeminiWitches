@@ -54,6 +54,11 @@ part_type_colour1(global.particle2, c_white);
 part_type_speed(global.particle2, 0.3, 0.4, -0.10, 0);
 part_type_life(global.particle2,10,10);  
 
+global.earth_level_completed = false;
+global.wind_level_completed = false;
+global.fire_level_completed = false;
+global.water_level_completed = false;
+
 //Enemy Item Drop Arrays
 //global.enemy_item_drop[0] = SilverCoin;
 //global.enemy_item_drop[1] = HealthDrop;
