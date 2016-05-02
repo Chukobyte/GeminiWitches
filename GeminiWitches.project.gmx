@@ -161,7 +161,10 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_choose_character</background>
+    <background>background\bg_wind</background>
     <background>background\bg_main</background>
+    <background>background\bg_forest</background>
+    <background>background\bg_fire</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_devil1</path>

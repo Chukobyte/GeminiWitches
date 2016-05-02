@@ -1,3 +1,11 @@
+#[0.5.3] - May 02, 2016
+------
+- Updated background with rough copies
+
+#[0.5.2] - Apr 30, 2016
+------
+- fixed boss door not opening after completing rooms.
+
 #[0.5.1] - Apr 28, 2016
 ------
 - added charging sound to mirror shot.
