@@ -11,7 +11,7 @@ global.debug = true;
 
 //will default to true for now
 global.input_enabled = true;
-global.player_1_Selected = "";
+global.player_1_selected = "none";
 global.second_counter = 0;
 global.time = 0;
 global.game_paused = false;

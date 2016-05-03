@@ -13,6 +13,7 @@
     <sound>sound\snd_magic_shot</sound>
     <sound>sound\snd_explosion</sound>
     <sound>sound\snd_coin_pickup</sound>
+    <sound>sound\snd_hp_mp_pickup</sound>
     <sound>sound\snd_new_music</sound>
     <sound>sound\snd_fire</sound>
     <sound>sound\snd_water_shot</sound>
@@ -35,6 +36,7 @@
         <sprite>sprites\spr_seika_fly</sprite>
         <sprite>sprites\spr_seika_swim_idle</sprite>
         <sprite>sprites\spr_seika_swim_anim</sprite>
+        <sprite>sprites\spr_seika_shot</sprite>
       </sprites>
       <sprites name="Amaya">
         <sprite>sprites\spr_amaya_portrait</sprite>
@@ -50,6 +52,7 @@
         <sprite>sprites\spr_amaya_fly</sprite>
         <sprite>sprites\spr_amaya_swim_idle</sprite>
         <sprite>sprites\spr_amaya_swim_anim</sprite>
+        <sprite>sprites\spr_amaya_shot</sprite>
       </sprites>
       <sprite>sprites\spr_player_mask</sprite>
     </sprites>
@@ -403,8 +406,8 @@
     <room>rooms\rm_fire_test</room>
     <room>rooms\rm_earth_test</room>
     <room>rooms\rm_water</room>
-    <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_cutscene</room>
+    <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
