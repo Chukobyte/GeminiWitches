@@ -3,7 +3,8 @@
 - Updated background with rough copies
 - changed mirror shot sprite based on character selected.
 - added sound effect for hp and mp pickups.
-- added a random variation in pitch for coin pickups
+- added a random variation in pitch for coin pickups.
+- added rough icon.
 
 #[0.5.2] - Apr 30, 2016
 ------
