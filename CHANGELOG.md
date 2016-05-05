@@ -1,6 +1,7 @@
 #[0.5.4] - May 05, 2016
 ------
 - added water splash effect to water top.
+- added bubbles.
 
 #[0.5.3] - May 02, 2016
 ------

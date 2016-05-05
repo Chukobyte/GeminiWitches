@@ -100,7 +100,7 @@ switch(room) {
             draw_text_outline_color(416, 128, no_cursor, "NO", c_dkgray, no_color);
             
             var coin_text =  "Time: " + string(global.time) + "#Coins: " + string(PlayerStats.money) + "#Killed: " + string(PlayerStats.enemies_defeated) + "#Score: " +  string(calculate_game_score());
-            draw_text((room_width / 2) - 80, room_height / 2, coin_text);
+            draw_text((room_width / 2) - 90, room_height / 2 - 80, coin_text);
             break;
             
         case rm_game_menu:

@@ -8,6 +8,16 @@ if(hspd == 0 && vspd == 0) {
     image_speed = swim_anim_sprite_speed;
 }
 
+//for random bubbles
+bubble_timer--
+if(bubble_timer <= 0) {
+    var odds = irandom(8);
+    if(odds == 0) {
+        instance_create(x + image_xscale * 2, y, Bubble);
+        bubble_timer = bubble_timer_max;  
+    }
+}
+
 if(!place_meeting(x, y + 1, Solid)){
     vspd += .15;
 } else {

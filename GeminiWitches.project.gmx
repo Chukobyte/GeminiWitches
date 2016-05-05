@@ -83,6 +83,7 @@
         <sprite>sprites\spr_black_block</sprite>
         <sprite>sprites\spr_lava</sprite>
       </sprites>
+      <sprite>sprites\spr_bubble</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bee">
@@ -335,6 +336,7 @@
         <object>objects\BlackBlock</object>
         <object>objects\Lava</object>
       </objects>
+      <object>objects\Bubble</object>
     </objects>
     <objects name="Controllers">
       <object>objects\GameController</object>

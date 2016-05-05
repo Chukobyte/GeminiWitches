@@ -32,6 +32,9 @@ death_state_timer = death_state_timer_max;
 
 invincibility_timer_max = 30;
 invincibility_timer = -1;
+
+bubble_timer_max = 60;
+bubble_timer = bubble_timer_max;
 //invincibility_toggle = 0;
 
 
