@@ -66,7 +66,7 @@ if(view_wport[0] != surface_get_width(application_surface) || view_hport[0] != s
 
 switch(room) {
     default:
-    
+
 //        if(global.time > 0) {
             if(global.second_counter == room_speed) {
                 global.time++;
@@ -113,9 +113,9 @@ switch(room) {
         } else if(room == rm_boss) {
             //Won't show exit door unless objective is complete
             if(instance_exists(Devil)) {
-                show_exit_door = false;
+                Door.visible = false;
             } else {
-                show_exit_door = true;
+                Door.visible = true;
             }
         }        
         

@@ -50,11 +50,13 @@ door_init();
           <argument>
             <kind>1</kind>
             <string>///controller by game controller
+/*
 if(GameController.show_exit_door) {
     visible = true;
 } else {
     visible = false;
 }
+*/
 </string>
           </argument>
         </arguments>

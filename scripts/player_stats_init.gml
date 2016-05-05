@@ -25,6 +25,10 @@ level_exp_max = 10;
 element_points = 0;
 soul_element_shot_count = 3;
 
+//score related
+enemies_defeated = 0;
+game_score = 0;
+
 //Items related stats
 money = 0;
 

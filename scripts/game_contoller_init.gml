@@ -54,6 +54,14 @@ part_type_colour1(global.particle2, c_white);
 part_type_speed(global.particle2, 0.3, 0.4, -0.10, 0);
 part_type_life(global.particle2,10,10);  
 
+global.particle3 = part_type_create();
+part_type_shape(global.particle3, pt_shape_pixel);
+part_type_size(global.particle3, 0.1, 0.15, 0, 0.5);
+part_type_colour1(global.particle3, c_white);
+part_type_speed(global.particle3, .25, .5, .20, 0);
+part_type_direction(global.particle3, 0, 180, 2, 0);
+part_type_life(global.particle3,10,10);  
+
 global.earth_level_completed = false;
 global.wind_level_completed = false;
 global.fire_level_completed = false;
