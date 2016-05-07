@@ -6,9 +6,15 @@ global.menu_item_pause_delay--;
 //pause the game
 if(start && global.menu_item_pause_delay <= 0 && !global.game_paused) {
     global.menu_item_pause_delay = global.menu_item_pause_delay_max;
-    PlayerStats.current_room = room;
-    global.game_paused = true;
-    room_goto(rm_pause_menu);
+    if(room = rm_cutscene) {
+        timeline_running = false;
+        timeline_position = 0;
+        room_goto_next();
+    } else {
+        PlayerStats.current_room = room;
+        global.game_paused = true;
+        room_goto(rm_pause_menu);
+    }
 }
 
 if(global.game_paused) {

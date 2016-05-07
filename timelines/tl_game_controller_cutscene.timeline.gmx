@@ -20,8 +20,11 @@
           <argument>
             <kind>1</kind>
             <string>//Create textbox
-var text_box = instance_create(0, 0, TextBox);
-text_box.message = "I'm stealing all of the earth's gems haha haha haha!";
+if(room == rm_cutscene) {
+    var text_box = instance_create(0, 0, TextBox);
+    text_box.message = "I'm stealing all of the earth's gems haha haha haha!";
+}
+
 </string>
           </argument>
         </arguments>
@@ -48,8 +51,10 @@ text_box.message = "I'm stealing all of the earth's gems haha haha haha!";
           <argument>
             <kind>1</kind>
             <string>/// Goto to next room and reset player health
-PlayerStats.hp = PlayerStats.maxhp;
-room_goto_next();
+if(room = rm_cutscene) {
+    PlayerStats.hp = PlayerStats.maxhp;
+    room_goto_next();
+}
 </string>
           </argument>
         </arguments>
