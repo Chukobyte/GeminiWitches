@@ -1,3 +1,8 @@
+#[0.5.5] - May 07, 2016
+------
+- added TextBox object and scripts.
+- added text box to cutscene.
+
 #[0.5.4] - May 05, 2016
 ------
 - added water splash effect to water top.

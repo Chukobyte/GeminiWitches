@@ -1,7 +1,10 @@
 ///gui_controller_draw()
 
+//Refresh gui properties
+gui_controller_init();
+
 //Sets gui size based on view
-display_set_gui_size(view_wview[0], view_hview[0]);
+display_set_gui_size(gui_width, gui_height);
 
 switch(room) {
     /* default will be the level rooms for now

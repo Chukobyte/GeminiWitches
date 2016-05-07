@@ -174,8 +174,13 @@
     <path>paths\pth_devil1</path>
   </paths>
   <scripts name="scripts">
+    <scripts name="TextBox">
+      <script>scripts\text_box_init.gml</script>
+      <script>scripts\text_box_draw.gml</script>
+    </scripts>
     <scripts name="GUIController">
       <script>scripts\gui_controller_draw.gml</script>
+      <script>scripts\gui_controller_init.gml</script>
     </scripts>
     <scripts name="HelperScripts">
       <script>scripts\get_player_input.gml</script>
@@ -386,6 +391,7 @@
       <object>objects\MenuSkill</object>
       <object>objects\MenuItems</object>
     </objects>
+    <object>objects\TextBox</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_cloud</timeline>
@@ -401,6 +407,7 @@
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
+    <room>rooms\rm_cutscene</room>
     <room>rooms\rm_select</room>
     <room>rooms\rm_boss</room>
     <room>rooms\rm_play_again</room>
@@ -410,7 +417,6 @@
     <room>rooms\rm_earth_test</room>
     <room>rooms\rm_water</room>
     <room>rooms\rm_test_bossy</room>
-    <room>rooms\rm_cutscene</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
