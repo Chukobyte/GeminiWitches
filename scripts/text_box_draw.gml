@@ -2,7 +2,7 @@
 
 // Draw the string and the box
 var xx = GUIController.gui_width div 4 ;
-var yy = floor(GUIController.gui_height * 0.70);
+var yy = floor(GUIController.gui_height * 0.69);
 //var yy = GUIController.gui_height div 2;
 draw_set_alpha(.5);
 draw_roundrect_colour(xx, yy, xx + width, yy + height, c_black, c_black, false);

@@ -1,3 +1,7 @@
+#[0.5.6] - May 08, 2016
+------
+- added instruction "Press start to skip..." for cutscene.
+
 #[0.5.5] - May 07, 2016
 ------
 - added TextBox object and scripts.

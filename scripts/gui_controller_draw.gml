@@ -139,6 +139,15 @@ switch(room) {
             break;
             
         case rm_cutscene:
+            draw_set_font(-1);
+            var start_or_enter = "";
+            var gp_id = 0;
+            if(gamepad_is_connected(gp_id)) {
+                start_or_enter = "start";
+            } else {
+                start_or_enter = "enter";
+            }
+            draw_text_colour(350, 285, "Press " + start_or_enter + " to skip...", c_white, c_white, c_white, c_white, 1);
             break;
 }
 
