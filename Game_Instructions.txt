@@ -1,16 +1,51 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.5.6) *
+	* GEMINI WITICHES (Version 0.5.7) *
 	***********************************
 
 ** A Platformer about two twin sisters! **
 	
-** Click character portrait to select **
+** Stats **
+Green Bar = Health
+Blue Bar = Magic (can't use elemental magic when it reaches 0)
+Yellow Bar = Experience
 
-** Score = Coins collected for now. **
+** Controls **
 
-** Green Bar = Health **
+F1 = Toggle Fullscreen
+F5 = Reset Game
+ESC = Exit Game
 
-** Blue Bar = Magic (can't use magic when it reached 0) **
+KeyBoard controls
+------------------
+<- = Left
+-> = Right
+^ =  Jump / Enter Door
+<Enter> = Menu Selection / Pause
+
+'A' attacks with a punch
+'S' Mirror Shot (Hold to Charge)
+'Z' Flower of life
+'W' Fly
+'X' Piercing Water Crystal
+'Q' Fire Burst
+
+XBOX 360 controller controls
+----------------------------
+*Left Analog
+<- = Left
+-> = Right
+'A' = Jump / Enter Door
+<Start> = Menu Selection / Pause
+
+'X' attacks with a punch
+'B' Mirror Shot (Hold to Charge)
+
+*While Holding Down RT (Right Back Trigger)
+'Y' Flower of life
+'A' Fly
+'X' Piercing Water Crystal
+'B' Fire Burst
+
 
 ** ELEMENTAL POWERS**
 
@@ -37,41 +72,3 @@
 -Boosts max mp
 -Boosts mp regen
 -[Element Power] Piercing Water Crystal - Pierces through walls at super speeds to attack enemies!
-
-
-** Controls **
-
-F1 = Toggle Fullscreen
-F5 = Reset Game
-ESC = Exit Game
-
--KeyBoard controls
-------------------
-<- = Left
--> = Right
-^ =  Jump / Enter Door
-<Enter> = Menu Selection / Pause
-
-'A' attacks with a punch
-'S' Mirror Shot (Hold to Charge)
-'Z' Flower of life
-'W' Fly
-'X' Piercing Water Crystal
-'Q' Fire Burst
-
--XBOX 360 controller controls
-----------------------------
-*Left Analog
-<- = Left
--> = Right
-'A' = Jump / Enter Door
-<Start> = Menu Selection / Pause
-
-'X' attacks with a punch
-'B' Mirror Shot (Hold to Charge)
-
-*While Holding Down RT (Right Back Trigger)
-'Y' Flower of life
-'A' Fly
-'X' Piercing Water Crystal
-'B' Fire Burst

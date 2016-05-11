@@ -1,0 +1,46 @@
+** GEMINI WITICHES (Version 0.5.7) **
+
+** About **
+
+This is my first game with Game Maker studio and in general.  It's incomplete now, but I welcome any feedback.
+
+** Story **
+
+The evil saturnian devil magicians have stolen earth's precious elemental gems!  Help Seika and Amaya restore peace to the earth by defeating the evil magicians before they harness the power of the gems!  
+
+** Controls **
+
+F1 = Toggle Fullscreen
+F5 = Reset Game
+ESC = Exit Game
+
+KeyBoard controls
+------------------
+<- = Left
+-> = Right
+^ =  Jump / Enter Door
+<Enter> = Menu Selection / Pause
+
+'A' attacks with a punch
+'S' Mirror Shot (Hold to Charge)
+'Z' Flower of life
+'W' Fly
+'X' Piercing Water Crystal
+'Q' Fire Burst
+
+XBOX 360 controller controls
+----------------------------
+*Left Analog
+<- = Left
+-> = Right
+'A' = Jump / Enter Door
+<Start> = Menu Selection / Pause
+
+'X' attacks with a punch
+'B' Mirror Shot (Hold to Charge)
+
+*While Holding Down RT (Right Back Trigger)
+'Y' Flower of life
+'A' Fly
+'X' Piercing Water Crystal
+'B' Fire Burst

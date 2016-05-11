@@ -7,7 +7,7 @@
 * Empty string "" means that the var is unitialized.
 */
 
-global.debug = true;
+global.debug = false;
 
 //will default to true for now
 global.input_enabled = true;
@@ -18,7 +18,7 @@ global.game_paused = false;
 
 //menu
 global.game_menu_selection_play = "PLAY";
-global.game_menu_selection_options = "OPTIONS";
+global.game_menu_selection_options = "OPTIONS (Coming Soon)";
 global.game_menu_selection_exit = "EXIT";
 global.game_menu_selection = global.game_menu_selection_play;
 
