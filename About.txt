@@ -1,46 +1,53 @@
-** GEMINI WITICHES (Version 0.5.7) **
+** GEMINI WITICHES (Build 0.5.7-05112016-002) ** 
 
-** About **
+** About ** 
 
-This is my first game with Game Maker studio and in general.  It's incomplete now, but I welcome any feedback.
+This is my first game with Game Maker studio and in general. It's currently incomplete now, but I'm adding more content on a consistent basis. Any feedback is appreciated. 
 
-** Story **
+** Story ** 
 
-The evil saturnian devil magicians have stolen earth's precious elemental gems!  Help Seika and Amaya restore peace to the earth by defeating the evil magicians before they harness the power of the gems!  
+The evil saturnian devil magicians have stolen earth's precious elemental gems! Help Seika and Amaya restore peace to the earth by defeating the evil magicians before they harness the power of the gems! 
 
-** Controls **
+Collect the gems to unlock new powers and abilities! Seika and Amaya both start with attack and mirror shot.
 
-F1 = Toggle Fullscreen
-F5 = Reset Game
-ESC = Exit Game
+** Stats ** 
+Green Bar = Health 
+Blue Bar = Magic (can't use elemental magic when it reaches 0) 
+Yellow Bar = Experience (Leveling up adds to max health and magic) 
 
-KeyBoard controls
-------------------
-<- = Left
--> = Right
-^ =  Jump / Enter Door
-<Enter> = Menu Selection / Pause
+** Controls ** 
 
-'A' attacks with a punch
-'S' Mirror Shot (Hold to Charge)
-'Z' Flower of life
-'W' Fly
-'X' Piercing Water Crystal
-'Q' Fire Burst
+F1 = Toggle Fullscreen 
+F5 = Reset Game 
+ESC = Exit Game 
 
-XBOX 360 controller controls
-----------------------------
-*Left Analog
-<- = Left
--> = Right
-'A' = Jump / Enter Door
-<Start> = Menu Selection / Pause
+KeyBoard controls 
+------------------ 
+<- = Left 
+-> = Right 
+^ = Jump / Enter Door 
+<Enter> = Menu Selection / Pause 
 
-'X' attacks with a punch
-'B' Mirror Shot (Hold to Charge)
+'A' attacks with a punch 
+'S' Mirror Shot (Hold to Charge) 
+'Z' Flower of life 
+'W' Fly 
+'X' Piercing Water Crystal 
+'Q' Fire Burst 
 
-*While Holding Down RT (Right Back Trigger)
-'Y' Flower of life
-'A' Fly
-'X' Piercing Water Crystal
+XBOX 360 controller controls 
+---------------------------- 
+*Left Analog 
+<- = Left 
+-> = Right 
+'A' = Jump / Enter Door 
+<Start> = Menu Selection / Pause 
+
+'X' attacks with a punch 
+'B' Mirror Shot (Hold to Charge) 
+
+*While Holding Down RT (Right Back Trigger) 
+'Y' Flower of life 
+'A' Fly 
+'X' Piercing Water Crystal 
 'B' Fire Burst

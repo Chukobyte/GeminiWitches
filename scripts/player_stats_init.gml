@@ -1,4 +1,6 @@
 ///player_stats_init()
+player_lives = 3;
+
 maxhp = 6;
 hp = maxhp;
 hp_regen = 0;

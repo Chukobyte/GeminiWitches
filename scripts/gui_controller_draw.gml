@@ -28,6 +28,16 @@ switch(room) {
         draw_sprite(spr_gold_coin, 0, 408, 22);
         draw_text_colour(416, 14, "x" + string(PlayerStats.money), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
         
+        //draw lives
+        var head_sprite = "none";
+        if(global.player_1_selected == Seika) {
+            head_sprite = spr_seika_head;
+        } else if(global.player_1_selected == Amaya) {
+            head_sprite = spr_amaya_head;
+        } 
+        draw_sprite(head_sprite, 0, 440, 20);
+        draw_text_colour(449, 14, "x" + string(PlayerStats.player_lives), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
+        
         draw_text_colour(10, 280, "Level: " + string(PlayerStats.level), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
         //debug
         if(global.debug) {

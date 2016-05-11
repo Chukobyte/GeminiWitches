@@ -37,6 +37,7 @@
         <sprite>sprites\spr_seika_swim_idle</sprite>
         <sprite>sprites\spr_seika_swim_anim</sprite>
         <sprite>sprites\spr_seika_shot</sprite>
+        <sprite>sprites\spr_seika_head</sprite>
       </sprites>
       <sprites name="Amaya">
         <sprite>sprites\spr_amaya_portrait</sprite>
@@ -53,6 +54,7 @@
         <sprite>sprites\spr_amaya_swim_idle</sprite>
         <sprite>sprites\spr_amaya_swim_anim</sprite>
         <sprite>sprites\spr_amaya_shot</sprite>
+        <sprite>sprites\spr_amaya_head</sprite>
       </sprites>
       <sprite>sprites\spr_player_mask</sprite>
     </sprites>

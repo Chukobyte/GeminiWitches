@@ -19,6 +19,12 @@ if(death_state_timer > 0) {
     PlayerStats.money = 0;
     state = player_move_state;
     room_persistent = false;
-    room_restart();
+    PlayerStats.player_lives -= 1;
+    if(PlayerStats.player_lives <= 0) {
+        room_goto(rm_play_again);
+    } else {
+        room_restart();
+    }
+    
 }
 

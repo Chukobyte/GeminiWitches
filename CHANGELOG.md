@@ -1,6 +1,7 @@
 #[0.5.7] - May 11, 2016
 ------
 - tweaked bg_forest.
+- added lives (default to 3).
 
 #[0.5.6] - May 08, 2016
 ------
