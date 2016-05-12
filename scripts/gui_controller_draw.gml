@@ -83,6 +83,29 @@ switch(room) {
                 
         break;
         
+        case rm_options_menu:
+            draw_set_font(fnt_choose_character);
+            switch(global.options_menu_selection) {
+                case global.options_menu_back_to_menu:
+                    draw_rectangle_colour(188, 160, 410, 196, c_yellow, c_dkgray, c_yellow, c_dkgray, true);
+                    break;
+                
+                case global.options_menu_sound:
+                    draw_rectangle_colour(300, 96, 362, 130, c_yellow, c_dkgray, c_yellow, c_dkgray, true);
+                    break;
+            }
+            draw_text_outline_color(192, 96, 2, global.options_menu_sound, c_dkgray, c_yellow);
+            var sound_value = "none";
+            if(global.options_menu_sound_selection == "OFF") {
+                sound_value = "OFF";
+            } else if(global.options_menu_sound_selection == "ON") {
+                sound_value = "ON";
+            }
+            draw_text_outline_color(302, 96, 2, sound_value, c_dkgray, c_yellow);
+            
+            draw_text_outline_color(192, 96 + 64, 2, global.options_menu_back_to_menu, c_dkgray, c_yellow);
+            break;
+        
         case rm_play_again:
             
             //temp play again room

@@ -420,6 +420,7 @@
     <room>rooms\rm_fire_test</room>
     <room>rooms\rm_earth_test</room>
     <room>rooms\rm_water</room>
+    <room>rooms\rm_options_menu</room>
     <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_test</room>
   </rooms>

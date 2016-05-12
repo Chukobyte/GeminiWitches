@@ -149,11 +149,44 @@ switch(room) {
             global.menu_item_confirmation_delay = global.menu_item_confirmation_delay_max;
             if(global.game_menu_selection == global.game_menu_selection_play) {
                 room_goto(rm_choose_character);
+            } else if(global.game_menu_selection == global.game_menu_selection_options) {
+                room_goto(rm_options_menu);
             } else if(global.game_menu_selection == global.game_menu_selection_exit) {
                 game_end();
+            } 
+        }
+        
+        break;
+        
+    case rm_options_menu:
+        global.menu_item_selection_timer--;
+        global.menu_item_confirmation_delay--;
+        
+        if((hold_up || down) && global.menu_item_selection_timer <= 0) {
+            global.menu_item_selection_timer = global.menu_item_selection_timer_max;
+            if(global.options_menu_selection == global.options_menu_sound) {
+                global.options_menu_selection = global.options_menu_back_to_menu;
+            } else if(global.options_menu_selection == global.options_menu_back_to_menu) {
+                global.options_menu_selection = global.options_menu_sound;
             }
         }
         
+        if(start && global.menu_item_confirmation_delay <= 0) {
+            global.menu_item_confirmation_delay = global.menu_item_confirmation_delay_max;
+            if(global.options_menu_selection == global.options_menu_sound) {
+                if(global.options_menu_sound_selection == "ON") {
+                    global.options_menu_sound_selection = "OFF";
+                } else if(global.options_menu_sound_selection == "OFF") {
+                    global.options_menu_sound_selection = "ON";
+                }
+            } else if(global.options_menu_selection == global.options_menu_back_to_menu) {
+                room_goto(rm_game_menu);
+            }
+        }
+        
+        if(soul_element_attack_button_pressed) {
+            room_goto(rm_game_menu);
+        }
         break;
         
     case rm_choose_character:
@@ -186,6 +219,10 @@ switch(room) {
                 }
                 
                 room_goto_next();
+            }
+            
+            if(soul_element_attack_button_pressed) {
+                room_goto(rm_game_menu);
             }
             
             

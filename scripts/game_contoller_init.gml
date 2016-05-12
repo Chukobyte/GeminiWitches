@@ -18,9 +18,14 @@ global.game_paused = false;
 
 //menu
 global.game_menu_selection_play = "PLAY";
-global.game_menu_selection_options = "OPTIONS (Coming Soon)";
+global.game_menu_selection_options = "OPTIONS";
 global.game_menu_selection_exit = "EXIT";
 global.game_menu_selection = global.game_menu_selection_play;
+
+global.options_menu_sound = "Sound";
+global.options_menu_sound_selection = "ON"; // Either ON or OFF
+global.options_menu_back_to_menu = "Back to menu";
+global.options_menu_selection = global.options_menu_back_to_menu;
 
 global.play_again_prompt_yes = "YES";
 global.play_again_prompt_no = "NO";
