@@ -51,3 +51,28 @@ XBOX 360 controller controls
 'A' Fly 
 'X' Piercing Water Crystal 
 'B' Fire Burst
+
+** ELEMENTAL POWERS**
+
+*Mirror Shot
+-Shoots a small mirror energy shot.  Doesn't cost mp.  Charge for a more powerful attack.
+
+**Collect all four elemental gems!
+
+*Earth (orange gem)
+-Boost max hp
+-damages enemies when character lands on top of them.
+-[Element Power] Flower of life - Restores health.
+
+*Wind (green gem)
+-Slight boost in speed.
+-Double Jump
+-[Element Power] Fly - Self explanory ;-)
+
+*Fire (red gem)
+-Physical attacks are twice as strong.
+-[Element Power] Fire Burst - Fire attack that surrouds forming a type of rotating shield.
+
+*Water (blue gem)
+-Boosts max mp
+-[Element Power] Piercing Water Crystal - Pierces through walls at super speeds to attack enemies!

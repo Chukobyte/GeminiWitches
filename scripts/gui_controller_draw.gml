@@ -35,8 +35,8 @@ switch(room) {
         } else if(global.player_1_selected == Amaya) {
             head_sprite = spr_amaya_head;
         } 
-        draw_sprite(head_sprite, 0, 440, 20);
-        draw_text_colour(449, 14, "x" + string(PlayerStats.player_lives), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
+        draw_sprite(head_sprite, 0, 448, 20);
+        draw_text_colour(460, 14, "x" + string(PlayerStats.player_lives), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
         
         draw_text_colour(10, 280, "Level: " + string(PlayerStats.level), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
         //debug
