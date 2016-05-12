@@ -53,10 +53,6 @@
   <instances>
     <instance objName="Door" x="2464" y="352" name="inst_CF620CAD" locked="0" code="room_selected = rm_select;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DoorClosed" x="80" y="640" name="inst_3661DE34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Cloud" x="224" y="224" name="inst_C372AA33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Cloud" x="640" y="256" name="inst_7082AA70" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Cloud" x="352" y="320" name="inst_494CFC1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Cloud" x="544" y="320" name="inst_1CFC9578" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="1280" y="-64" name="inst_7C1200AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="1248" y="-64" name="inst_8D4477EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DirtWall" x="1216" y="-64" name="inst_B986D5F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -842,6 +838,13 @@
     <instance objName="BlackBlock" x="2016" y="96" name="inst_3E5853E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="2272" y="160" name="inst_2EBD5231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackBlock" x="1856" y="192" name="inst_4508BA32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrayCloud" x="96" y="384" name="inst_5581BB74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrayCloud" x="416" y="320" name="inst_E46DA2FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrayCloud" x="320" y="384" name="inst_2162ACD5" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrayCloud" x="640" y="256" name="inst_7512C578" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrayCloud" x="736" y="128" name="inst_9B6C5048" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrayCloud" x="864" y="128" name="inst_6399BF46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GrayCloud" x="544" y="288" name="inst_44402B6B" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

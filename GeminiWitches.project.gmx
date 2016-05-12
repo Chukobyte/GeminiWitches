@@ -65,6 +65,7 @@
       <sprite>sprites\spr_door_closed</sprite>
       <sprite>sprites\spr_flower</sprite>
       <sprite>sprites\spr_cloud</sprite>
+      <sprite>sprites\spr_gray_cloud</sprite>
       <sprites name="small_flowers">
         <sprite>sprites\spr_small_flowers_blue</sprite>
         <sprite>sprites\spr_small_flowers_orange</sprite>
@@ -331,6 +332,7 @@
       <object>objects\Door</object>
       <object>objects\Flower</object>
       <object>objects\Cloud</object>
+      <object>objects\GrayCloud</object>
       <object>objects\SmallFlower</object>
       <object>objects\Tree</object>
       <objects name="LandItems">
