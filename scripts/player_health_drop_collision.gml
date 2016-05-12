@@ -5,7 +5,7 @@ if(PlayerStats.hp > PlayerStats.maxhp) {
 }
 
 //sound
-if(!audio_is_playing(snd_hp_mp_pickup)) {
+if(!audio_is_playing(snd_hp_mp_pickup) && global.options_menu_sound_selection == "ON") {
     var audio_em = audio_emitter_create();
     audio_emitter_gain(audio_em, .4);
     audio_emitter_pitch(audio_em, .8);

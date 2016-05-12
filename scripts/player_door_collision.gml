@@ -4,8 +4,10 @@ if(up && other.visible == true) {
     // resets color
     image_blend = c_white;
     //state = player_exit_state;
-    audio_stop_sound(snd_jump);
-    audio_play_sound(snd_exit_door, 4, false);
+    if(global.options_menu_sound_selection == "ON") {
+        audio_stop_sound(snd_jump);
+        audio_play_sound(snd_exit_door, 4, false);
+    }
     
     //for setting level completion global var
     switch(room) {

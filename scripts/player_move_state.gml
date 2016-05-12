@@ -30,10 +30,12 @@ if(!place_meeting(x, y + 1, Solid)){
     if(up && double_jump_enabled && PlayerStats.wind_level > 0) {
         double_jump_enabled = false;
         part_particles_create(global.particle_system, x, y + 1, global.particle2, 1);
-        var audio_em = audio_emitter_create();
-        audio_emitter_gain(audio_em, .09);
-        //audio_emitter_pitch(audio_em, .5);
-        audio_play_sound_on(audio_em, snd_second_jump, false, 6);
+        if(global.options_menu_sound_selection == "ON") {
+            var audio_em = audio_emitter_create();
+            audio_emitter_gain(audio_em, .09);  
+            //audio_emitter_pitch(audio_em, .5);
+            audio_play_sound_on(audio_em, snd_second_jump, false, 6);
+        }
         vspd = jump_height;
     }
 } else {
@@ -43,10 +45,12 @@ if(!place_meeting(x, y + 1, Solid)){
     //Jumping code
     if(up) {
         vspd = jump_height + PlayerStats.jump_height;
-        var audio_em = audio_emitter_create();
-        audio_emitter_gain(audio_em, .07);
-        audio_emitter_pitch(audio_em, .5);
-        audio_play_sound_on(audio_em, snd_jump, false, 6);
+        if(global.options_menu_sound_selection == "ON") {
+            var audio_em = audio_emitter_create();
+            audio_emitter_gain(audio_em, .07);
+            audio_emitter_pitch(audio_em, .5);
+            audio_play_sound_on(audio_em, snd_jump, false, 6);
+        }
     }
     
     //Player is on the ground
@@ -84,9 +88,11 @@ if(right || left) {
 //adds 6 to attack timer for slight delay
 if(attack_button && (attack_timer + 6) <= 0) {
     a_button_attack();
-    var audio_em = audio_emitter_create();
-    audio_emitter_gain(audio_em, .25);
-    audio_play_sound_on(audio_em, snd_punch, false, 6);
+    if(global.options_menu_sound_selection == "ON") {
+        var audio_em = audio_emitter_create();
+        audio_emitter_gain(audio_em, .25);
+        audio_play_sound_on(audio_em, snd_punch, false, 6);
+    }
     PlayerStats.charge_time = 0;    
     image_blend = c_white;
 }
@@ -99,7 +105,7 @@ if(soul_element_attack_button_pressed) {
         if(PlayerStats.charge_time >= 25) {
             part_particles_create(global.particle_system, x, y, global.particle1, 1);
             
-            if(!audio_is_playing(snd_charging)) {
+            if(!audio_is_playing(snd_charging) && global.options_menu_sound_selection == "ON") {
                 var audio_em = audio_emitter_create();
                 audio_emitter_gain(audio_em, .25);
                 audio_emitter_pitch(audio_em, 1);
@@ -108,7 +114,7 @@ if(soul_element_attack_button_pressed) {
         }
     } else {
         image_blend = c_orange;    
-        if(!audio_is_playing(snd_charging)) {
+        if(!audio_is_playing(snd_charging) && global.options_menu_sound_selection == "ON") {
             var audio_em = audio_emitter_create();
             audio_emitter_gain(audio_em, .25);
             audio_emitter_pitch(audio_em, 0.6);
@@ -120,7 +126,7 @@ if(soul_element_attack_button_pressed) {
 
 if(soul_element_attack_button_released) {
     var success = mirror_shot_attempt();
-    if(success) {
+    if(success && global.options_menu_sound_selection == "ON") {
         var audio_em = audio_emitter_create();
         audio_emitter_gain(audio_em, .3);
         //audio_emitter_pitch(audio_em, .5);
@@ -130,7 +136,7 @@ if(soul_element_attack_button_released) {
     image_blend = c_white;
 } else if(water_magic_attack_button && PlayerStats.water_level > 0){
     var success = piecing_water_crystal_attempt();
-    if(success) {
+    if(success && global.options_menu_sound_selection == "ON") {
         var audio_em = audio_emitter_create();
         audio_emitter_gain(audio_em, .2);
         audio_emitter_pitch(audio_em, 1.2);
@@ -140,7 +146,7 @@ if(soul_element_attack_button_released) {
     var success = flower_of_life_attempt();
 } else if(fire_magic_attack_button && PlayerStats.fire_level > 0) {
     var success = fire_burst_attempt();
-    if(success) {
+    if(success && global.options_menu_sound_selection == "ON") {
         var audio_em = audio_emitter_create();
         audio_emitter_gain(audio_em, .3);
         audio_play_sound_on(audio_em, snd_fire, false, 5);

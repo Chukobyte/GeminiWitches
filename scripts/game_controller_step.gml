@@ -75,7 +75,7 @@ switch(room) {
                 global.second_counter++;
             }
 //        }
-        if(!audio_is_playing(snd_main)) {
+        if(!audio_is_playing(snd_main) && global.options_menu_sound_selection == "ON") {
             ///Play the background music
             audio_em = audio_emitter_create();
             audio_emitter_gain(audio_em, .3);
@@ -266,7 +266,7 @@ switch(room) {
         break;
         
     case rm_cutscene:
-        if(!audio_is_playing(snd_main)) {
+        if(!audio_is_playing(snd_main) && global.options_menu_sound_selection == "ON") {
             ///Play the background music
             audio_em = audio_emitter_create();
             audio_emitter_gain(audio_em, .3);

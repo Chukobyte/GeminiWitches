@@ -1,8 +1,10 @@
 ///enemy_destroy()
 
-var audio_em = audio_emitter_create();
-audio_emitter_gain(audio_em, .3);
-audio_play_sound_on(audio_em, snd_explosion, false, 5);
+if(global.options_menu_sound_selection == "ON") {
+    var audio_em = audio_emitter_create();
+    audio_emitter_gain(audio_em, .3);
+    audio_play_sound_on(audio_em, snd_explosion, false, 5);
+}
 
 PlayerStats.enemies_defeated += 1;
 

@@ -35,7 +35,7 @@ if(up || down) {
     var up_or_down = down - up;
     vspd += up_or_down * swim_height;
     vspd = cap_at_max_spd(vspd, spd);
-    if(up_or_down == -1) {
+    if(up_or_down == -1 && global.options_menu_sound_selection == "ON") {
         var audio_em = audio_emitter_create();
         audio_emitter_gain(audio_em, .07);
         //audio_emitter_pitch(audio_em, .5);
