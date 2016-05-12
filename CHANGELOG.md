@@ -2,6 +2,7 @@
 ------
 - tweaked bg_forest.
 - added lives (default to 3).
+- added options menu.
 
 #[0.5.6] - May 08, 2016
 ------
