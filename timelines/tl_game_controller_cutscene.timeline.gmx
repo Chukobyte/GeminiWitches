@@ -22,7 +22,7 @@
             <string>//Create textbox
 if(room == rm_cutscene) {
     var text_box = instance_create(0, 0, TextBox);
-    text_box.message = "I'm stealing all of the earth's gems haha haha haha!";
+    text_box.message = "Devil: I'm stealing all of the earth's gems haha haha haha!";
 }
 
 </string>

@@ -56,6 +56,12 @@ if(end_game_button) {
     game_end();
 }
 
+//uses macro to enable disable screenshot
+if(screen_shot_button && SCREEN_SHOT) {
+    var time = string(current_hour) + "." + string(current_minute) + "." + string(current_second);
+    screen_save(working_directory + "\Screens\ScreenShot_" + time + ".png")
+}
+
 if(global.game_paused) {
     return -1;
 }

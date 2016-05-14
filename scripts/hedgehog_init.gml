@@ -4,6 +4,6 @@ event_inherited();
 hp = 2;
 acc = 2;
 spd = 8;
-sight_range = 180;
+sight_range = 250;
 state = hedgehog_attack_state;
 hurt_sprite = spr_hedgehog_hurt;

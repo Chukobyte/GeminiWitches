@@ -1,3 +1,8 @@
+#[0.5.8] - May 14, 2016
+------
+- added macro for screen shot
+- increase hedgehog and devil enemy sight range.
+
 #[0.5.7] - May 11, 2016
 ------
 - tweaked bg_forest.
