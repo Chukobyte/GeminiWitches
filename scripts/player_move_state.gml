@@ -51,6 +51,9 @@ if(!place_meeting(x, y + 1, Solid)){
             audio_emitter_pitch(audio_em, .5);
             audio_play_sound_on(audio_em, snd_jump, false, 6);
         }
+        if(global.player_1_selected == Seika) {
+            part_particles_create(global.particle_system, x, y + 1, global.particle4, 1);
+        }
     }
     
     //Player is on the ground
@@ -81,7 +84,17 @@ if(right || left) {
     
     hspd = cap_at_max_spd(hspd, spd);
     
+    if(global.player_1_selected == Seika) {
+        if(blur_limit <= 0) {
+            //Do blur effect
+            //part_particles_create(global.particle_system, x, y + 1, global.particle4, 1);
+            blur_limit = blur_limit_max;
+        }
+        blur_limit--;
+    }
+    
 } else {
+        blur_limit = blur_limit_max;
         apply_friction(acc);
 }
 

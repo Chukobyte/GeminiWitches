@@ -216,12 +216,17 @@ switch(room) {
                 }
             }
             
+            //Give PlayerStats object base increase based on selected character
             if((start || attack_button) && global.menu_item_confirmation_delay <= 0) {
                 global.menu_item_confirmation_delay = global.menu_item_confirmation_delay_max;
                 if(global.choose_character_selection == SeikaPortrait) {
                     global.player_1_selected = Seika;
+                    PlayerStats.spd += .5;
+                    PlayerStats.jump_height -= .5;
                 } else if(global.choose_character_selection == AmayaPortrait) {
                     global.player_1_selected = Amaya;
+                    PlayerStats.attack += .5;
+                    PlayerStats.knockback_strength *= 2;
                 }
                 
                 room_goto_next();

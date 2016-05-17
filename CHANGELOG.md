@@ -1,3 +1,12 @@
+#[0.6.0] - May 16, 2016
+------
+- Started working on Seika's blur and jump special effect.
+
+#[0.5.9] - May 15, 2016
+------
+- Gave Seika a slight boost in spd and jump height
+- Gave Amaya a slight boost in punch attack strength and good boost for knock back 
+
 #[0.5.8] - May 14, 2016
 ------
 - added macro for screen shot
