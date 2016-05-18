@@ -1,3 +1,8 @@
+#[0.6.2] - May 18, 2016
+------
+- Removed punch from Seika.
+- Removed charge attack from Amaya.
+
 #[0.6.1] - May 17, 2016
 ------
 - Tweaked Seika's blur effects more.

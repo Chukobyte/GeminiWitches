@@ -7,7 +7,7 @@ if(instance_number(MirrorShot) < PlayerStats.soul_element_shot_count) {
     if(PlayerStats.charge_time == PlayerStats.charge_time_max) {
         new_mirror_shot_attack.image_xscale = sign(image_xscale) * 3;
         new_mirror_shot_attack.image_yscale *= 3;
-        new_mirror_shot_attack.damage *= 2;
+        new_mirror_shot_attack.damage *= 2.5;
     } else {
         new_mirror_shot_attack.image_xscale = sign(image_xscale);
     }

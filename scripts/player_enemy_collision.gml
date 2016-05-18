@@ -38,10 +38,9 @@ if(above_enemy && falling && state != player_death_state) {
     vspd = (jump_height / 1.5);
     
 } else if(attacking && is_next_to_enemy) {
-    var attack_damage = PlayerStats.attack;
     with(other) {
         if(!enemy_damaged) {
-            hp -= attack_damage;
+            hp -= PlayerStats.attack;
             enemy_damaged = true;
             enemy_damaged_timer = enemy_damaged_timer_max;  
             
@@ -57,6 +56,10 @@ if(above_enemy && falling && state != player_death_state) {
                 x += hspd;
             }
             hspd = temp_hspd;
+            
+            if(global.player_1_selected == Seika) {
+                attacking = false;
+            }
         }
     }
 } else {

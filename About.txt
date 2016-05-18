@@ -1,4 +1,4 @@
-** GEMINI WITICHES (Build 0.5.7-05112016-002) ** 
+** GEMINI WITCHES Version 0.6.2 ** 
 
 ** About ** 
 
@@ -8,71 +8,46 @@ This is my first game with Game Maker studio and in general. It's currently inco
 
 The evil saturnian devil magicians have stolen earth's precious elemental gems! Help Seika and Amaya restore peace to the earth by defeating the evil magicians before they harness the power of the gems! 
 
-Collect the gems to unlock new powers and abilities! Seika and Amaya both start with attack and mirror shot.
+Collect the gems to unlock new powers and abilities! Seika starts with charged mirror shot and Amaya starts with power punch and mirror shot.
 
-** Stats ** 
-Green Bar = Health 
-Blue Bar = Magic (can't use elemental magic when it reaches 0) 
-Yellow Bar = Experience (Leveling up adds to max health and magic) 
+** Stats **
+Green Bar = Health
+Blue Bar = Magic (can't use elemental magic when it reaches 0)
+Yellow Bar = Experience
 
-** Controls ** 
+** Controls **
 
-F1 = Toggle Fullscreen 
-F5 = Reset Game 
-ESC = Exit Game 
+F1 = Toggle Fullscreen
+F5 = Reset Game
+ESC = Exit Game
 
-KeyBoard controls 
------------------- 
-<- = Left 
--> = Right 
-^ = Jump / Enter Door 
-<Enter> = Menu Selection / Pause 
+KeyBoard controls
+------------------
+<- = Left
+-> = Right
+^ =  Jump / Enter Door
+<Enter> = Menu Selection / Pause
 
-'A' attacks with a punch 
-'S' Mirror Shot (Hold to Charge) 
-'Z' Flower of life 
-'W' Fly 
-'X' Piercing Water Crystal 
-'Q' Fire Burst 
+'S' close magic attack (Only Amaya)
+'A' Mirror Shot (Hold to Charge with Seika)
+'Z' Flower of life
+'W' Fly
+'X' Piercing Water Crystal
+'Q' Fire Burst
 
-XBOX 360 controller controls 
----------------------------- 
-*Left Analog 
-<- = Left 
--> = Right 
-'A' = Jump / Enter Door 
-<Start> = Menu Selection / Pause 
+XBOX 360 controller controls
+----------------------------
+*Left Analog
+<- = Left
+-> = Right
+'A' = Jump / Enter Door
+<Start> = Menu Selection / Pause
 
-'X' attacks with a punch 
-'B' Mirror Shot (Hold to Charge) 
+'B' close magic attack (Only Amaya)
+'X' Mirror Shot (Hold to Charge with Seika)
 
-*While Holding Down RT (Right Back Trigger) 
-'Y' Flower of life 
-'A' Fly 
-'X' Piercing Water Crystal 
+*While Holding Down RT (Right Back Trigger)
+'Y' Flower of life
+'A' Fly
+'X' Piercing Water Crystal
 'B' Fire Burst
-
-** ELEMENTAL POWERS**
-
-*Mirror Shot
--Shoots a small mirror energy shot.  Doesn't cost mp.  Charge for a more powerful attack.
-
-**Collect all four elemental gems!
-
-*Earth (orange gem)
--Boost max hp
--damages enemies when character lands on top of them.
--[Element Power] Flower of life - Restores health.
-
-*Wind (green gem)
--Slight boost in speed.
--Double Jump
--[Element Power] Fly - Self explanory ;-)
-
-*Fire (red gem)
--Physical attacks are twice as strong.
--[Element Power] Fire Burst - Fire attack that surrouds forming a type of rotating shield.
-
-*Water (blue gem)
--Boosts max mp
--[Element Power] Piercing Water Crystal - Pierces through walls at super speeds to attack enemies!

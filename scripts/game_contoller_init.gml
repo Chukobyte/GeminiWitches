@@ -71,15 +71,15 @@ part_type_life(global.particle3,10,10);
 
 global.particle4 = part_type_create();
 part_type_shape(global.particle4, pt_shape_snow);
-part_type_size(global.particle4, 0.25, 0.3, 0, 0);
+part_type_size(global.particle4, 0.2, 0.25, 0, 0);
 part_type_colour1(global.particle4, c_purple);
 part_type_speed(global.particle4, 0.3, 0.4, -0.10, 0);
-part_type_life(global.particle4,6,6);
+part_type_life(global.particle4,4,4);
 
 global.particle5 = part_type_create();
 part_type_shape(global.particle5, pt_shape_disk);
-part_type_size(global.particle5, 0.5, 0.6, 0, 0);
-part_type_colour1(global.particle5, c_purple);
+part_type_size(global.particle5, 0.4, 0.5, 0, 0);
+part_type_colour1(global.particle5, c_green);
 part_type_speed(global.particle5, 0.3, 0.4, -0.10, 0);
 part_type_life(global.particle5,6,6);
 

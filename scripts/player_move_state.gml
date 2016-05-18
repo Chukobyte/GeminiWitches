@@ -51,9 +51,11 @@ if(!place_meeting(x, y + 1, Solid)){
             audio_emitter_pitch(audio_em, .5);
             audio_play_sound_on(audio_em, snd_jump, false, 6);
         }
+        /*
         if(global.player_1_selected == Seika) {
             part_particles_create(global.particle_system, x, y + 1, global.particle4, 1);
         }
+        */
     }
     
     //Player is on the ground
@@ -85,10 +87,10 @@ if(right || left) {
     hspd = cap_at_max_spd(hspd, spd);
     
     if(global.player_1_selected == Seika) {
-        if(blur_limit <= 0 && hspd == spd) {
+        if(blur_limit <= 0 && abs(hspd) == spd) {
             //Do blur effect
             //part_particles_create(global.particle_system, x, y, global.particle4, 1);
-            var p_blur = instance_create(floor(x), floor(y), PlayerBlur);
+            var p_blur = instance_create(x, y, PlayerBlur);
             p_blur.sprite_index = sprite_index;
             p_blur.image_speed = 0;
             p_blur.image_blend = c_purple;
@@ -106,24 +108,29 @@ if(right || left) {
         apply_friction(acc);
 }
 
+//Taking punching out for now
+
 //adds 6 to attack timer for slight delay
-if(attack_button && (attack_timer + 6) <= 0) {
-    a_button_attack();
-    if(global.player_1_selected = Amaya) {
-        instance_create(x + image_xscale * 12, y + 4, AmayaPunch);
+if(global.player_1_selected == Amaya) {
+    if(attack_button && (attack_timer + 6) <= 0) {
+        a_button_attack();
+        instance_create(x, y, AmayaPunch);
+        if(global.options_menu_sound_selection == "ON") {
+            var audio_em = audio_emitter_create();
+            audio_emitter_gain(audio_em, .25);
+            audio_play_sound_on(audio_em, snd_punch, false, 6);
+        }
+        
+//        part_particles_create(global.particle_system, x, y, global.particle5, 1);
+        PlayerStats.charge_time = 0;    
+        image_blend = c_white;
     }
-    if(global.options_menu_sound_selection == "ON") {
-        var audio_em = audio_emitter_create();
-        audio_emitter_gain(audio_em, .25);
-        audio_play_sound_on(audio_em, snd_punch, false, 6);
-    }
-    PlayerStats.charge_time = 0;    
-    image_blend = c_white;
 }
 
 
+
 //TODO: Attack scripts return if successful or not
-if(soul_element_attack_button_pressed) {
+if(soul_element_attack_button_pressed && global.player_1_selected == Seika) {
     if(PlayerStats.charge_time < PlayerStats.charge_time_max) {
         PlayerStats.charge_time += 1;
         if(PlayerStats.charge_time >= 25) {
@@ -146,9 +153,17 @@ if(soul_element_attack_button_pressed) {
         }    
     }
     
+} else if(soul_element_attack_button && global.player_1_selected == Amaya) {
+    var success = mirror_shot_attempt();
+    if(success && global.options_menu_sound_selection == "ON") {
+        var audio_em = audio_emitter_create();
+        audio_emitter_gain(audio_em, .3);
+        //audio_emitter_pitch(audio_em, .5);
+        audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
+    }
 }
 
-if(soul_element_attack_button_released) {
+if(soul_element_attack_button_released && global.player_1_selected == Seika) {
     var success = mirror_shot_attempt();
     if(success && global.options_menu_sound_selection == "ON") {
         var audio_em = audio_emitter_create();

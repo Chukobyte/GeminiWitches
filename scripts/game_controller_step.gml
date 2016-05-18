@@ -221,12 +221,13 @@ switch(room) {
                 global.menu_item_confirmation_delay = global.menu_item_confirmation_delay_max;
                 if(global.choose_character_selection == SeikaPortrait) {
                     global.player_1_selected = Seika;
+                    PlayerStats.attack = 0;
                     PlayerStats.spd += .5;
                     PlayerStats.jump_height -= .5;
                 } else if(global.choose_character_selection == AmayaPortrait) {
                     global.player_1_selected = Amaya;
                     PlayerStats.attack += .5;
-                    PlayerStats.knockback_strength *= 2;
+                    PlayerStats.knockback_strength = 15;
                 }
                 
                 room_goto_next();
