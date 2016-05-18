@@ -7,7 +7,8 @@ vspd = 0;
 grav = 1.5;
 jump_height = -18;
 double_jump_enabled = false;
-blur_limit_max = room_speed * 4;
+//blur_limit_max = room_speed * 3;
+blur_limit_max = room_speed * 1.5;
 blur_limit = blur_limit_max;
 state = player_move_state;
 

@@ -85,12 +85,20 @@ if(right || left) {
     hspd = cap_at_max_spd(hspd, spd);
     
     if(global.player_1_selected == Seika) {
-        if(blur_limit <= 0) {
+        if(blur_limit <= 0 && hspd == spd) {
             //Do blur effect
-            //part_particles_create(global.particle_system, x, y + 1, global.particle4, 1);
-            blur_limit = blur_limit_max;
+            //part_particles_create(global.particle_system, x, y, global.particle4, 1);
+            var p_blur = instance_create(floor(x), floor(y), PlayerBlur);
+            p_blur.sprite_index = sprite_index;
+            p_blur.image_speed = 0;
+            p_blur.image_blend = c_purple;
+            p_blur.image_xscale = image_xscale;
+            p_blur.image_alpha = .7;
+            
+            blur_limit = blur_limit_max div 4;
+        } else {
+            blur_limit--;
         }
-        blur_limit--;
     }
     
 } else {

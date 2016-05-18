@@ -237,6 +237,8 @@
       </scripts>
       <script>scripts\player_animation_end.gml</script>
       <script>scripts\player_take_damage.gml</script>
+      <script>scripts\player_blur_init.gml</script>
+      <script>scripts\player_blur_step.gml</script>
     </scripts>
     <scripts name="GameController">
       <script>scripts\game_contoller_init.gml</script>
@@ -319,6 +321,7 @@
   <objects name="objects">
     <objects name="Player">
       <object>objects\Player</object>
+      <object>objects\PlayerBlur</object>
       <object>objects\PlayerStats</object>
       <object>objects\Seika</object>
       <object>objects\SeikaPortrait</object>
