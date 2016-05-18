@@ -46,6 +46,7 @@
         <sprite>sprites\spr_amaya_jump</sprite>
         <sprite>sprites\spr_amaya_jump_released</sprite>
         <sprite>sprites\spr_amaya_stand_attack</sprite>
+        <sprite>sprites\spr_amaya_special_punch</sprite>
         <sprite>sprites\spr_amaya_jump_attack</sprite>
         <sprite>sprites\spr_amaya_walk_attack</sprite>
         <sprite>sprites\spr_amaya_hurt</sprite>
@@ -363,6 +364,7 @@
     </objects>
     <objects name="Effects">
       <object>objects\Smoke</object>
+      <object>objects\AmayaPunch</object>
     </objects>
     <objects name="Collectables">
       <object>objects\GoldCoin</object>

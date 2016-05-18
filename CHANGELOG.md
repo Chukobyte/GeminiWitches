@@ -1,6 +1,7 @@
 #[0.6.1] - May 17, 2016
 ------
-- Tweaked Seika's blur effects more
+- Tweaked Seika's blur effects more.
+- Added extension to Amaya's punch.
 
 #[0.6.0] - May 16, 2016
 ------

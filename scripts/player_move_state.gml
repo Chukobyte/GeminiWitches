@@ -109,6 +109,9 @@ if(right || left) {
 //adds 6 to attack timer for slight delay
 if(attack_button && (attack_timer + 6) <= 0) {
     a_button_attack();
+    if(global.player_1_selected = Amaya) {
+        instance_create(x + image_xscale * 12, y + 4, AmayaPunch);
+    }
     if(global.options_menu_sound_selection == "ON") {
         var audio_em = audio_emitter_create();
         audio_emitter_gain(audio_em, .25);
