@@ -33,7 +33,8 @@
         hold_up = gamepad_axis_value(gp_id, gp_axislv) < -thresh  ;
         up_release = gamepad_button_check_released(gp_id, gp_face1);
         down = gamepad_axis_value(gp_id, gp_axislv) > thresh;
-        attack_button = gamepad_button_check_pressed(gp_id, gp_face2);;
+        attack_button = gamepad_button_check_pressed(gp_id, gp_face2);
+        soul_element_attack_button = gamepad_button_check_pressed(gp_id, gp_face3) && !gamepad_button_check(gp_id, gp_shoulderrb);
         soul_element_attack_button_pressed = gamepad_button_check(gp_id, gp_face3) && !gamepad_button_check(gp_id, gp_shoulderrb);
         soul_element_attack_button_released = gamepad_button_check_released(gp_id, gp_face3) && !gamepad_button_check(gp_id, gp_shoulderrb);
         water_magic_attack_button = gamepad_button_check_pressed(gp_id, gp_face3) && gamepad_button_check(gp_id, gp_shoulderrb);

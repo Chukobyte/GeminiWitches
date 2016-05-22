@@ -1,3 +1,7 @@
+#[0.6.3] - May 18, 2016
+------
+- Fixed Amaya soul element controller bug.
+
 #[0.6.2] - May 18, 2016
 ------
 - Removed punch from Seika.
