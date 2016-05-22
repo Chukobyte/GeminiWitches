@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>life = room_speed;
+            <string>/// Executes amaya_punch_init()
+amaya_punch_init();
 </string>
           </argument>
         </arguments>
@@ -48,14 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = Player.x + Player.image_xscale * 10;
-y = Player.y + 4;
-
-life--;
-
-if(life &lt;= 0 || !Player.attacking) {
-    instance_destroy();
-}
+            <string>/// Executes amaya_punch_step()
+amaya_punch_step();
 </string>
           </argument>
         </arguments>

@@ -38,7 +38,7 @@ XBOX 360 controller controls
 <Start> = Menu Selection / Pause
 
 'B' close magic attack (Only Amaya)
-'X' Mirror Shot (Hold to Charge with Seika)
+'X' Mirror Shot (Hold to Charge Only Seika)
 
 *While Holding Down RT (Right Back Trigger)
 'Y' Flower of life
@@ -50,7 +50,7 @@ XBOX 360 controller controls
 ** ELEMENTAL POWERS**
 
 *Mirror Shot
--Shoots a small mirror energy shot.  Doesn't cost mp.  As Seika charge for a more powerful attack.
+-Shoots a small mirror energy shot.  Doesn't cost mp.  Charge for a more powerful attack.
 
 **Collect all four elemental gems!
 

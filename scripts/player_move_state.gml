@@ -121,7 +121,7 @@ if(global.player_1_selected == Amaya) {
             audio_play_sound_on(audio_em, snd_punch, false, 6);
         }
         
-//        part_particles_create(global.particle_system, x, y, global.particle5, 1);
+        //part_particles_create(global.particle_system, x, y, global.particle5, 1);
         PlayerStats.charge_time = 0;    
         image_blend = c_white;
     }
@@ -153,7 +153,9 @@ if(soul_element_attack_button_pressed && global.player_1_selected == Seika) {
         }    
     }
     
-} else if(soul_element_attack_button && global.player_1_selected == Amaya) {
+} 
+/*
+else if(soul_element_attack_button && global.player_1_selected == Amaya) {
     var success = mirror_shot_attempt();
     if(success && global.options_menu_sound_selection == "ON") {
         var audio_em = audio_emitter_create();
@@ -162,6 +164,7 @@ if(soul_element_attack_button_pressed && global.player_1_selected == Seika) {
         audio_play_sound_on(audio_em, snd_magic_shot, false, 6);
     }
 }
+*/
 
 if(soul_element_attack_button_released && global.player_1_selected == Seika) {
     var success = mirror_shot_attempt();

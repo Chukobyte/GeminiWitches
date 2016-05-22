@@ -1,5 +1,6 @@
 #[0.6.3] - May 18, 2016
 ------
+- Removed Mirror Shot from Amaya.
 - Fixed Amaya soul element controller bug.
 
 #[0.6.2] - May 18, 2016

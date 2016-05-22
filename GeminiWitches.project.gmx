@@ -219,6 +219,8 @@
       <scripts name="Amaya">
         <script>scripts\amaya_portait_step.gml</script>
         <script>scripts\amaya_init.gml</script>
+        <script>scripts\amaya_punch_init.gml</script>
+        <script>scripts\amaya_punch_step.gml</script>
       </scripts>
       <scripts name="Collisions">
         <script>scripts\player_enemy_collision.gml</script>
