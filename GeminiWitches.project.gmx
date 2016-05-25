@@ -221,6 +221,7 @@
         <script>scripts\amaya_init.gml</script>
         <script>scripts\amaya_punch_init.gml</script>
         <script>scripts\amaya_punch_step.gml</script>
+        <script>scripts\amaya_punch_enemy_collision.gml</script>
       </scripts>
       <scripts name="Collisions">
         <script>scripts\player_enemy_collision.gml</script>

@@ -1,0 +1,36 @@
+///amaya_punch_enemy_collision()
+if(!other.enemy_damaged) {
+    with(other) {
+        hp -= PlayerStats.attack;
+        enemy_damaged = true;
+        enemy_damaged_timer = enemy_damaged_timer_max;  
+            
+        //Pushes the enemy back
+        var dir = point_direction(x, y, Player.x, Player.y);
+        var temp_hspd = hspd;
+        hspd = -(lengthdir_x(PlayerStats.knockback_strength, dir));
+        //vspd = lengthdir_y(20, dir);
+            
+        if(!can_go_through_walls) {
+            move(Solid);
+        } else {
+            x += hspd;
+        }
+        hspd = temp_hspd;
+        attacking = false;
+            
+    }
+    //knock player back
+    with(Player) {
+        var temp_hspd = hspd;
+        var temp_vspd = vspd;
+        hspd = -(Player.image_xscale * 8);
+        vspd = -8;
+        move(Solid);
+        hspd = temp_hspd;
+        vspd = temp_vspd;
+    }
+    //Player.x -= Player.image_xscale * 8;
+    //Player.y -= 8;
+}
+
