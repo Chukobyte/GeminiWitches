@@ -1,4 +1,8 @@
-#[0.6.3] - May 18, 2016
+#[0.6.4] - May 24, 2016
+------
+- Added knockback to Amaya when punching.
+
+#[0.6.3] - May 21, 2016
 ------
 - Removed Mirror Shot from Amaya.
 - Fixed Amaya soul element controller bug.

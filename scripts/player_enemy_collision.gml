@@ -37,31 +37,30 @@ if(above_enemy && falling && state != player_death_state) {
     //Bounce off the enemy
     vspd = (jump_height / 1.5);
     
-} else if(attacking && is_next_to_enemy) {
+} else if(attacking && is_next_to_enemy && !other.enemy_damaged) {
     with(other) {
-        if(!enemy_damaged) {
-            hp -= PlayerStats.attack;
-            enemy_damaged = true;
-            enemy_damaged_timer = enemy_damaged_timer_max;  
+        hp -= PlayerStats.attack;
+        enemy_damaged = true;
+        enemy_damaged_timer = enemy_damaged_timer_max;  
             
-            //Pushes the enemy back
-            var dir = point_direction(x, y, Player.x, Player.y);
-            var temp_hspd = hspd;
-            hspd = -(lengthdir_x(PlayerStats.knockback_strength, dir));
-            //vspd = lengthdir_y(20, dir);
+        //Pushes the enemy back
+        var dir = point_direction(x, y, Player.x, Player.y);
+        var temp_hspd = hspd;
+        hspd = -(lengthdir_x(PlayerStats.knockback_strength, dir));
+        //vspd = lengthdir_y(20, dir);
             
-            if(!can_go_through_walls) {
-                move(Solid);
-            } else {
-                x += hspd;
-            }
-            hspd = temp_hspd;
-            
-            if(global.player_1_selected == Seika) {
-                attacking = false;
-            }
+        if(!can_go_through_walls) {
+            move(Solid);
+        } else {
+            x += hspd;
         }
+        hspd = temp_hspd;
+        attacking = false;
+            
     }
+    //knock player back
+    x -= image_xscale * 8;
+    y -= 8;
 } else {
     if(state != player_hurt_state && state != player_death_state && invincibility_timer <= 0) {
         player_take_damage(other.enemy_attack, true, 15); 

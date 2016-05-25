@@ -73,26 +73,32 @@ amaya_punch_step();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(other) {
-    if(!enemy_damaged) {
-            hp -= PlayerStats.attack;
-            enemy_damaged = true;
-            enemy_damaged_timer = enemy_damaged_timer_max;  
+            <string>if(!other.enemy_damaged) {
+    with(other) {
+        hp -= PlayerStats.attack;
+        enemy_damaged = true;
+        enemy_damaged_timer = enemy_damaged_timer_max;  
             
-            //Pushes the enemy back
-            var dir = point_direction(x, y, Player.x, Player.y);
-            var temp_hspd = hspd;
-            hspd = -(lengthdir_x(PlayerStats.knockback_strength, dir));
-            //vspd = lengthdir_y(20, dir);
+        //Pushes the enemy back
+        var dir = point_direction(x, y, Player.x, Player.y);
+        var temp_hspd = hspd;
+        hspd = -(lengthdir_x(PlayerStats.knockback_strength, dir));
+        //vspd = lengthdir_y(20, dir);
             
-            if(!can_go_through_walls) {
-                move(Solid);
-            } else {
-                x += hspd;
-            }
-            hspd = temp_hspd;
+        if(!can_go_through_walls) {
+            move(Solid);
+        } else {
+            x += hspd;
+        }
+        hspd = temp_hspd;
+        attacking = false;
+            
     }
+    //knock player back
+    Player.x -= Player.image_xscale * 8;
+    Player.y -= 8;
 }
+
 </string>
           </argument>
         </arguments>
