@@ -1,3 +1,7 @@
+#[0.6.5] - May 25, 2016
+------
+- Made Seika and Amaya's attack one button.
+
 #[0.6.4] - May 24, 2016
 ------
 - Added knockback to Amaya when punching.

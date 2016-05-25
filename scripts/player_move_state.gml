@@ -112,7 +112,7 @@ if(right || left) {
 
 //adds 6 to attack timer for slight delay
 if(global.player_1_selected == Amaya) {
-    if(attack_button && (attack_timer + 6) <= 0) {
+    if(attack_button_pressed && (attack_timer + 6) <= 0) {
         a_button_attack();
         instance_create(x, y, AmayaPunch);
         if(global.options_menu_sound_selection == "ON") {
@@ -130,7 +130,7 @@ if(global.player_1_selected == Amaya) {
 
 
 //TODO: Attack scripts return if successful or not
-if(soul_element_attack_button_pressed && global.player_1_selected == Seika) {
+if(attack_button_held_down && global.player_1_selected == Seika) {
     if(PlayerStats.charge_time < PlayerStats.charge_time_max) {
         PlayerStats.charge_time += 1;
         if(PlayerStats.charge_time >= 25) {
@@ -166,7 +166,7 @@ else if(soul_element_attack_button && global.player_1_selected == Amaya) {
 }
 */
 
-if(soul_element_attack_button_released && global.player_1_selected == Seika) {
+if(attack_button_released && global.player_1_selected == Seika) {
     var success = mirror_shot_attempt();
     if(success && global.options_menu_sound_selection == "ON") {
         var audio_em = audio_emitter_create();

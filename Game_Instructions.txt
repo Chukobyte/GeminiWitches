@@ -1,5 +1,5 @@
 	***********************************
-	* GEMINI WITICHES (Version 0.6.4) *
+	* GEMINI WITICHES (Version 0.6.5) *
 	***********************************
 
 ** A Platformer about two twin sisters! **
@@ -21,9 +21,9 @@ KeyBoard controls
 -> = Right
 ^ =  Jump / Enter Door
 <Enter> = Menu Selection / Pause
+'S' Back in Menu
 
-'S' close magic attack (Only Amaya)
-'A' Mirror Shot (Hold to Charge with Seika)
+'A' Attack (Hold to Charge with Seika)
 'Z' Flower of life
 'W' Fly
 'X' Piercing Water Crystal
@@ -36,9 +36,9 @@ XBOX 360 controller controls
 -> = Right
 'A' = Jump / Enter Door
 <Start> = Menu Selection / Pause
+'B' Back in Menu
 
-'B' close magic attack (Only Amaya)
-'X' Mirror Shot (Hold to Charge Only Seika)
+'X' Attack (Hold to Charge Only Seika)
 
 *While Holding Down RT (Right Back Trigger)
 'Y' Flower of life

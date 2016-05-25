@@ -151,7 +151,7 @@ switch(room) {
             }
         }
         
-        if((start || attack_button) && global.menu_item_confirmation_delay <= 0) {
+        if((start || attack_button_pressed) && global.menu_item_confirmation_delay <= 0) {
             global.menu_item_confirmation_delay = global.menu_item_confirmation_delay_max;
             if(global.game_menu_selection == global.game_menu_selection_play) {
                 room_goto(rm_choose_character);
@@ -190,7 +190,7 @@ switch(room) {
             }
         }
         
-        if(soul_element_attack_button_pressed) {
+        if(special_button_pressed) {
             room_goto(rm_game_menu);
         }
         break;
@@ -217,7 +217,7 @@ switch(room) {
             }
             
             //Give PlayerStats object base increase based on selected character
-            if((start || attack_button) && global.menu_item_confirmation_delay <= 0) {
+            if((start || attack_button_pressed) && global.menu_item_confirmation_delay <= 0) {
                 global.menu_item_confirmation_delay = global.menu_item_confirmation_delay_max;
                 if(global.choose_character_selection == SeikaPortrait) {
                     global.player_1_selected = Seika;
@@ -233,7 +233,7 @@ switch(room) {
                 room_goto_next();
             }
             
-            if(soul_element_attack_button_pressed) {
+            if(special_button_pressed) {
                 room_goto(rm_game_menu);
             }
             
