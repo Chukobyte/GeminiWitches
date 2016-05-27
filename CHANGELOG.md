@@ -1,6 +1,7 @@
 #[0.6.6] - May 26, 2016
 ------
 - Fixed AmayaPunch sprite when in the air.
+- Added hit stars to AmayaPunch
 
 #[0.6.5] - May 25, 2016
 ------

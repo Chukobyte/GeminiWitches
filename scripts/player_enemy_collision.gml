@@ -38,6 +38,7 @@ if(above_enemy && falling && state != player_death_state) {
     vspd = (jump_height / 1.5);
     
 } else if(attacking && is_next_to_enemy && !other.enemy_damaged) {
+    /*
     with(other) {
         hp -= PlayerStats.attack;
         enemy_damaged = true;
@@ -61,6 +62,7 @@ if(above_enemy && falling && state != player_death_state) {
     //knock player back
     x -= image_xscale * 8;
     y -= 8;
+    */
 } else {
     if(state != player_hurt_state && state != player_death_state && invincibility_timer <= 0) {
         player_take_damage(other.enemy_attack, true, 15); 

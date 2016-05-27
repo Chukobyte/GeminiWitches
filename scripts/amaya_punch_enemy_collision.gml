@@ -32,5 +32,18 @@ if(!other.enemy_damaged) {
     }
     //Player.x -= Player.image_xscale * 8;
     //Player.y -= 8;
+    
+    var hit_star1 = instance_create(x, y, HitStars);
+    hit_star1.hspd = 1;
+    hit_star1.vspd = 1;
+    var hit_star2 = instance_create(x, y, HitStars);
+    hit_star2.hspd = -1;
+    hit_star2.vspd = -1;
+    var hit_star3 = instance_create(x, y, HitStars);
+    hit_star3.hspd = 1;
+    hit_star3.vspd = -1;
+    var hit_star4 = instance_create(x, y, HitStars);
+    hit_star4.hspd = -1;
+    hit_star4.vspd = 1;
 }
 

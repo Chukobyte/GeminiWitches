@@ -146,6 +146,7 @@
         <sprite>sprites\spr_flower_of_life</sprite>
       </sprites>
       <sprite>sprites\spr_devil_shot</sprite>
+      <sprite>sprites\spr_hit_stars</sprite>
       <sprite>sprites\spr_fire</sprite>
     </sprites>
     <sprites name="Collectables">
@@ -368,6 +369,7 @@
     <objects name="Effects">
       <object>objects\Smoke</object>
       <object>objects\AmayaPunch</object>
+      <object>objects\HitStars</object>
     </objects>
     <objects name="Collectables">
       <object>objects\GoldCoin</object>
