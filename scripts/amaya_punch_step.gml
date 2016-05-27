@@ -1,6 +1,11 @@
 ///amaya_punch_step()
+
+if(Player.in_the_air) {
+    y = Player.y + 4;
+} else {
+    y = Player.y + 5;
+}
 x = Player.x + Player.image_xscale * 10;
-y = Player.y + 5;
 image_xscale = Player.image_xscale;
 
 life--;

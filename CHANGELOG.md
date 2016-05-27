@@ -1,3 +1,7 @@
+#[0.6.6] - May 26, 2016
+------
+- Fixed AmayaPunch sprite when in the air.
+
 #[0.6.5] - May 25, 2016
 ------
 - Made Seika and Amaya's attack one button.

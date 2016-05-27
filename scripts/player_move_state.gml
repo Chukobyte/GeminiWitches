@@ -1,6 +1,7 @@
 ///player_move_state
 
 if(!place_meeting(x, y + 1, Solid)){
+    in_the_air = true;
     vspd += grav;
     
     //Player is in the air
@@ -39,6 +40,7 @@ if(!place_meeting(x, y + 1, Solid)){
         vspd = jump_height;
     }
 } else {
+    in_the_air = false;
     double_jump_enabled = true;
     vspd = 0;
     
