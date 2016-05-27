@@ -25,7 +25,7 @@ get_player_input();
 * They will always decrement by 1.
 */
 
-attack_cooldown = 0.30 * room_speed;
+attack_cooldown = 0.28 * room_speed;
 attack_timer = attack_cooldown;
 
 hurt_state_timer_max = 10;

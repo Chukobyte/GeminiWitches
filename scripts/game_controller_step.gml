@@ -227,7 +227,6 @@ switch(room) {
                 } else if(global.choose_character_selection == AmayaPortrait) {
                     global.player_1_selected = Amaya;
                     PlayerStats.attack += .5;
-                    PlayerStats.knockback_strength = 15;
                 }
                 
                 room_goto_next();
