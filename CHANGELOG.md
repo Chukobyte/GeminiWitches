@@ -1,3 +1,7 @@
+#[0.6.7] - May 26, 2016
+------
+- Changed icon for health and magic power pickup.
+
 #[0.6.6] - May 26, 2016
 ------
 - Fixed AmayaPunch sprite when in the air.

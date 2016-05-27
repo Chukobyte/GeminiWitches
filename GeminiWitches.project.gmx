@@ -421,6 +421,7 @@
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
+    <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_cutscene</room>
     <room>rooms\rm_select</room>
     <room>rooms\rm_boss</room>
@@ -431,7 +432,6 @@
     <room>rooms\rm_earth_test</room>
     <room>rooms\rm_water</room>
     <room>rooms\rm_options_menu</room>
-    <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
