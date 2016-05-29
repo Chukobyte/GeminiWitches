@@ -3,8 +3,8 @@
   <caption></caption>
   <width>640</width>
   <height>360</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>-1</persistent>
@@ -53,10 +53,7 @@
   <instances>
     <instance objName="Flower" x="300" y="308" name="inst_B5B4011A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Flower" x="448" y="308" name="inst_D0641900" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Devil" x="273" y="305" name="inst_5A0D9801" locked="0" code="sprite_color = &quot;black&quot;;&#xA;hp = 10;&#xA;item_dropped = GoldCoin;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Bee" x="188" y="84" name="inst_94D121BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Bee" x="368" y="92" name="inst_47DA4BFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Bee" x="548" y="148" name="inst_61069183" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Devil" x="480" y="304" name="inst_5A0D9801" locked="0" code="sprite_color = &quot;black&quot;;&#xA;hp = 10;&#xA;item_dropped = GoldCoin;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="576" y="320" name="inst_C05F18DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="544" y="320" name="inst_5A92F687" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GrassLand" x="512" y="320" name="inst_B5FAF432" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

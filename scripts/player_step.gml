@@ -6,7 +6,7 @@ global.menu_item_pause_delay--;
 //pause the game
 if(start && global.menu_item_pause_delay <= 0 && !global.game_paused) {
     global.menu_item_pause_delay = global.menu_item_pause_delay_max;
-    if(room = rm_cutscene) {
+    if(room == rm_cutscene) {
         timeline_running = false;
         timeline_position = 0;
         room_goto_next();
@@ -30,6 +30,18 @@ if(room == rm_cutscene) {
         timeline_running = true;
         timeline_loop = false;
     }
+} else if(room == rm_boss_cutscene) {
+    /*
+    if(timeline_index != tl_player_cut_scene) {
+        timeline_index = tl_player_cut_scene;
+        timeline_position = 0;
+        timeline_running = true;
+        timeline_loop = false;
+    }
+    */
+    
+    //temp change state to idle for now
+    state = player_idle_state;
 }
 
 attack_timer--;

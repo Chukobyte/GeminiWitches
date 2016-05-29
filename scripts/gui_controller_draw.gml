@@ -182,5 +182,8 @@ switch(room) {
             }
             draw_text_colour(350, 285, "Press " + start_or_enter + " to skip...", c_white, c_white, c_white, c_white, 1);
             break;
+            
+        case rm_boss_cutscene:
+            break;
 }
 

@@ -117,12 +117,20 @@ switch(room) {
                 }
             }
         } else if(room == rm_boss) {
+            /*
             //Won't show exit door unless objective is complete
             if(instance_exists(Devil)) {
                 Door.visible = false;
             } else {
                 Door.visible = true;
             }
+            */
+            if(!instance_exists(Devil)) {
+                global.devil_boss_defeated_timer--;
+                if(global.devil_boss_defeated_timer <= 0) {
+                    room_goto(rm_boss_cutscene);
+                }
+            } 
         }        
         
         break;
@@ -276,6 +284,9 @@ switch(room) {
         }
         break;
         
+    // Cut Scenes
+    // cut scene time lines are set in the player step and enemy creation code (init scripts).
+        
     case rm_cutscene:
         if(!audio_is_playing(snd_main) && global.options_menu_sound_selection == "ON") {
             ///Play the background music
@@ -286,6 +297,22 @@ switch(room) {
         
         if(timeline_index != tl_game_controller_cutscene) {
             timeline_index = tl_game_controller_cutscene;
+            timeline_position = 0;
+            timeline_running = true;
+            timeline_loop = false;
+        }
+        break;
+        
+    case rm_boss_cutscene:
+        if(!audio_is_playing(snd_main) && global.options_menu_sound_selection == "ON") {
+            ///Play the background music
+            audio_em = audio_emitter_create();
+            audio_emitter_gain(audio_em, .3);
+            audio_play_sound_on(audio_em, snd_main, true, 10);
+        }
+        
+        if(timeline_index != tl_game_controller_boss_cutscene) {
+            timeline_index = tl_game_controller_boss_cutscene;
             timeline_position = 0;
             timeline_running = true;
             timeline_loop = false;

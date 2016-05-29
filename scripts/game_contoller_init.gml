@@ -16,6 +16,9 @@ global.second_counter = 0;
 global.time = 0;
 global.game_paused = false;
 
+global.devil_boss_defeated_timer_max = room_speed * 3;
+global.devil_boss_defeated_timer = global.devil_boss_defeated_timer_max;
+
 //menu
 global.game_menu_selection_play = "PLAY";
 global.game_menu_selection_options = "OPTIONS";

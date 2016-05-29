@@ -1,6 +1,7 @@
 #[0.6.8] - May 27, 2016
 ------
-- Fixed controller input
+- Fixed controller input.
+- Added cutscene to game end.
 
 #[0.6.7] - May 26, 2016
 ------

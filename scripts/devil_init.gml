@@ -28,6 +28,13 @@ if(room == rm_cutscene) {
     timeline_position = 0;
     timeline_running = true;
     timeline_loop = false;
+} else if(room = rm_boss_cutscene) {
+//    timeline_index = tl_devil_cutscene;
+//    timeline_position = 0;
+//    timeline_running = true;
+//    timeline_loop = false;
+    state = enemy_idle_state;
+    sprite_index = asset_get_index("spr_devil_hurt_" + sprite_color);
 } else {
     timeline_index = tl_devil;
     timeline_position = 0;
