@@ -1,3 +1,7 @@
+#[0.6.8] - May 27, 2016
+------
+- Fixed controller input
+
 #[0.6.7] - May 26, 2016
 ------
 - Changed icon for health and magic power pickup.
