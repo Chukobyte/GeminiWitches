@@ -8,6 +8,7 @@ grav = 1.5;
 jump_height = -18;
 double_jump_enabled = false;
 in_the_air = false;
+under_water = false;
 //blur_limit_max = room_speed * 3;
 blur_limit_max = room_speed * 1.5;
 blur_limit = blur_limit_max;

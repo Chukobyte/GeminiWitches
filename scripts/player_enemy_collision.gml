@@ -14,7 +14,7 @@ for(i = -20; i <= 20; i++) {
     }
 }
 
-if(above_enemy && falling && state != player_death_state) {
+if(above_enemy && falling && state != player_death_state && !under_water) {
 
     if(PlayerStats.earth_level > 0) {
         with(other) {

@@ -1,6 +1,7 @@
 #[0.6.9] - June 1, 2016
 ------
 - Added fish enemy.
+- Messed around with under water mechanics
 
 #[0.6.8] - May 27, 2016
 ------

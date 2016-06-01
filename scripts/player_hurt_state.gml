@@ -7,9 +7,13 @@ if(hurt_state_timer > 0) {
 } else {
     image_blend = c_white;
     invincibility_timer = invincibility_timer_max;
-    if(room != rm_cutscene) {
-        state = player_move_state;
-    } else {
+    
+    //
+    if(room == rm_cutscene || room == rm_boss_cutscene) {
         state = player_idle_state;
+    } else if(under_water) {
+        state = player_swim_state;
+    } else {
+        state = player_move_state;
     }
 }
