@@ -129,14 +129,14 @@ switch(room) {
                 no_color = c_yellow;
             }
             
-            draw_rectangle_colour(128 - 4, 128, 192 - 4, 160 + 4, yes_color, yes_color, yes_color, yes_color, true);
-            draw_text_outline_color(128, 128, yes_cursor, "YES", c_dkgray, yes_color);
+            draw_rectangle_colour(128 - 14, 128, 192 - 12, 160 + 4, yes_color, yes_color, yes_color, yes_color, true);
+            draw_text_outline_color(128 - 10, 128, yes_cursor, "YES", c_dkgray, yes_color);
             
-            draw_rectangle_colour(416 - 2, 128, 480 - 10, 160 + 4, no_color, no_color, no_color, no_color, true);
-            draw_text_outline_color(416, 128, no_cursor, "NO", c_dkgray, no_color);
+            draw_rectangle_colour(416 + 10, 128, 480 + 2, 160 + 4, no_color, no_color, no_color, no_color, true);
+            draw_text_outline_color(416 + 12, 128, no_cursor, "NO", c_dkgray, no_color);
             
-            var coin_text =  "Time: " + string(global.time) + "#Coins: " + string(PlayerStats.money) + "#Killed: " + string(PlayerStats.enemies_defeated) + "#Score: " +  string(calculate_game_score());
-            draw_text((room_width / 2) - 90, room_height / 2 - 80, coin_text);
+            var coin_text =  "Time Score: " + string((400 - global.time) div 4) + "#Coins: " + string(PlayerStats.money) + "#Killed: " + string(PlayerStats.enemies_defeated) + "#Score: " +  string(calculate_game_score());
+            draw_text((room_width / 2) - 120, room_height / 2 - 80, coin_text);
             break;
             
         case rm_game_menu:
