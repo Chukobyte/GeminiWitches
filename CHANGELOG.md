@@ -1,3 +1,7 @@
+#[0.6.9] - June 1, 2016
+------
+- Added fish enemy.
+
 #[0.6.8] - May 27, 2016
 ------
 - Fixed controller input.

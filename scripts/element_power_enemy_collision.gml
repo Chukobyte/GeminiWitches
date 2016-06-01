@@ -1,5 +1,5 @@
 ///element_power_enemy_collision()
-if(affects_enemy) {
+if(affects_enemy && !other.enemy_damaged) {
     var damage_done = damage;
     var flinch = stuns;
     with(other) {
@@ -7,8 +7,16 @@ if(affects_enemy) {
             hp -= damage_done;
             enemy_damaged = true;
             enemy_damaged_timer = enemy_damaged_timer_max;
-        }   
+            
+        } 
     }
+    
+    if(object_index == MirrorShot) {
+    //instance_create(x, y, SmallSmoke);
+        part_particles_create(global.particle_system, x, y, global.particle1, 1);
+    }
+    
+    instance_destroy();  
     
     /*
     var audio_em = audio_emitter_create();
@@ -25,10 +33,5 @@ if(affects_enemy) {
     }
     */
     
-    if(object_index == MirrorShot) {
-        //instance_create(x, y, SmallSmoke);
-        part_particles_create(global.particle_system, x, y, global.particle1, 1);
-    }
     
-    instance_destroy();
 }

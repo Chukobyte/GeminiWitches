@@ -137,6 +137,9 @@
         <sprite>sprites\spr_hedgehog_hurt</sprite>
         <sprite>sprites\spr_hedgehog_walk</sprite>
       </sprites>
+      <sprites name="Fish">
+        <sprite>sprites\spr_fish</sprite>
+      </sprites>
     </sprites>
     <sprites name="Effects">
       <sprite>sprites\spr_smoke_anim</sprite>
@@ -282,6 +285,10 @@
         <script>scripts\hedgehog_attack_state.gml</script>
         <script>scripts\hedgehog_init.gml</script>
       </scripts>
+      <scripts name="Fish">
+        <script>scripts\fish_init.gml</script>
+        <script>scripts\fish_move_state.gml</script>
+      </scripts>
     </scripts>
     <scripts name="Collectables">
       <script>scripts\coin_init.gml</script>
@@ -365,6 +372,7 @@
       <object>objects\Bug</object>
       <object>objects\Devil</object>
       <object>objects\Hedgehog</object>
+      <object>objects\Fish</object>
     </objects>
     <objects name="Effects">
       <object>objects\Smoke</object>
@@ -422,6 +430,7 @@
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
+    <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_cutscene</room>
     <room>rooms\rm_select</room>
     <room>rooms\rm_play_again</room>
@@ -433,7 +442,6 @@
     <room>rooms\rm_boss</room>
     <room>rooms\rm_boss_cutscene</room>
     <room>rooms\rm_options_menu</room>
-    <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
