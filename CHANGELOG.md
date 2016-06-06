@@ -1,3 +1,8 @@
+#[0.6.10] - June 6, 2016
+------
+- Added more fish to rm_water
+- Added tiles for later.
+
 #[0.6.9] - June 1, 2016
 ------
 - Added fish enemy.

@@ -177,6 +177,8 @@
     <background>background\bg_main</background>
     <background>background\bg_forest</background>
     <background>background\bg_fire</background>
+    <background>background\bg_main_tile</background>
+    <background>background\bg_main_land_tiles</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_devil1</path>
@@ -430,7 +432,6 @@
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
     <room>rooms\rm_choose_character</room>
-    <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_cutscene</room>
     <room>rooms\rm_select</room>
     <room>rooms\rm_play_again</room>
@@ -441,8 +442,8 @@
     <room>rooms\rm_water</room>
     <room>rooms\rm_boss</room>
     <room>rooms\rm_boss_cutscene</room>
+    <room>rooms\rm_test_bossy</room>
     <room>rooms\rm_options_menu</room>
-    <room>rooms\rm_water</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
